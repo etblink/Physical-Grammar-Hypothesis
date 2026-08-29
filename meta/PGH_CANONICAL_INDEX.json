@@ -4,19 +4,19 @@
   "canonical_hypothesis": "HYPOTHESIS.md",
   "canonical_state": "CURRENT_STATE.md",
   "counts": {
-    "open_question_records": 17,
+    "open_question_records": 18,
     "open_questions": 8,
-    "operation_records": 15,
-    "research_object_records": 21
+    "operation_records": 17,
+    "research_object_records": 24
   },
-  "current_handoff": "handoffs/POST_PGH0_PHYSICAL_IRRELEVANCE_SELECTOR_RECONCILIATION_HANDOFF_0_1_0.md",
-  "current_phase": "PGH-0_SEMANTIC_ANCHOR_FORMULATION",
+  "current_handoff": "handoffs/POST_PGH0_MINIMAL_PHYSICAL_SEMANTIC_ANCHOR_RECONCILIATION_HANDOFF_0_1_0.md",
+  "current_phase": "PGH-0_CONTEXT_RECORD_ANCHOR_ROBUSTNESS",
   "fcp_relationship": "INDEPENDENT_INCUBATION",
-  "indexed_research_baseline_commit": "91610ebeccf634f0487247616cf226cbc797d44b",
-  "indexed_research_baseline_tree": "f5f03d98384d16ea6640efad387d669221194004",
-  "latest_completed_operation": "POST_PGH0_PHYSICAL_IRRELEVANCE_SELECTOR_RECONCILIATION",
+  "indexed_research_baseline_commit": "bca919d55235e315c9da5624af7eb2c31d5c5bb6",
+  "indexed_research_baseline_tree": "14b9ab74454ab0376f4365788bfb194037e0be7d",
+  "latest_completed_operation": "POST_PGH0_MINIMAL_PHYSICAL_SEMANTIC_ANCHOR_RECONCILIATION",
   "next_operation_authorized": true,
-  "next_recommended_operation": "PGH0_MINIMAL_PHYSICAL_SEMANTIC_ANCHOR_CHALLENGE",
+  "next_recommended_operation": "PGH0_CONTEXT_RECORD_ANCHOR_ROBUSTNESS_GATE",
   "schema_version": "0.1.0",
   "source_bound_status": "REPRESENTATIVE_LANDSCAPE_FROZEN"
 }

@@ -2,46 +2,37 @@
 
 > **Status:** Speculative foundational research — independent incubation
 >
-> **Current phase:** `PGH-0_SEMANTIC_ANCHOR_FORMULATION`
+> **Current phase:** `PGH-0_CONTEXT_RECORD_ANCHOR_ROBUSTNESS`
 >
 > **FCP relationship:** None at present; this repository has no canonical effect on FCP.
 
 ## Current target
 
-The prior-art-subtracted working target remains:
+The active formal baseline remains `PGH-GRAM-0002`, and the prior-art-subtracted working hypothesis remains `PGH-OBJ-0008`.
 
-```text
-PGH-OBJ-0008 = RESIDUAL_STRONG_PHYSICAL_GRAMMAR_HYPOTHESIS
-```
-
-No physical grammar has been found, no physical law has been derived, and PGH novelty remains unresolved.
+No physical grammar has been found and PGH novelty remains unresolved.
 
 ## Latest result
 
-The physical-irrelevance selector feasibility gate found that none of the frozen equivalence families—definitional, categorical, Morita, duality/common-core, structural/isomorphic, operational/empirical, or task/possibility—can by itself serve as a complete physical selector under PGH's no-smuggling constraints.
-
-The new formal result is:
+The minimal-semantic-anchor challenge qualified a formally feasible middle schema:
 
 ```text
-PGH-DER-0006 = FORMAL_EQUIVALENCE_DOES_NOT_ENTAIL_PHYSICAL_EQUIVALENCE
+PGH-OBJ-0009 = CONTEXT_RECORD_SEMANTIC_ANCHOR_SCHEMA
+PGH-DER-0007 = ANCHOR_RESPONSE_SEPARATION
+PGH-FAIL-0006 = SEMANTIC_ANCHOR_EXTREMES
 ```
 
-and the preserved failure is:
+A context/record interface can specify which formal contexts count as probes and which terminal labels count as records while leaving the response law to the candidate grammar. The same anchor can support different evaluators with different record profiles.
 
-```text
-PGH-FAIL-0005 = FROZEN_EQUIVALENCE_FAMILIES_AS_A_COMPLETE_PHYSICAL_SELECTOR
-```
+This establishes only formal feasibility. It does **not** establish that the anchor is physically privileged, complete, unique, or representation-independent.
 
-The project has therefore narrowed R1 to a semantic question:
-
-> What is the weakest physical semantic anchor that constrains physical significance without already containing the substantive physical laws PGH aims to explain?
-
-## Residual burdens
+## Residual program
 
 ```text
 R1 = PHYSICAL_IRRELEVANCE_SELECTOR
-R1_PURELY_FORMAL_ROUTE = FAILED_AT_CURRENT_SCOPE
-R1_SEMANTIC_ANCHOR_ROUTE = OPEN
+R1_MINIMAL_SEMANTIC_INTERFACE = FORMALLY_FEASIBLE
+R1_REPRESENTATION_ROBUSTNESS = UNTESTED
+R1_SOLVED = NO
 
 R2 = LAW_EXHAUSTION
 R2_STATUS = DEFERRED
@@ -50,11 +41,11 @@ R2_STATUS = DEFERRED
 ## Next operation
 
 ```text
-NEXT_RECOMMENDED_OPERATION = PGH0_MINIMAL_PHYSICAL_SEMANTIC_ANCHOR_CHALLENGE
+NEXT_RECOMMENDED_OPERATION = PGH0_CONTEXT_RECORD_ANCHOR_ROBUSTNESS_GATE
 NEXT_OPERATION_AUTHORIZED = YES
 ```
 
-The next challenge begins from the frozen 37-source corpus and will test deliberately weak candidate anchors. It may not hide the target physics inside semantics, select a grammar by desired outcome, or begin R2.
+The next gate tests whether genuinely different formal presentations can share one context/record interface and whether anchor-relative distinguishability commutes with faithful translation without smuggling substantive physical law into the interface.
 
 ## Authority
 
@@ -64,4 +55,4 @@ CANONICAL_MARKDOWN_ARTIFACTS = RESEARCH_AND_GOVERNANCE_AUTHORITY
 STRUCTURED_NAVIGATION_LAYER = DERIVED_NAVIGATION_ONLY
 ```
 
-Read [`CURRENT_STATE.md`](CURRENT_STATE.md) and the latest handoff for the exact continuation boundary.
+Read [`CURRENT_STATE.md`](CURRENT_STATE.md) and the current handoff for the exact continuation boundary.
