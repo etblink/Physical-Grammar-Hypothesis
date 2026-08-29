@@ -1,5 +1,16 @@
 # Physical Grammar Hypothesis
 
+<!-- PGH_DERIVED_CURRENT_STATUS_BEGIN -->
+## Current scientific status
+
+PGH has completed its first prospectively selected empirical confrontation. The frozen `PGH-GRAM-0008` Kp instantiation is **REFUTED_AT_KP_TARGET** under both preregistered calibrations. The formal sparse-DAG theorem remains valid; the grammar has no physical validation; R2B remains unsatisfied.
+
+Current derived state: [`CURRENT_STATE.md`](CURRENT_STATE.md).
+
+Next authorized science: `PGH1_POST_KP_PHYSICAL_SCOPE_DOMAIN_SELECTION_GATE`, which must resolve the non-result-directed domain/scope burden before any second empirical target is selected.
+<!-- PGH_DERIVED_CURRENT_STATUS_END -->
+
+
 > **Status:** Speculative foundational research — independent incubation
 >
 > **Current phase:** `PGH-1_R2_LOCAL_RULE_LANGUAGE_ORIGIN`

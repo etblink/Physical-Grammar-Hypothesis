@@ -5,155 +5,74 @@
 ```text
 PROJECT = Physical Grammar Hypothesis
 PROJECT_CLASS = SPECULATIVE_FOUNDATIONAL_RESEARCH
-CURRENT_PHASE = PGH-1_R2_LOCAL_RULE_LANGUAGE_ORIGIN
-FCP_RELATIONSHIP = INDEPENDENT_INCUBATION
-FCP_FRAMEWORK_STATUS = NONE
-CANONICAL_EFFECT_ON_FCP = NONE
-SOURCE_BOUND_STATUS = REPRESENTATIVE_LANDSCAPE_FROZEN
-EMPIRICAL_STATUS = UNESTABLISHED
-```
-
-## Active hypothesis and formal baselines
-
-```text
-WORKING_SCIENTIFIC_TARGET = PGH-OBJ-0012
-PGH-OBJ-0012 = ANCHORED_STRONG_PHYSICAL_GRAMMAR_HYPOTHESIS
-PGH-OBJ-0012_STATUS = PROVISIONAL_RESEARCH_TARGET_R2_UNSATISFIED
-
-FORMAL_REFERENCE_BASELINE = PGH-GRAM-0002
-PGH-GRAM-0002_STATUS = FORMAL_BASELINE_R2_INSUFFICIENT
-
-LOCAL_TO_GLOBAL_MECHANISM = PGH-OBJ-0013
-GENERATED_COVER_SCHEMA = PGH-OBJ-0014
-LOCAL_ADMISSIBILITY_FAMILY_MAP = PGH-OBJ-0015
-
-SUCCESSOR_GRAMMAR = NONE
-PHYSICAL_GRAMMAR_FOUND = NO
-PGH_NOVELTY = UNRESOLVED
-```
-
-`PGH-GRAM-0002` remains a historical/formal comparison baseline, not a candidate physical grammar. `PGH-OBJ-0013` through `PGH-OBJ-0015` are mechanism/family-map objects only.
-
-## Latest canonical scientific results
-
-Two tightly coupled PGH-1 gates are now canonical.
-
-### Generated cover and compatibility origin
-
-```text
-PGH1_R2_GENERATED_COVER_AND_COMPATIBILITY_ORIGIN_GATE = CANONICALLY_COMPLETE
-SCIENTIFIC_COMMIT = fd928b754f15affbb461d9e4a8a9d78ba12bc5cd
-SCIENTIFIC_TREE = b82281664c7c05a7c6879b7eb33e4150ffa74a3c
-OUTCOME = B__COVER_DOMAIN_AND_ORDINARY_COMPATIBILITY_CAN_BE_GENERATED_CONDITIONALLY_BUT_FREE_ASSIGNMENTS_ALWAYS_GLUE_AND_THE_ORIGIN_OF_PROPER_LOCAL_ADMISSIBILITY_REMAINS_UNEARNED
-```
-
-New formal result:
-
-```text
-PGH-DER-0013 = FREE_LOCAL_ASSIGNMENT_GLUING
-STATUS = QUALIFIED_FORMAL
-```
-
-New preserved failure:
-
-```text
-PGH-FAIL-0015 = LOCAL_ADMISSIBILITY_SUPPORT_ORIGIN
-STATUS = FAILED_PRESERVED
-```
-
-### Local admissibility generation discovery
-
-```text
-PGH1_R2_LOCAL_ADMISSIBILITY_GENERATION_DISCOVERY_GATE = CANONICALLY_COMPLETE
-SCIENTIFIC_COMMIT = 40a3c89b3257fbbe9a29cf1b0454b2c25193b039
-SCIENTIFIC_TREE = e3550bd7964de1558968dcffa8acdcd09565a85d
-OUTCOME = B__FORMAL_SUPPORT_GENERATORS_EXIST_BUT_EVERY_TESTED_FAMILY_STILL_DEPENDS_ON_AN_UNEARNED_RULE_LANGUAGE_SIGNATURE_TYPE_SYSTEM_SYMMETRY_OR_COHERENCE_PREMISE
-```
-
-New formal result:
-
-```text
-PGH-DER-0014 = FINITE_LOCAL_PREDICATE_UNIVERSAL_ENCODING
-STATUS = QUALIFIED_FORMAL
-```
-
-New preserved failure:
-
-```text
-PGH-FAIL-0016 = UNRESTRICTED_SUPPORT_DESCRIPTION_LANGUAGE
-STATUS = FAILED_PRESERVED
-```
-
-## R2 state
-
-PGH-1 has now isolated three distinct layers:
-
-```text
-LOCAL_TO_GLOBAL_OBSTRUCTION_POWER = YES_FORMALLY
-COVER_DOMAIN_OVERLAP_ORIGIN = PARTIAL_CONDITIONAL_PASS
-PROPER_LOCAL_SUPPORT_REQUIRED = YES_WITHIN_CURRENT_SCHEMA
-PROPER_LOCAL_SUPPORT_BY_UNRESTRICTED_FORMULA = EXPLANATORILY_INSUFFICIENT
-```
-
-For finite domains, an unrestricted predicate language can define any support exactly. Therefore replacing a support table by a formula does not itself create explanatory compression or necessity.
-
-Restricted families remain promising only conditionally:
-
-```text
-EQUATIONAL_SUPPORT_GENERATION = PROMISING_CONDITIONAL
-TYPING_INTERFACE_SUPPORT_GENERATION = PROMISING_CONDITIONAL
-COHERENCE_REWRITE_SUPPORT_GENERATION = PROMISING_CONDITIONAL
-SYMMETRY_SUPPORT_GENERATION = CONDITIONAL
-EMPIRICAL_OPERATIONAL_SUPPORT = REJECTED_FOR_R2_EXPLANATORY_CREDIT
-```
-
-The unresolved burden has moved one level upward:
-
-```text
-PGH-Q-0026 = OPEN
-```
-
-> Can the admissible local-rule language—its primitives, signature, typing/interface structure, rewrite/coherence rules, or symmetry actions—be fixed independently of the support patterns and physical exclusions that it will later generate?
-
-`PGH-Q-0017` remains the encompassing law-exhaustion burden.
-
-## Source state
-
-```text
-TOTAL_DISTINCT_FROZEN_ACCEPTED_SOURCES = 51
-NEW_SOURCE_SEARCH_FOR_LATEST_TWO_GATES = NONE
-SOURCE_GAP_REQUIRING_EXPANSION = NONE_IDENTIFIED
-```
-
-## Accounting
-
-```text
-OPERATION_RECORD_COUNT = 39
-RESEARCH_OBJECT_RECORD_COUNT = 47
-QUESTION_RECORD_COUNT = 26
-OPEN_QUESTION_COUNT = 8
-QUALIFIED_FORMAL_DERIVATION_COUNT = 14
-FAILED_DERIVATION_COUNT = 16
-PHYSICAL_LAW_DERIVED = NO
-EMPIRICAL_PREDICTION = NONE
+CURRENT_PHASE = PGH-1_POST_FIRST_EMPIRICAL_REFUTATION_SCOPE_SELECTION
+FCP_RELATIONSHIP = INDEPENDENT_NO_EFFECT
 FCP_EFFECT = NONE
+DISTINCT_FROZEN_ACCEPTED_SOURCES = 85
 ```
 
-Registry gaps preserved rather than backfilled:
+## Current scientific result
+
+The first prospectively selected, preregistered empirical instantiation of `PGH-GRAM-0008` has failed.
 
 ```text
-PGH-OP-0021 = UNUSED
-PGH-OP-0037 = UNUSED
+TARGET = PGH-OBJ-0037
+TARGET_DATA = GFZ definitive planetary Kp, 1932-2025
+RETAINED_TRIPLES = 91557
+TESTED_RESTRICTION = A_INDEPENDENT_OF_C_GIVEN_B
+P_PERM = 0.0002
+P_MARKOV = 0.0005
+VERDICT = REFUTED_AT_KP_TARGET
+FAILURE_RECORD = PGH-FAIL-0035
+```
+
+This result does not invalidate the sparse-DAG theorem. It refutes the frozen Kp realization of the grammar-derived restriction.
+
+## Grammar / bridge status
+
+```text
+ACTIVE_FORMAL_GRAMMAR_CANDIDATE = PGH-GRAM-0008
+PGH_GRAM_0008_FORMAL_STATUS = RETAINED
+PGH_GRAM_0008_PHYSICAL_VALIDATION = NONE
+SEMANTIC_BRIDGE = PGH-OBJ-0035
+SEMANTIC_BRIDGE_STATUS = CONDITIONAL_SCHEMA_RETAINED
+R2B = UNSATISFIED
+STRONG_PGH_CONFIRMED = NO
+EVERY_POSSIBLE_PGH_REFUTED = NO
+```
+
+No Kp-driven graph repair, state merging, lag change, subperiod selection, or second-target substitution is licensed.
+
+## Method limitation carried forward
+
+The first empirical preregistration fixed null definitions and seed derivations but not the exact PRNG/sampling implementation. Future Monte Carlo preregistrations must freeze those details prospectively. The limitation does not change the first Kp verdict because the predecessor first execution and independent successor reconstruction both returned zero exceedances under both calibrations.
+
+## Open sequencing burden
+
+```text
+PGH-Q-0028 = OPEN
+```
+
+If `PGH-GRAM-0008` is not universal over eligible physical targets, PGH must supply a non-result-directed physical scope/domain rule before a second target can receive clean predictive credit.
+
+## Navigation reconciliation
+
+```text
+LATEST_COMPLETED_OPERATION = POST_PGH1_FIRST_EMPIRICAL_KP_NAVIGATION_RECONCILIATION
+REGISTRY_ID = PGH-OP-0067
+INDEXED_SCIENTIFIC_BASELINE = f0bbaaaeb37bb6dddd7bd5333e6d86b31308a768
+UNUSED_HISTORICAL_REGISTRY_GAPS = PGH-OP-0021;PGH-OP-0037;PGH-OP-0041;PGH-OP-0044
 ```
 
 ## Next authorized operation
 
 ```text
-NEXT_RECOMMENDED_OPERATION = PGH1_R2_LOCAL_RULE_LANGUAGE_ORIGIN_GATE
+NEXT_RECOMMENDED_OPERATION = PGH1_POST_KP_PHYSICAL_SCOPE_DOMAIN_SELECTION_GATE
 NEXT_OPERATION_AUTHORIZED = YES
+REGISTRY_ID = PGH-OP-0068
 ```
 
-This gate must test the origin of the rule language itself. It may not select equations, types, rewrite rules, symmetry actions, or primitive predicates because they reproduce a desired physical exclusion. It must continue the universal-encoding control one level above local supports.
+The gate must be preregistered before execution. It may use the canonical PGH reasoning and frozen source corpus, but it may not inspect a second target or derive a scope rule from the observed Kp dependence pattern.
 
 ## Structured current-state capsule
 
@@ -162,29 +81,25 @@ This gate must test the origin of the rule language itself. It may not select eq
 {
   "capsule_schema_version": "0.1.0",
   "project": "Physical Grammar Hypothesis",
-  "current_phase": "PGH-1_R2_LOCAL_RULE_LANGUAGE_ORIGIN",
+  "current_phase": "PGH-1_POST_FIRST_EMPIRICAL_REFUTATION_SCOPE_SELECTION",
   "canonical_hypothesis": "HYPOTHESIS.md",
-  "active_candidate_grammar": "PGH-GRAM-0002",
-  "current_handoff": "handoffs/POST_PGH1_R2_LOCAL_ADMISSIBILITY_ORIGIN_AND_GENERATION_RECONCILIATION_HANDOFF_0_1_0.md",
-  "source_bound_status": "REPRESENTATIVE_LANDSCAPE_FROZEN",
-  "fcp_relationship": "INDEPENDENT_INCUBATION",
-  "next_recommended_operation": "PGH1_R2_LOCAL_RULE_LANGUAGE_ORIGIN_GATE",
+  "active_candidate_grammar": "PGH-GRAM-0008",
+  "current_handoff": "handoffs/POST_PGH1_FIRST_EMPIRICAL_KP_NAVIGATION_RECONCILIATION_HANDOFF_0_1_0.md",
+  "source_bound_status": "85_DISTINCT_ACCEPTED_SOURCES_FROZEN",
+  "fcp_relationship": "INDEPENDENT_NO_EFFECT",
+  "next_recommended_operation": "PGH1_POST_KP_PHYSICAL_SCOPE_DOMAIN_SELECTION_GATE",
   "next_operation_authorized": true,
   "open_question_count": 8,
   "do_not_assume": [
-    "PGH_GRAM_0002_IS_A_PHYSICAL_GRAMMAR",
-    "LOCAL_TO_GLOBAL_OBSTRUCTION_IS_A_PHYSICAL_LAW",
-    "GENERATED_COVER_IS_REPRESENTATION_INDEPENDENT",
-    "PROPER_LOCAL_SUPPORT_HAS_BEEN_EXPLAINED",
-    "A_FORMULA_IS_NONARBITRARY_BECAUSE_IT_IS_SHORT",
-    "EQUATIONAL_TYPING_OR_COHERENCE_LANGUAGE_IS_ALREADY_PRIVILEGED",
-    "SUCCESSOR_GRAMMAR_EXISTS",
-    "R2_IS_SATISFIED",
-    "PHYSICAL_LAW_HAS_BEEN_DERIVED",
-    "PGH_HAS_ANY_CANONICAL_EFFECT_ON_FCP"
+    "KP_FAILURE_REFUTES_EVERY_PGH",
+    "PGH_GRAM_0008_HAS_PHYSICAL_VALIDATION",
+    "A_SECOND_TARGET_MAY_BE_CHOSEN_BECAUSE_KP_FAILED",
+    "THE_GRAPH_MAY_BE_REPAIRED_FROM_KP",
+    "R2B_IS_SATISFIED",
+    "PGH_HAS_ANY_EFFECT_ON_FCP"
   ]
 }
 ```
 <!-- PGH_CURRENT_STATE_CAPSULE_END -->
 
-Do not protect PGH from failure.
+Truth over PGH. The failed Kp instantiation remains failed.

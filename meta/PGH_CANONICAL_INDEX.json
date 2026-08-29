@@ -1,22 +1,22 @@
 {
-  "active_candidate_grammar": "PGH-GRAM-0002",
+  "active_candidate_grammar": "PGH-GRAM-0008",
   "authority": "DERIVED_NAVIGATION_ONLY",
   "canonical_hypothesis": "HYPOTHESIS.md",
   "canonical_state": "CURRENT_STATE.md",
   "counts": {
-    "open_question_records": 26,
+    "open_question_records": 28,
     "open_questions": 8,
-    "operation_records": 39,
-    "research_object_records": 47
+    "operation_records": 64,
+    "research_object_records": 111
   },
-  "current_handoff": "handoffs/POST_PGH1_R2_LOCAL_ADMISSIBILITY_ORIGIN_AND_GENERATION_RECONCILIATION_HANDOFF_0_1_0.md",
-  "current_phase": "PGH-1_R2_LOCAL_RULE_LANGUAGE_ORIGIN",
-  "fcp_relationship": "INDEPENDENT_INCUBATION",
-  "indexed_research_baseline_commit": "40a3c89b3257fbbe9a29cf1b0454b2c25193b039",
-  "indexed_research_baseline_tree": "e3550bd7964de1558968dcffa8acdcd09565a85d",
-  "latest_completed_operation": "POST_PGH1_R2_LOCAL_ADMISSIBILITY_ORIGIN_AND_GENERATION_RECONCILIATION",
+  "current_handoff": "handoffs/POST_PGH1_FIRST_EMPIRICAL_KP_NAVIGATION_RECONCILIATION_HANDOFF_0_1_0.md",
+  "current_phase": "PGH-1_POST_FIRST_EMPIRICAL_REFUTATION_SCOPE_SELECTION",
+  "fcp_relationship": "INDEPENDENT_NO_EFFECT",
+  "indexed_research_baseline_commit": "f0bbaaaeb37bb6dddd7bd5333e6d86b31308a768",
+  "indexed_research_baseline_tree": "7106cfd3c3bc8b7c560fe7f21d0c84dad687e0e9",
+  "latest_completed_operation": "POST_PGH1_FIRST_EMPIRICAL_KP_NAVIGATION_RECONCILIATION",
   "next_operation_authorized": true,
-  "next_recommended_operation": "PGH1_R2_LOCAL_RULE_LANGUAGE_ORIGIN_GATE",
+  "next_recommended_operation": "PGH1_POST_KP_PHYSICAL_SCOPE_DOMAIN_SELECTION_GATE",
   "schema_version": "0.1.0",
-  "source_bound_status": "REPRESENTATIVE_LANDSCAPE_FROZEN"
+  "source_bound_status": "85_DISTINCT_ACCEPTED_SOURCES_FROZEN"
 }
