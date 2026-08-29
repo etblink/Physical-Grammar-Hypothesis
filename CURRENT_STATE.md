@@ -4,58 +4,49 @@
 
 ```text
 PROJECT = Physical Grammar Hypothesis
-CURRENT_PHASE = PGH-1_R2B_NETWORK_SOURCE_INDEPENDENCE_PRIMITIVE_INPUT_ADMISSIBILITY
+CURRENT_PHASE = PGH-1_R2B_NETWORK_SOURCE_INDEPENDENCE_PHYSICAL_BRIDGE_FEASIBILITY
+ACTIVE_FORMAL_GRAMMAR_CANDIDATE = PGH-GRAM-0010
 ACTIVE_PHYSICAL_PREDICTIVE_CANDIDATE = NONE
+PGH_GRAM_0010_FORMAL_STATUS = NONTRIVIAL_FORMAL_CANDIDATE
+PGH_GRAM_0010_PHYSICAL_STATUS = PHYSICAL_BRIDGE_UNESTABLISHED
+M3_FORMAL_FEASIBILITY = PASS
 STRONG_PGH = LOGICALLY_OPEN
 POSITIVE_EMPIRICAL_PGH_CREDIT = NONE
-MINIMAL_SPARSE_DAG_PATH_ROUTE = RETIRED_FROM_ACTIVE_POSITIVE_STRONG_PGH_SUCCESSOR_SEARCH
-SG4_M3_FORMAL_FEASIBILITY = PASS
-NETWORK_SOURCE_SCHEMA = PGH-OBJ-0050
-TRIANGLE_COMMON_BIT_EXCLUSION = PGH-DER-0033__QUALIFIED
-TRIANGLE_PATH_CI_INCOMPARABILITY = PGH-DER-0034__QUALIFIED
-PHYSICAL_NETWORK_SELECTED = NO
-SOURCE_INDEPENDENCE_PHYSICALLY_PRIVILEGED = NO
 R2B = UNSATISFIED
 FCP_EFFECT = NONE
 ```
 
-## Current scientific boundary
+## Current boundary
 
-OP-0100 established a target-free formal result: fixed pairwise-source topology plus mutual source independence can exclude finite observed distributions while all local stochastic kernels remain free. The resulting model class is structurally incomparable with the retired six-member minimal path-CI family.
+PGH-GRAM-0010 is a formally admissible primitive grammar: fixed pairwise-source triangle incidence plus mutual source independence with arbitrary local stochastic kernels. Its formal restrictions are real and structurally different from the retired path-CI family.
 
-The exclusion is real, but its selective inputs are visible. Dropping source independence restores the perfect-common-bit witness; permitting a common source restores finite-joint universality.
-
-The project has therefore earned a **formal mechanism**, not a physical grammar.
+No physical meaning has been assigned to the source roles, topology, or independence relation. Formal admission does not establish that a real physical system supplies those structures without importing an independent law.
 
 ## Hard boundary
 
 ```text
-TRIANGLE_TOPOLOGY_AS_PHYSICAL = NO
-SOURCE_INDEPENDENCE_AS_PHYSICAL = NO
-STRONG_PGH_CANDIDATE_PACKAGE = NONE
-SEMANTIC_TARGET_BRIDGE = NONE_FOR_M3
+PHYSICAL_BRIDGE = UNESTABLISHED
+FULL_STRONG_PGH_PACKAGE = NONE
+PHYSICAL_SCOPE = NOT_SELECTED_FOR_PGH_GRAM_0010
+EMPIRICAL_INSTANTIATION = NONE
 TARGET_DISCOVERY = NO
 EMPIRICAL_DATA = NO
 ```
 
-## Next boundary
-
-The next authorized operation is `PGH1_R2B_NETWORK_SOURCE_INDEPENDENCE_PRIMITIVE_INPUT_ADMISSIBILITY_GATE`. It is target-free and asks whether topology + source independence may be explicit primitive grammar content under existing stopping/no-smuggling standards, or whether that move merely renames external physical law.
-
 ## Navigation state
 
 ```text
-LATEST_COMPLETED_OPERATION = POST_PGH1_NETWORK_SOURCE_INDEPENDENCE_FEASIBILITY_NAVIGATION_RECONCILIATION
-REGISTRY_ID = PGH-OP-0101
-INDEXED_SCIENTIFIC_BASELINE = 30b464188400aa3eaa1a105c6718bc9f1a8a5fba
-NEXT_RECOMMENDED_OPERATION = PGH1_R2B_NETWORK_SOURCE_INDEPENDENCE_PRIMITIVE_INPUT_ADMISSIBILITY_GATE
+LATEST_COMPLETED_OPERATION = POST_PGH1_NETWORK_SOURCE_INDEPENDENCE_PRIMITIVE_ADMISSIBILITY_NAVIGATION_RECONCILIATION
+REGISTRY_ID = PGH-OP-0103
+INDEXED_SCIENTIFIC_BASELINE = ceb9b2d2eb04b22e23aabf927e066c0ed259b69c
+NEXT_RECOMMENDED_OPERATION = PGH1_R2B_NETWORK_SOURCE_INDEPENDENCE_PHYSICAL_BRIDGE_FEASIBILITY_GATE
 NEXT_OPERATION_AUTHORIZED = YES
-REGISTRY_ID_NEXT = PGH-OP-0102
+REGISTRY_ID_NEXT = PGH-OP-0104
 ```
 
 <!-- PGH_CURRENT_STATE_CAPSULE_BEGIN -->
 ```json
-{"capsule_schema_version":"0.1.0","project":"Physical Grammar Hypothesis","current_phase":"PGH-1_R2B_NETWORK_SOURCE_INDEPENDENCE_PRIMITIVE_INPUT_ADMISSIBILITY","canonical_hypothesis":"HYPOTHESIS.md","active_candidate_grammar":null,"current_handoff":"handoffs/POST_PGH1_NETWORK_SOURCE_INDEPENDENCE_FEASIBILITY_NAVIGATION_RECONCILIATION_HANDOFF_0_1_0.md","source_bound_status":"SG4_M3_FORMAL_FEASIBILITY_PASS__SELECTIVE_INPUT_STATUS_NEXT__NO_ACTIVE_PHYSICAL_CANDIDATE","fcp_relationship":"INDEPENDENT_NO_EFFECT","next_recommended_operation":"PGH1_R2B_NETWORK_SOURCE_INDEPENDENCE_PRIMITIVE_INPUT_ADMISSIBILITY_GATE","next_operation_authorized":true,"open_question_count":8,"do_not_assume":["TRIANGLE_TOPOLOGY_IS_PHYSICAL","SOURCE_INDEPENDENCE_IS_PHYSICAL_LAW_FROM_GRAMMAR","M3_IS_A_STRONG_PGH_CANDIDATE","A_NETWORK_TARGET_IS_AUTHORIZED","POSITIVE_EMPIRICAL_PGH_EVIDENCE_EXISTS","R2B_HAS_PASSED"]}
+{"capsule_schema_version":"0.1.0","project":"Physical Grammar Hypothesis","current_phase":"PGH-1_R2B_NETWORK_SOURCE_INDEPENDENCE_PHYSICAL_BRIDGE_FEASIBILITY","canonical_hypothesis":"HYPOTHESIS.md","active_candidate_grammar":"PGH-GRAM-0010","current_handoff":"handoffs/POST_PGH1_NETWORK_SOURCE_INDEPENDENCE_PRIMITIVE_ADMISSIBILITY_NAVIGATION_RECONCILIATION_HANDOFF_0_1_0.md","source_bound_status":"PGH_GRAM_0010_FORMAL_CANDIDATE__PHYSICAL_BRIDGE_UNESTABLISHED__NO_ACTIVE_PHYSICAL_PACKAGE","fcp_relationship":"INDEPENDENT_NO_EFFECT","next_recommended_operation":"PGH1_R2B_NETWORK_SOURCE_INDEPENDENCE_PHYSICAL_BRIDGE_FEASIBILITY_GATE","next_operation_authorized":true,"open_question_count":8,"do_not_assume":["PGH_GRAM_0010_IS_PHYSICAL","TRIANGLE_TOPOLOGY_IS_PHYSICALLY_PRIVILEGED","SOURCE_INDEPENDENCE_IS_PHYSICALLY_PRIVILEGED","A_COMPLETE_STRONG_PGH_PACKAGE_EXISTS","A_TARGET_IS_AUTHORIZED","POSITIVE_EMPIRICAL_PGH_EVIDENCE_EXISTS","R2B_HAS_PASSED"]}
 ```
 <!-- PGH_CURRENT_STATE_CAPSULE_END -->
 

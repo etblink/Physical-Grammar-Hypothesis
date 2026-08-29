@@ -1,22 +1,22 @@
 {
-  "active_candidate_grammar": null,
+  "active_candidate_grammar": "PGH-GRAM-0010",
   "authority": "DERIVED_NAVIGATION_ONLY",
   "canonical_hypothesis": "HYPOTHESIS.md",
   "canonical_state": "CURRENT_STATE.md",
   "counts": {
-    "open_question_records": 39,
+    "open_question_records": 40,
     "open_questions": 8,
-    "operation_records": 98,
-    "research_object_records": 130
+    "operation_records": 100,
+    "research_object_records": 131
   },
-  "current_handoff": "handoffs/POST_PGH1_NETWORK_SOURCE_INDEPENDENCE_FEASIBILITY_NAVIGATION_RECONCILIATION_HANDOFF_0_1_0.md",
-  "current_phase": "PGH-1_R2B_NETWORK_SOURCE_INDEPENDENCE_PRIMITIVE_INPUT_ADMISSIBILITY",
+  "current_handoff": "handoffs/POST_PGH1_NETWORK_SOURCE_INDEPENDENCE_PRIMITIVE_ADMISSIBILITY_NAVIGATION_RECONCILIATION_HANDOFF_0_1_0.md",
+  "current_phase": "PGH-1_R2B_NETWORK_SOURCE_INDEPENDENCE_PHYSICAL_BRIDGE_FEASIBILITY",
   "fcp_relationship": "INDEPENDENT_NO_EFFECT",
-  "indexed_research_baseline_commit": "30b464188400aa3eaa1a105c6718bc9f1a8a5fba",
-  "indexed_research_baseline_tree": "6bca2836ce29fdf437baf0313c0f8a789f737a45",
-  "latest_completed_operation": "POST_PGH1_NETWORK_SOURCE_INDEPENDENCE_FEASIBILITY_NAVIGATION_RECONCILIATION",
+  "indexed_research_baseline_commit": "ceb9b2d2eb04b22e23aabf927e066c0ed259b69c",
+  "indexed_research_baseline_tree": "91abad51e1ec1557698afbd9fd1561e6ae2e57a9",
+  "latest_completed_operation": "POST_PGH1_NETWORK_SOURCE_INDEPENDENCE_PRIMITIVE_ADMISSIBILITY_NAVIGATION_RECONCILIATION",
   "next_operation_authorized": true,
-  "next_recommended_operation": "PGH1_R2B_NETWORK_SOURCE_INDEPENDENCE_PRIMITIVE_INPUT_ADMISSIBILITY_GATE",
+  "next_recommended_operation": "PGH1_R2B_NETWORK_SOURCE_INDEPENDENCE_PHYSICAL_BRIDGE_FEASIBILITY_GATE",
   "schema_version": "0.1.0",
-  "source_bound_status": "SG4_M3_FORMAL_FEASIBILITY_PASS__SELECTIVE_INPUT_STATUS_NEXT__NO_ACTIVE_PHYSICAL_CANDIDATE"
+  "source_bound_status": "PGH_GRAM_0010_FORMAL_CANDIDATE__PHYSICAL_BRIDGE_UNESTABLISHED__NO_ACTIVE_PHYSICAL_PACKAGE"
 }

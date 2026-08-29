@@ -3,11 +3,11 @@
 <!-- PGH_DERIVED_CURRENT_STATUS_BEGIN -->
 ## Current scientific status
 
-SG4 M3 now passes a target-free formal feasibility test: an independent-source triangle excludes a finite common-bit distribution for arbitrary local kernels, and its model class is demonstrably different from the retired minimal path-CI family. This is formal structural selectivity only; network topology and source independence have no physical privilege yet.
+PGH-GRAM-0010, the fixed independent-source triangle doctrine, now qualifies as a nontrivial **formal** primitive grammar candidate. Its network/source restrictions generate real model-class exclusions, but no physical bridge or physical privilege has been established.
 
 Current derived state: [`CURRENT_STATE.md`](CURRENT_STATE.md).
 
-Next authorized science: `PGH1_R2B_NETWORK_SOURCE_INDEPENDENCE_PRIMITIVE_INPUT_ADMISSIBILITY_GATE`.
+Next authorized science: `PGH1_R2B_NETWORK_SOURCE_INDEPENDENCE_PHYSICAL_BRIDGE_FEASIBILITY_GATE`.
 <!-- PGH_DERIVED_CURRENT_STATUS_END -->
 
 
