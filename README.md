@@ -3,11 +3,11 @@
 <!-- PGH_DERIVED_CURRENT_STATUS_BEGIN -->
 ## Current scientific status
 
-Two prospective empirical episodes are now canonical: the historical Kp physical package failed, and all five post-Kp successor packages failed on TGT-008 HURDAT2. OP-0096 retires the exhaustive minimal three-role/two-edge sparse-DAG path architecture from active positive strong-PGH successor search while preserving its formal mathematics. Strong PGH remains logically open but has no active predictive candidate and no positive empirical credit.
+The minimal sparse-DAG path route is retired after the Kp and HURDAT2 failures. A target-free sequencing gate has selected one pre-empirically queued research direction: SG4 M3 network topology + source independence/resource architecture. This is **not** a physical grammar selection; the next step is a formal feasibility test with no target or empirical data.
 
 Current derived state: [`CURRENT_STATE.md`](CURRENT_STATE.md).
 
-Next authorized science: `PGH1_POST_EMPIRICAL_FAILURE_ARCHITECTURE_RESEARCH_SEQUENCING_GATE` — target-free sequencing only.
+Next authorized science: `PGH1_R2B_NETWORK_SOURCE_INDEPENDENCE_STRUCTURAL_CONSTRAINT_FEASIBILITY_GATE`.
 <!-- PGH_DERIVED_CURRENT_STATUS_END -->
 
 
