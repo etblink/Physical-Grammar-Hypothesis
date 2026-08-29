@@ -1,0 +1,10 @@
+SOURCE_SHA256=5fef279d1c3d593cfdc92418e0af9c12bea0f819b8079b1698bd8420b95dd4a1
+COMPILER=g++ (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0
+KERNEL=Linux 6.17.0-1022-azure x86_64
+LONG_DOUBLE_SIZE=16
+tools/pgh_hurdat2_five_candidate.cpp:23:10: fatal error: boost/multiprecision/cpp_int.hpp: No such file or directory
+   23 | #include <boost/multiprecision/cpp_int.hpp>
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+COMPILE_RC=1
+STD_RANDOM_DISTRIBUTION_USE=NONE_FOUND
