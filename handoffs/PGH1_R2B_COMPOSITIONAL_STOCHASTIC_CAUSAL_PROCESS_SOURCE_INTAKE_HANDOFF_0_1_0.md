@@ -1,0 +1,121 @@
+# PGH-1 R2B Compositional Stochastic/Causal Process Source Intake — Handoff 0.1.0
+
+## Scientific/source result
+
+```text
+OPERATION_ID = PGH1_R2B_COMPOSITIONAL_STOCHASTIC_CAUSAL_PROCESS_SOURCE_INTAKE
+REGISTRY_ID = PGH-OP-0057
+STATUS = COMPLETE_CANDIDATE
+PREREGISTRATION_COMMIT = a0e2bcb61ec9b32e87ba053be053a54ec1f5fd1d
+OUTCOME = A__SG4_IS_CLOSED_AT_REPRESENTATIVE_SCOPE_AND_THE_CORPUS_SUPPORTS_A_CLEAR_TAXONOMY_OF_STRUCTURAL_PROCESS_CONSTRAINTS_VERSUS_FREE_MODEL_DATA__NO_FORMAL_SELECTION_IS_MADE
+```
+
+## Source accounting
+
+```text
+PREEXISTING_DISTINCT_FROZEN_ACCEPTED = 70
+NEW_DISTINCT_ACCEPTED = 15
+TOTAL_DISTINCT_FROZEN_ACCEPTED = 85
+REPRESENTATIVE_SATURATION = PASS
+EXHAUSTIVE_BIBLIOGRAPHY = NO
+```
+
+## Source-level result
+
+The SG4 corpus establishes that probabilistic/causal compositional structure can impose genuine model-class restrictions without specifying every local stochastic process numerically.
+
+Representative mechanisms include:
+
+```text
+MARKOV_CATEGORY_NORMALIZATION_STRUCTURE
+CAUSAL_DAG_FACTORISATION
+D_SEPARATION_AND_CONDITIONAL_INDEPENDENCE
+THEORY_INDEPENDENT_CAUSAL_NETWORK_CORRELATION_CONSTRAINTS
+ABSTRACT_DISINTEGRATION_CONDITIONING_AND_STATISTICAL_COMPARISON
+```
+
+The same corpus makes clear that substantial model data can remain free:
+
+```text
+CAUSAL_GRAPH_OR_WIRING
+GENERATING_BOXES
+LOCAL_CHANNELS_OR_KERNELS
+LATENT_RESOURCE_ASSIGNMENTS
+EMPIRICAL_PARAMETER_VALUES
+```
+
+Therefore SG4 does not solve R2B. It supplies the evidence base needed to ask which structural constraint, if any, can reduce `PGH-DER-0028` universal response realizability without importing the target response law.
+
+## Strongest sequencing candidates
+
+Source-level mechanisms warranting explicit adjudication are:
+
+```text
+M1_NORMALIZATION_BY_MARKOV_AFFINE_TERMINAL_STRUCTURE
+M2_CAUSAL_FACTORISATION_AND_CONDITIONAL_INDEPENDENCE
+M3_THEORY_INDEPENDENT_CAUSAL_NETWORK_CORRELATION_CONSTRAINTS
+M4_ABSTRACT_CONDITIONAL_DISINTEGRATION_STRUCTURE
+```
+
+None is selected here.
+
+## Next recommended operation
+
+```text
+NEXT_RECOMMENDED_OPERATION = PGH1_R2B_SG4_STRUCTURAL_PROCESS_CONSTRAINT_ADJUDICATION
+NEXT_OPERATION_AUTHORIZED = NO
+```
+
+The next operation should use the exact 15-source SG4 freeze and the current bridge-enriched model-class failure to determine whether one bounded structural constraint family earns formal testing.
+
+It must preserve:
+
+```text
+NO_TARGET_RESPONSE_DATA
+NO_POST_HOC_CAUSAL_GRAPH_SELECTION
+NO_LOCAL_KERNEL_AS_GRAMMAR_LAW
+NO_CATEGORICAL_FORMALISM_SELECTED_BY_AESTHETICS
+NO_PHYSICAL_CLAIM_FROM_SOURCE_FREQUENCY
+```
+
+## Current ceiling
+
+```text
+R2B = UNSATISFIED
+PHYSICAL_LAW_DERIVED = NO
+EMPIRICAL_PREDICTION = NONE
+FCP_EFFECT = NONE
+```
+
+## Structured handoff capsule
+
+<!-- PGH_HANDOFF_CAPSULE_BEGIN -->
+```json
+{
+  "capsule_schema_version": "0.1.0",
+  "operation_id": "PGH1_R2B_COMPOSITIONAL_STOCHASTIC_CAUSAL_PROCESS_SOURCE_INTAKE",
+  "status": "COMPLETE_CANDIDATE",
+  "indexed_research_baseline_commit": "8f1fe09cdb94536107b53981a48966a36f0edb85",
+  "must_read": [
+    "sources/PGH1_R2B_COMPOSITIONAL_STOCHASTIC_CAUSAL_SOURCE_REGISTER_0_1_0.md",
+    "sources/PGH1_R2B_COMPOSITIONAL_STOCHASTIC_CAUSAL_SOURCE_LANDSCAPE_0_1_0.md",
+    "sources/PGH1_R2B_COMPOSITIONAL_STOCHASTIC_CAUSAL_SOURCE_SELECTION_AUDIT_0_1_0.md"
+  ],
+  "outputs": [
+    "sources/PGH1_R2B_COMPOSITIONAL_STOCHASTIC_CAUSAL_SOURCE_REGISTER_0_1_0.md",
+    "sources/PGH1_R2B_COMPOSITIONAL_STOCHASTIC_CAUSAL_SOURCE_LANDSCAPE_0_1_0.md",
+    "sources/PGH1_R2B_COMPOSITIONAL_STOCHASTIC_CAUSAL_SOURCE_SELECTION_AUDIT_0_1_0.md",
+    "handoffs/PGH1_R2B_COMPOSITIONAL_STOCHASTIC_CAUSAL_PROCESS_SOURCE_INTAKE_HANDOFF_0_1_0.md"
+  ],
+  "open_questions": ["PGH-Q-0017"],
+  "next_recommended_operation": "PGH1_R2B_SG4_STRUCTURAL_PROCESS_CONSTRAINT_ADJUDICATION",
+  "next_operation_authorized": false,
+  "do_not_assume": [
+    "MARKOV_CATEGORIES_ARE_SELECTED_AS_PGH_GRAMMAR",
+    "CAUSAL_DAGS_ARE_DERIVED_BY_PGH",
+    "LOCAL_KERNELS_ARE_GRAMMAR_DERIVED",
+    "R2B_HAS_PASSED"
+  ]
+}
+```
+<!-- PGH_HANDOFF_CAPSULE_END -->
