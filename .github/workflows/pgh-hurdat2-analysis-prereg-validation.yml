@@ -1,0 +1,42 @@
+name: PGH HURDAT2 analysis prereg validation
+on:
+  push:
+    branches:
+      - validation/pgh1-hurdat2-analysis-prereg
+permissions:
+  contents: write
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Compile and self-test
+        run: |
+          set -euo pipefail
+          g++ -std=c++20 -O2 -Wall -Wextra -pedantic -Werror tools/pgh_hurdat2_five_candidate.cpp -o /tmp/pgh_hurdat2_five_candidate
+          {
+            echo "VALIDATION=PASS"
+            echo "SOURCE_SHA256=$(sha256sum tools/pgh_hurdat2_five_candidate.cpp | awk '{print $1}')"
+            echo "COMPILER=$(g++ --version | head -1)"
+            echo "KERNEL=$(uname -srm)"
+            echo "LONG_DOUBLE_SIZE=$(python3 - <<'PY'
+import ctypes
+print(ctypes.sizeof(ctypes.c_longdouble))
+PY
+)"
+            /tmp/pgh_hurdat2_five_candidate --self-test
+            if grep -nE 'std::(random|shuffle|uniform_|discrete_distribution|mt19937)' tools/pgh_hurdat2_five_candidate.cpp; then
+              echo "STD_RANDOM_DISTRIBUTION_USE=FOUND"
+              exit 1
+            else
+              echo "STD_RANDOM_DISTRIBUTION_USE=NONE_FOUND"
+            fi
+          } > validation_report.txt
+          cat validation_report.txt
+      - name: Commit validation report
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add validation_report.txt
+          git commit -m 'Record exact HURDAT2 prereg validation'
+          git push
