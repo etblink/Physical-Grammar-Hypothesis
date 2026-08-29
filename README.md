@@ -3,11 +3,11 @@
 <!-- PGH_DERIVED_CURRENT_STATUS_BEGIN -->
 ## Current scientific status
 
-The minimal sparse-DAG path route is retired after the Kp and HURDAT2 failures. A target-free sequencing gate has selected one pre-empirically queued research direction: SG4 M3 network topology + source independence/resource architecture. This is **not** a physical grammar selection; the next step is a formal feasibility test with no target or empirical data.
+SG4 M3 now passes a target-free formal feasibility test: an independent-source triangle excludes a finite common-bit distribution for arbitrary local kernels, and its model class is demonstrably different from the retired minimal path-CI family. This is formal structural selectivity only; network topology and source independence have no physical privilege yet.
 
 Current derived state: [`CURRENT_STATE.md`](CURRENT_STATE.md).
 
-Next authorized science: `PGH1_R2B_NETWORK_SOURCE_INDEPENDENCE_STRUCTURAL_CONSTRAINT_FEASIBILITY_GATE`.
+Next authorized science: `PGH1_R2B_NETWORK_SOURCE_INDEPENDENCE_PRIMITIVE_INPUT_ADMISSIBILITY_GATE`.
 <!-- PGH_DERIVED_CURRENT_STATUS_END -->
 
 
