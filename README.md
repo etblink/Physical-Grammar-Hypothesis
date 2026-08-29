@@ -2,7 +2,7 @@
 
 > **Status:** Speculative foundational research — independent incubation
 >
-> **Current phase:** `PGH-1_R2_GENERATED_COVER_AND_COMPATIBILITY_ORIGIN`
+> **Current phase:** `PGH-1_R2_LOCAL_RULE_LANGUAGE_ORIGIN`
 >
 > **FCP relationship:** None at present; this repository has no canonical effect on FCP.
 
@@ -14,48 +14,48 @@ The active provisional hypothesis remains:
 PGH-OBJ-0012 = ANCHORED_STRONG_PHYSICAL_GRAMMAR_HYPOTHESIS
 ```
 
-The old extensional formation grammar remains only a formal comparison baseline:
+The extensional formation grammar remains only a formal comparison baseline:
 
 ```text
 PGH-GRAM-0002 = FORMAL_BASELINE_R2_INSUFFICIENT
 ```
 
-PGH-1 has now qualified a new formal mechanism without promoting it to a grammar:
+PGH-1 has now qualified a compact local-to-global exclusion mechanism and then isolated the source of its selectivity:
 
 ```text
 PGH-OBJ-0013 = LOCAL_TO_GLOBAL_CONSTRAINT_SCHEMA
-PGH-DER-0012 = ODD_CYCLE_LOCAL_TO_GLOBAL_OBSTRUCTION
-PGH-FAIL-0014 = UNPRIVILEGED_LOCAL_GLOBAL_INPUT_SELECTION
+PGH-OBJ-0014 = GENERATED_COVER_COMPATIBILITY_SCHEMA
+PGH-OBJ-0015 = LOCAL_ADMISSIBILITY_GENERATOR_FAMILY_MAP
+PGH-DER-0013 = FREE_LOCAL_ASSIGNMENT_GLUING
+PGH-DER-0014 = FINITE_LOCAL_PREDICATE_UNIVERSAL_ENCODING
+PGH-FAIL-0015 = LOCAL_ADMISSIBILITY_SUPPORT_ORIGIN
+PGH-FAIL-0016 = UNRESTRICTED_SUPPORT_DESCRIPTION_LANGUAGE
 ```
 
-## What changed in PGH-1
+## What PGH-1 has learned
 
-A targeted discovery audit found a missing local-to-global obstruction lane. A bounded 15-source intake then closed that source gap and the related global-constraint lane.
+A generated cover, a law-free value domain, and ordinary overlap compatibility do not by themselves create nontrivial global obstruction: unrestricted compatible local assignments glue uniquely.
 
-The subsequent mechanism gate proved that one compact uniform local rule can be satisfiable everywhere locally yet have no global realization because of the incidence structure. The odd-cycle witness is expressible as graph coloring, XOR constraints, or a local/global extension problem.
+Proper local admissibility supports can create obstruction, but their origin must itself be explained. Replacing an arbitrary support table by an unrestricted logical formula does not solve the problem because every finite support has an exact formula description.
 
-This is a genuine non-table-driven exclusion mechanism.
-
-It is not yet physical law.
-
-The context cover, value domain, and local rule are still inputs whose physical privilege has not been derived.
+Restricted equational, typing/interface, rewrite/coherence, and symmetry-based rule families remain promising only conditionally on an independently fixed rule language.
 
 ## Current scientific frontier
 
-The next question is therefore no longer whether local-to-global obstruction exists. It is whether the obstruction inputs themselves can be generated non-result-directly:
-
 ```text
-PGH-Q-0024 = OPEN
+PGH-Q-0026 = OPEN
 ```
+
+> Can the admissible local-rule language itself be fixed independently of the support patterns and physical exclusions that it will later generate?
 
 The next operation is:
 
 ```text
-NEXT_RECOMMENDED_OPERATION = PGH1_R2_GENERATED_COVER_AND_COMPATIBILITY_ORIGIN_GATE
+NEXT_RECOMMENDED_OPERATION = PGH1_R2_LOCAL_RULE_LANGUAGE_ORIGIN_GATE
 NEXT_OPERATION_AUTHORIZED = YES
 ```
 
-It must not choose a cover or compatibility relation merely because it yields a desired physical impossibility.
+It must attack the origin of the meta-language rather than choose a convenient formalism because it reproduces a desired no-go result.
 
 ## Current nonclaims
 
@@ -63,8 +63,10 @@ It must not choose a cover or compatibility relation merely because it yields a 
 PHYSICAL_GRAMMAR_FOUND = NO
 PHYSICAL_LAW_DERIVED = NO
 R2_SATISFIED = NO
+SUCCESSOR_GRAMMAR = NONE
 SHEAF_THEORY_SELECTED_AS_FUNDAMENTAL = NO
-CONTEXTUALITY_SELECTED_AS_FUNDAMENTAL = NO
+EQUATIONAL_LOGIC_SELECTED_AS_FUNDAMENTAL = NO
+TYPE_THEORY_SELECTED_AS_FUNDAMENTAL = NO
 EMPIRICAL_PREDICTION = NONE
 ```
 

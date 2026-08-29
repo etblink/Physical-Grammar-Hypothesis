@@ -4,19 +4,19 @@
   "canonical_hypothesis": "HYPOTHESIS.md",
   "canonical_state": "CURRENT_STATE.md",
   "counts": {
-    "open_question_records": 24,
+    "open_question_records": 26,
     "open_questions": 8,
-    "operation_records": 36,
-    "research_object_records": 41
+    "operation_records": 39,
+    "research_object_records": 47
   },
-  "current_handoff": "handoffs/POST_PGH1_R2_LOCAL_TO_GLOBAL_MECHANISM_RECONCILIATION_HANDOFF_0_1_0.md",
-  "current_phase": "PGH-1_R2_GENERATED_COVER_AND_COMPATIBILITY_ORIGIN",
+  "current_handoff": "handoffs/POST_PGH1_R2_LOCAL_ADMISSIBILITY_ORIGIN_AND_GENERATION_RECONCILIATION_HANDOFF_0_1_0.md",
+  "current_phase": "PGH-1_R2_LOCAL_RULE_LANGUAGE_ORIGIN",
   "fcp_relationship": "INDEPENDENT_INCUBATION",
-  "indexed_research_baseline_commit": "437f4f0d6b57d7a33aa7ec512db168ad9999bf23",
-  "indexed_research_baseline_tree": "85d1f0ddb7d98efe0c0ed1d0b0e8a0e27e57e154",
-  "latest_completed_operation": "POST_PGH1_R2_LOCAL_TO_GLOBAL_MECHANISM_RECONCILIATION",
+  "indexed_research_baseline_commit": "40a3c89b3257fbbe9a29cf1b0454b2c25193b039",
+  "indexed_research_baseline_tree": "e3550bd7964de1558968dcffa8acdcd09565a85d",
+  "latest_completed_operation": "POST_PGH1_R2_LOCAL_ADMISSIBILITY_ORIGIN_AND_GENERATION_RECONCILIATION",
   "next_operation_authorized": true,
-  "next_recommended_operation": "PGH1_R2_GENERATED_COVER_AND_COMPATIBILITY_ORIGIN_GATE",
+  "next_recommended_operation": "PGH1_R2_LOCAL_RULE_LANGUAGE_ORIGIN_GATE",
   "schema_version": "0.1.0",
   "source_bound_status": "REPRESENTATIVE_LANDSCAPE_FROZEN"
 }
