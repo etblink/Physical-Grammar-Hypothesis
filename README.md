@@ -3,11 +3,11 @@
 <!-- PGH_DERIVED_CURRENT_STATUS_BEGIN -->
 ## Current scientific status
 
-Five post-Kp successor packages remain admission-qualified and physically distinct under the ordered empirical interface, although they contain only two abstract formal grammar classes. No scientific target-free winner exists; target discovery is still closed.
+Five post-Kp successor packages remain admission-qualified and physically distinct. Their common-target empirical protocol is now frozen: one genuinely new prospectively discovered target must confront all five, with Holm familywise correction and two independent calibration architectures. Previously discovered pre-Kp target opportunities are quarantined from first positive successor credit.
 
 Current derived state: [`CURRENT_STATE.md`](CURRENT_STATE.md).
 
-Next authorized science: `PGH1_POST_KP_COMMON_TARGET_MULTI_CANDIDATE_MULTIPLICITY_PROTOCOL_GATE`.
+Next authorized science: `PGH1_POST_KP_COMMON_TARGET_MULTI_CANDIDATE_TARGET_DISCOVERY_AND_FREEZE`.
 <!-- PGH_DERIVED_CURRENT_STATUS_END -->
 
 
