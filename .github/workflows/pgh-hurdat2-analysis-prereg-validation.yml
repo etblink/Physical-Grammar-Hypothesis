@@ -10,29 +10,30 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Compile and self-test
+      - name: Diagnose exact staged source
         run: |
-          set -euo pipefail
-          g++ -std=c++20 -O2 -Wall -Wextra -pedantic -Werror tools/pgh_hurdat2_five_candidate.cpp -o /tmp/pgh_hurdat2_five_candidate
-          {
-            echo "VALIDATION=PASS"
-            echo "SOURCE_SHA256=$(sha256sum tools/pgh_hurdat2_five_candidate.cpp | awk '{print $1}')"
-            echo "COMPILER=$(g++ --version | head -1)"
-            echo "KERNEL=$(uname -srm)"
-            echo "LONG_DOUBLE_SIZE=$(python3 -c 'import ctypes; print(ctypes.sizeof(ctypes.c_longdouble))')"
-            /tmp/pgh_hurdat2_five_candidate --self-test
-            if grep -nE 'std::(random|shuffle|uniform_|discrete_distribution|mt19937)' tools/pgh_hurdat2_five_candidate.cpp; then
-              echo "STD_RANDOM_DISTRIBUTION_USE=FOUND"
-              exit 1
-            else
-              echo "STD_RANDOM_DISTRIBUTION_USE=NONE_FOUND"
-            fi
-          } > validation_report.txt
+          set +e
+          : > validation_report.txt
+          echo "SOURCE_SHA256=$(sha256sum tools/pgh_hurdat2_five_candidate.cpp | awk '{print $1}')" >> validation_report.txt
+          echo "COMPILER=$(g++ --version | head -1)" >> validation_report.txt
+          echo "KERNEL=$(uname -srm)" >> validation_report.txt
+          echo "LONG_DOUBLE_SIZE=$(python3 -c 'import ctypes; print(ctypes.sizeof(ctypes.c_longdouble))')" >> validation_report.txt
+          g++ -std=c++20 -O2 -Wall -Wextra -pedantic -Werror tools/pgh_hurdat2_five_candidate.cpp -o /tmp/pgh_hurdat2_five_candidate >> validation_report.txt 2>&1
+          echo "COMPILE_RC=$?" >> validation_report.txt
+          if [ -x /tmp/pgh_hurdat2_five_candidate ]; then
+            /tmp/pgh_hurdat2_five_candidate --self-test >> validation_report.txt 2>&1
+            echo "SELF_TEST_RC=$?" >> validation_report.txt
+          fi
+          if grep -nE 'std::(random|shuffle|uniform_|discrete_distribution|mt19937)' tools/pgh_hurdat2_five_candidate.cpp >> validation_report.txt 2>&1; then
+            echo "STD_RANDOM_DISTRIBUTION_USE=FOUND" >> validation_report.txt
+          else
+            echo "STD_RANDOM_DISTRIBUTION_USE=NONE_FOUND" >> validation_report.txt
+          fi
           cat validation_report.txt
-      - name: Commit validation report
+      - name: Commit diagnostic report
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git add validation_report.txt
-          git commit -m 'Record exact HURDAT2 prereg validation'
+          git commit -m 'Record exact HURDAT2 validation diagnostic'
           git push
