@@ -4,19 +4,19 @@
   "canonical_hypothesis": "HYPOTHESIS.md",
   "canonical_state": "CURRENT_STATE.md",
   "counts": {
-    "open_question_records": 16,
-    "open_questions": 13,
-    "operation_records": 11,
-    "research_object_records": 18
+    "open_question_records": 17,
+    "open_questions": 8,
+    "operation_records": 13,
+    "research_object_records": 19
   },
-  "current_handoff": "handoffs/POST_PGH0_REPRESENTATION_COHERENCE_SOURCE_LANDSCAPE_RECONCILIATION_HANDOFF_0_1_0.md",
-  "current_phase": "PGH-0_CONCEPTUAL_FORMULATION",
+  "current_handoff": "handoffs/POST_PGH0_PRIOR_ART_RESIDUAL_RECONCILIATION_HANDOFF_0_1_0.md",
+  "current_phase": "PGH-0_PRIOR_ART_SUBTRACTED_FORMULATION",
   "fcp_relationship": "INDEPENDENT_INCUBATION",
-  "indexed_research_baseline_commit": "2f3b8b45a4ead81980ab0809fdb3160e8d0454b0",
-  "indexed_research_baseline_tree": "5e303dc43b69788948ddb70315ec4008d6d543a6",
-  "latest_completed_operation": "POST_PGH0_REPRESENTATION_COHERENCE_SOURCE_LANDSCAPE_RECONCILIATION",
-  "next_operation_authorized": false,
-  "next_recommended_operation": "PGH0_PRIOR_ART_OVERLAP_AND_RESIDUAL_NOVELTY_ADJUDICATION",
+  "indexed_research_baseline_commit": "3f029d41b2a2316e16a9448e70ec3982a46175d3",
+  "indexed_research_baseline_tree": "cf96fdefaee6445044f6653d5e69b40e53bb5fc7",
+  "latest_completed_operation": "POST_PGH0_PRIOR_ART_RESIDUAL_RECONCILIATION",
+  "next_operation_authorized": true,
+  "next_recommended_operation": "PGH0_PHYSICAL_IRRELEVANCE_SELECTOR_FEASIBILITY_GATE",
   "schema_version": "0.1.0",
   "source_bound_status": "REPRESENTATIVE_LANDSCAPE_FROZEN"
 }

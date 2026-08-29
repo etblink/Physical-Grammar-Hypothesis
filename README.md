@@ -2,50 +2,76 @@
 
 > **Status:** Speculative foundational research — independent incubation
 >
-> **Current phase:** `PGH-0_CONCEPTUAL_FORMULATION`
+> **Current phase:** `PGH-0_PRIOR_ART_SUBTRACTED_FORMULATION`
 >
 > **FCP relationship:** None at present; this repository has no canonical effect on FCP.
 
-## Current baseline
+## Current scientific target
+
+The broad project has now undergone explicit prior-art subtraction against a frozen 37-source representative landscape.
 
 ```text
 ACTIVE_CANDIDATE_GRAMMAR = PGH-GRAM-0002
-STATUS = PROVISIONAL_FORMAL_BASELINE_NONPHYSICAL
 PHYSICAL_GRAMMAR_FOUND = NO
-SOURCE_BOUND_STATUS = REPRESENTATIVE_LANDSCAPE_FROZEN
-```
-
-PGH has qualified five formal derivations, preserved four failed proposals, and now frozen a representative prior-art/source landscape.
-
-## Source landscape
-
-```text
-PGH0_REPRESENTATION_COHERENCE_SOURCE_LANDSCAPE_INTAKE = CANONICALLY_COMPLETE
-ACCEPTED_SOURCES = 37
-REVIEWED_CANDIDATES = 52
-SEARCH_LANES = 12_OF_12
-SOURCE_SELECTION_AUDIT = PASS
-LANDSCAPE_SATURATION = PASS_FOR_REPRESENTATIVE_SCOPE
-```
-
-The landscape shows that much of PGH's current formal machinery sits inside mature mathematical traditions: universal algebra and quotients, rewriting/confluence, categorical coherence, operads/multicategories, algebraic theories/monads, and graphical calculi. Existing philosophy of physics also supplies multiple notions of theoretical equivalence, while structural realism, process approaches, constructor theory, laws-as-constraints, operational reconstructions, and mathematical-universe theses occupy nearby foundational territory.
-
-This does **not** establish that strong PGH is either novel or already present in the literature.
-
-## Current research burden
-
-The clearest remaining question is:
-
-> What non-result-directed principle selects which presentation distinctions are physically irrelevant?
-
-The frozen landscape suggests that the mathematical availability of equivalence/coherence machinery is not the bottleneck. The unresolved issue is physical privilege and interpretation.
-
-```text
 PGH_NOVELTY = UNRESOLVED
-PHYSICAL_BRIDGE = NOT_AUTHORIZED
-NEXT_RECOMMENDED_OPERATION = PGH0_PRIOR_ART_OVERLAP_AND_RESIDUAL_NOVELTY_ADJUDICATION
-NEXT_OPERATION_AUTHORIZED = NO
 ```
+
+The broad strong hypothesis remains an umbrella, but active scientific work is now routed through:
+
+```text
+PGH-OBJ-0008 = RESIDUAL_STRONG_PHYSICAL_GRAMMAR_HYPOTHESIS
+```
+
+That residual target is intentionally narrower. It does **not** claim novelty for grammar, compositionality, quotienting, coherence, structuralism, possible/impossible transformations, laws as constraints, or mathematical ontology.
+
+## Residual burdens
+
+Two independent burdens remain:
+
+```text
+R1 = PHYSICAL_IRRELEVANCE_SELECTOR
+R2 = LAW_EXHAUSTION
+```
+
+R1 asks which differences between mathematically adequate presentations are physically representational rather than physically real, and requires a non-result-directed criterion.
+
+R2 asks whether, after that quotient is fixed, grammatical well-formedness/coherence can perform all substantive physical selection without an independent law set doing the real work.
+
+Current sequencing is:
+
+\[
+R1 \longrightarrow R2.
+\]
+
+## Prior-art discipline
+
+All five current PGH formal derivations remain useful internal results, but none carries novelty weight after the frozen-corpus adjudication.
+
+In particular:
+
+```text
+PGH-DER-0003 = REDISCOVERY_OR_LOCAL_SPECIALIZATION_OF_ESTABLISHED_COHERENCE_FAMILY
+```
+
+The source landscape and prior-art adjudication are canonical research inputs, not evidence that PGH is true or novel.
+
+## Hypothesis routing
+
+```text
+PGH-W = SUBSUMED_NONDISCRIMINATING
+PGH-I = QUARANTINED_SPECULATIVE_EXTENSION
+PGH-S = UMBRELLA_HYPOTHESIS
+PGH-OBJ-0008 = PROVISIONAL_RESEARCH_TARGET
+```
+
+## Next operation
+
+```text
+NEXT_RECOMMENDED_OPERATION = PGH0_PHYSICAL_IRRELEVANCE_SELECTOR_FEASIBILITY_GATE
+NEXT_OPERATION_AUTHORIZED = YES
+```
+
+The gate will use the frozen source families first. It will test candidate notions of equivalence/translation against R1 without selecting a desired physical law by construction.
 
 ## Authority
 
@@ -55,4 +81,4 @@ CANONICAL_MARKDOWN_ARTIFACTS = RESEARCH_AND_GOVERNANCE_AUTHORITY
 STRUCTURED_NAVIGATION_LAYER = DERIVED_NAVIGATION_ONLY
 ```
 
-See [`CURRENT_STATE.md`](CURRENT_STATE.md), the frozen files under [`sources/`](sources/), and the current file in [`handoffs/`](handoffs/) for the exact continuation boundary.
+For exact continuation state, read [`CURRENT_STATE.md`](CURRENT_STATE.md), the prior-art adjudication in [`audits/`](audits/), the residual specification in [`research/formalizations/`](research/formalizations/), and the current handoff in [`handoffs/`](handoffs/).
