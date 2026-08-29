@@ -1,0 +1,122 @@
+# PGH-1 R2A Primitive Grammar Stopping-Rule Adjudication — Handoff 0.1.0
+
+## Scientific result
+
+```text
+OPERATION_ID = PGH1_R2A_PRIMITIVE_GRAMMAR_STOPPING_RULE_ADJUDICATION
+REGISTRY_ID = PGH-OP-0047
+STATUS = COMPLETE_CANDIDATE
+PREREGISTRATION_COMMIT = 8c86b33138e46ce70b0d4debab38d4fede0dfc86
+OUTCOME = A__MANDATORY_META_DERIVATION_IS_NOT_A_CANONICAL_PGH_REQUIREMENT__A_DECLARED_PRIMITIVE_GRAMMAR_MAY_BE_ADMITTED_AS_A_CANDIDATE_ONLY_IF_IT_PASSES_A_STRICT_NO_SMUGGLING_COMPRESSION_EXCLUSION_AND_FALSIFIABILITY_STANDARD__R2B_REMAINS_UNSATISFIED
+```
+
+## New research objects
+
+```text
+PGH-OBJ-0020 = PRIMITIVE_GRAMMAR_ADMISSIBILITY_STANDARD
+PGH-OBJ-0021 = POST_STOPPING_RULE_ANCHORED_R2_RESIDUAL
+PGH-FAIL-0021 = MANDATORY_META_DERIVATION_STOPPING_RULE
+```
+
+`PGH-OBJ-0017` remains a preserved prior-art-subtracted research stage, but its mandatory meta-derivation sequencing requirement is superseded by `PGH-OBJ-0021`.
+
+## Corrected stopping rule
+
+A candidate grammar may contain declared primitive structure.
+
+It does not need a derivation from nothing or from an endless meta-hierarchy.
+
+But it must pass the hard candidate standard in `PGH-OBJ-0020`:
+
+```text
+FORMAL_DEFINABILITY
+DECLARED_PRIMITIVES
+PRE_TARGET_FIXATION
+RESTRICTED_HYPOTHESIS_CLASS
+NO_EXTENTIONAL_TARGET_TABLE
+GENERATIVE_COMPRESSION
+NONTRIVIAL_EXCLUSION
+REPRESENTATION_DISCIPLINE
+LAW_FREE_SEMANTIC_BOUNDARY
+INDEPENDENT_CONSEQUENCE
+COUNTEREXAMPLE_EXPOSURE
+SEPARATE_PHYSICAL_BRIDGE
+```
+
+## R2 routing
+
+```text
+R2A_META_DERIVATION = OPTIONAL_STRENGTHENING_NOT_MANDATORY_TRUTH_CONDITION
+R2C_CANDIDATE_GRAMMAR_ADMISSIBILITY = NEXT_FORMAL_BURDEN
+R2B_PHYSICAL_LAW_EXHAUSTION = STILL_UNSATISFIED
+```
+
+No candidate grammar has yet passed `R2C`.
+
+## Next recommended operation
+
+```text
+NEXT_RECOMMENDED_OPERATION = PGH1_R2_PRIMITIVE_GRAMMAR_CANDIDATE_FAMILY_SCREEN
+NEXT_OPERATION_AUTHORIZED = NO
+```
+
+That operation should freeze a small family **before any physical-fit evaluation** and screen each candidate against `PGH-OBJ-0020`.
+
+A sensible initial family should be drawn only from structures already exposed by completed PGH work, for example bare monoidal, symmetric monoidal, cartesian, cocartesian, or carefully bounded combinations. Inclusion in the screen does not imply physical priority.
+
+## Result ceiling
+
+```text
+SPECIFIC_CANDIDATE_GRAMMAR_SELECTED = NO
+PHYSICAL_GRAMMAR_FOUND = NO
+R2C = NOT_YET_TESTED
+R2B = UNSATISFIED
+PHYSICAL_LAW_DERIVED = NO
+EMPIRICAL_PREDICTION = NONE
+FCP_EFFECT = NONE
+```
+
+## Do not assume
+
+```text
+DO_NOT_ASSUME_PRIMITIVE_MEANS_ARBITRARY
+DO_NOT_ASSUME_PRIMITIVE_MEANS_ACCEPTED
+DO_NOT_ASSUME_META_DERIVATION_IS_FORBIDDEN
+DO_NOT_ASSUME_UNIQUENESS_IS_REQUIRED_FOR_CANDIDACY
+DO_NOT_ASSUME_ANY_CATEGORICAL_DOCTRINE_IS_PHYSICAL
+DO_NOT_ASSUME_R2B_HAS_PASSED
+```
+
+## Structured handoff capsule
+
+<!-- PGH_HANDOFF_CAPSULE_BEGIN -->
+```json
+{
+  "capsule_schema_version": "0.1.0",
+  "operation_id": "PGH1_R2A_PRIMITIVE_GRAMMAR_STOPPING_RULE_ADJUDICATION",
+  "status": "COMPLETE_CANDIDATE",
+  "indexed_research_baseline_commit": "4c95792e609297df5df76168d1335405f24a8c60",
+  "must_read": [
+    "audits/PGH1_R2A_PRIMITIVE_GRAMMAR_STOPPING_RULE_ADJUDICATION_0_1_0.md",
+    "research/formalizations/PGH1_PRIMITIVE_GRAMMAR_ADMISSIBILITY_STANDARD_0_1_0.md",
+    "research/formalizations/PGH1_POST_STOPPING_RULE_ANCHORED_R2_RESIDUAL_0_1_0.md",
+    "research/failures/PGH_FAIL_MANDATORY_META_DERIVATION_STOPPING_RULE_0_1_0.md"
+  ],
+  "outputs": [
+    "audits/PGH1_R2A_PRIMITIVE_GRAMMAR_STOPPING_RULE_ADJUDICATION_0_1_0.md",
+    "research/formalizations/PGH1_PRIMITIVE_GRAMMAR_ADMISSIBILITY_STANDARD_0_1_0.md",
+    "research/formalizations/PGH1_POST_STOPPING_RULE_ANCHORED_R2_RESIDUAL_0_1_0.md",
+    "research/failures/PGH_FAIL_MANDATORY_META_DERIVATION_STOPPING_RULE_0_1_0.md",
+    "handoffs/PGH1_R2A_PRIMITIVE_GRAMMAR_STOPPING_RULE_ADJUDICATION_HANDOFF_0_1_0.md"
+  ],
+  "open_questions": ["PGH-Q-0017"],
+  "next_recommended_operation": "PGH1_R2_PRIMITIVE_GRAMMAR_CANDIDATE_FAMILY_SCREEN",
+  "next_operation_authorized": false,
+  "do_not_assume": [
+    "A_SPECIFIC_GRAMMAR_HAS_PASSED_CANDIDACY",
+    "R2B_HAS_PASSED",
+    "PHYSICAL_GRAMMAR_EXISTS"
+  ]
+}
+```
+<!-- PGH_HANDOFF_CAPSULE_END -->
