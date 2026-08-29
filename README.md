@@ -3,11 +3,11 @@
 <!-- PGH_DERIVED_CURRENT_STATUS_BEGIN -->
 ## Current scientific status
 
-PGH-GRAM-0010 remains a nontrivial formal primitive grammar candidate, and PGH-OBJ-0051 now qualifies as a conditional full-observed-model-class bridge. No complete physical candidate exists until scope and prospective instantiation are bound and A0-A9 are passed.
+PGH-OBJ-0052 now freezes a complete target-free independent-source-triangle successor package and passes all A0-A9 admission gates. It is eligible for a genuinely new prospective target search, but has no empirical support or confirmation credit.
 
 Current derived state: [`CURRENT_STATE.md`](CURRENT_STATE.md).
 
-Next authorized science: `PGH1_POST_KP_NETWORK_SOURCE_SUCCESSOR_PACKAGE_COMPLETION_AND_ADMISSION_GATE`. Target discovery remains closed until that gate passes.
+Next recommended operation: `PGH1_POST_KP_NETWORK_SOURCE_SUCCESSOR_TARGET_DISCOVERY_AND_FREEZE`. It is **not authorized** and no target discovery has started.
 <!-- PGH_DERIVED_CURRENT_STATUS_END -->
 
 
