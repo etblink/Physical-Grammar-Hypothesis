@@ -3,11 +3,11 @@
 <!-- PGH_DERIVED_CURRENT_STATUS_BEGIN -->
 ## Current scientific status
 
-The five post-Kp successor packages, TGT-008 Atlantic HURDAT2 target, complete target-specific analysis, and canonical raw-data custody are frozen and qualified. The historical OP-0090 custody incident remains provenance feedback, but OP-0092 requalified the immutable artifact without raw payload in the candidate tree. No primary statistic has yet run.
+The first genuinely prospective post-Kp common-target test is complete. All five frozen successor packages were refuted on TGT-008 Atlantic HURDAT2 by both separately Holm-corrected calibration architectures. This is a failure of the current five-package successor family, not a global proof against every conceivable PGH.
 
 Current derived state: [`CURRENT_STATE.md`](CURRENT_STATE.md).
 
-Next authorized science: `PGH1_HURDAT2_FIVE_CANDIDATE_COMMON_DATA_EXECUTION`.
+Next recommended science: `PGH1_POST_HURDAT2_FIVE_CANDIDATE_RESULT_ADJUDICATION` — not yet authorized.
 <!-- PGH_DERIVED_CURRENT_STATUS_END -->
 
 

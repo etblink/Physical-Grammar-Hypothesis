@@ -4,19 +4,19 @@
   "canonical_hypothesis": "HYPOTHESIS.md",
   "canonical_state": "CURRENT_STATE.md",
   "counts": {
-    "open_question_records": 35,
+    "open_question_records": 36,
     "open_questions": 8,
-    "operation_records": 90,
+    "operation_records": 92,
     "research_object_records": 127
   },
-  "current_handoff": "handoffs/POST_PGH1_HURDAT2_CUSTODY_REPAIR_NAVIGATION_RECONCILIATION_HANDOFF_0_1_0.md",
-  "current_phase": "PGH-1_HURDAT2_FIVE_CANDIDATE_EXECUTION_READY",
+  "current_handoff": "handoffs/POST_PGH1_HURDAT2_FIVE_CANDIDATE_RESULT_NAVIGATION_RECONCILIATION_HANDOFF_0_1_0.md",
+  "current_phase": "PGH-1_POST_HURDAT2_FIVE_CANDIDATE_RESULT_BOUNDARY",
   "fcp_relationship": "INDEPENDENT_NO_EFFECT",
-  "indexed_research_baseline_commit": "3a21f9f075bb0858a3ab42c3a8c9b8e482fa163f",
-  "indexed_research_baseline_tree": "05b877db6246a9ed50c647194003d4d441dc17aa",
-  "latest_completed_operation": "POST_PGH1_HURDAT2_CUSTODY_REPAIR_NAVIGATION_RECONCILIATION",
-  "next_operation_authorized": true,
-  "next_recommended_operation": "PGH1_HURDAT2_FIVE_CANDIDATE_COMMON_DATA_EXECUTION",
+  "indexed_research_baseline_commit": "45c7f51cdc66ea5340f138eb77ffb31ae606b47a",
+  "indexed_research_baseline_tree": "d139f8bbce088eedabd8ee628643986d6aac6781",
+  "latest_completed_operation": "POST_PGH1_HURDAT2_FIVE_CANDIDATE_RESULT_NAVIGATION_RECONCILIATION",
+  "next_operation_authorized": false,
+  "next_recommended_operation": "PGH1_POST_HURDAT2_FIVE_CANDIDATE_RESULT_ADJUDICATION",
   "schema_version": "0.1.0",
-  "source_bound_status": "TGT_008_AND_PGH_OBJ_0049_FROZEN__CANONICAL_CUSTODY_REQUALIFIED__PRIMARY_ANALYSIS_UNRUN"
+  "source_bound_status": "TGT_008_EXECUTED__CURRENT_FIVE_POST_KP_SUCCESSOR_PACKAGES_REFUTED__POST_RESULT_ADJUDICATION_PENDING"
 }

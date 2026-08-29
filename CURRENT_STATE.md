@@ -4,42 +4,58 @@
 
 ```text
 PROJECT = Physical Grammar Hypothesis
-CURRENT_PHASE = PGH-1_HURDAT2_FIVE_CANDIDATE_EXECUTION_READY
-ACTIVE_PHYSICAL_PREDICTIVE_CANDIDATE = FIVE_PACKAGE_FAMILY__PGH_OBJ_0041_TO_0045
+CURRENT_PHASE = PGH-1_POST_HURDAT2_FIVE_CANDIDATE_RESULT_BOUNDARY
+ACTIVE_PHYSICAL_PREDICTIVE_CANDIDATE = NONE__CURRENT_FIVE_PACKAGE_FAMILY_REFUTED_AT_TGT008
 COMMON_TARGET = PGH-OBJ-0048__TGT-008__ATLANTIC_HURDAT2_SYSTEM_STATUS
 TARGET_SPECIFIC_ANALYSIS_PROTOCOL = PGH-OBJ-0049
-CANONICAL_CUSTODY_ARTIFACT_ID = 9721043553
-RAW_DATA_ACCESSED_OPAQUELY = YES
-PARSER_SUPPORT_OBSERVED = PASS__5861_TRIPLES
-CANONICAL_CUSTODY_QUALIFIED = YES
-PRIMARY_STATISTICS_EXECUTED = NO
+CANONICAL_EXECUTION_COMMIT = 45c7f51cdc66ea5340f138eb77ffb31ae606b47a
+CANONICAL_EXECUTION_WORKFLOW_RUN = 33275343932
+H1_VERDICT = REFUTED_ON_COMMON_TARGET
+H2_VERDICT = REFUTED_ON_COMMON_TARGET
+H3_VERDICT = REFUTED_ON_COMMON_TARGET
+H4_VERDICT = REFUTED_ON_COMMON_TARGET
+H5_VERDICT = REFUTED_ON_COMMON_TARGET
+FAMILY_VERDICT = CURRENT_FIVE_CANDIDATE_SUCCESSOR_FAMILY_REFUTED_AT_COMMON_TARGET
 FCP_EFFECT = NONE
 ```
 
-## Custody status
+## Empirical result boundary
 
-`PGH-OP-0092` canonically requalified the immutable HURDAT2 custody artifact and exact frozen parser/support report without a fresh NHC retrieval and without placing raw payload in its candidate Git tree. The earlier `PGH-OP-0090` raw-in-Git construction incident remains preserved as provenance feedback; canonical `main` never contained the raw file and no object-database purge is claimed.
+The five post-Kp successor packages were frozen before target discovery and confronted on one genuinely prospective common target. Under the exact preregistered TGT-008 HURDAT2 protocol, all five were Holm-rejected by both calibration architectures. The result is canonical at `45c7f51cdc66ea5340f138eb77ffb31ae606b47a`.
 
-No primary G2 statistic, CAL1/CAL2 replicate, Holm decision, candidate verdict, or family verdict has yet been computed.
+This refutes the **current five-package successor family at TGT-008**. It does not refute the formal DAG theorems and does not prove that every conceivable PGH formulation is impossible.
+
+The historical OP-0090 custody incident remains provenance feedback. OP-0092 established compliant canonical custody before the successful OP-0094 execution.
+
+## Hard stop
+
+```text
+SECOND_TARGET = NOT_OPENED
+NEW_DAG = NOT_INTRODUCED
+FAILED_CANDIDATE_REPLACEMENT = NO
+SCOPE_NARROWING = NO
+ROLE_REASSIGNMENT = NO
+GRAPH_REPAIR = NO
+POST_RESULT_SCIENTIFIC_ADJUDICATION = REQUIRED_SEPARATELY
+```
 
 ## Next boundary
 
-`PGH-OP-0094` is authorized to execute the exact already-preregistered five-candidate TGT-008 common-data test. It must use artifact `9721043553`, raw SHA-256 `1b9b0c7beed5b4505838658b1d30e159fc84330c60891a58cfcf43ae55c37202`, analysis commit `802d5bf7858b00d4df5a1e6b955b65d16455ae6d`, source SHA-256 `1b7fcd8e1958d5614a73cdb2226465bb41f355fbc2d7c3e6769b1f8f488682d4`, and master seed `f1a892274ed5782e7973cb19087cdb2ad5f03a21c840a9b6a75775a9b8f8ccd0`. No scientific choice may change.
+The scientifically appropriate next operation is `PGH1_POST_HURDAT2_FIVE_CANDIDATE_RESULT_ADJUDICATION`. It must adjudicate what this family-level failure teaches about the current successor architecture and project sequencing without using the result to manufacture a favorable replacement. It is **not authorized by this maintenance reconciliation**.
 
 ## Navigation state
 
 ```text
-LATEST_COMPLETED_OPERATION = POST_PGH1_HURDAT2_CUSTODY_REPAIR_NAVIGATION_RECONCILIATION
-REGISTRY_ID = PGH-OP-0093
-INDEXED_SCIENTIFIC_BASELINE = 3a21f9f075bb0858a3ab42c3a8c9b8e482fa163f
-NEXT_RECOMMENDED_OPERATION = PGH1_HURDAT2_FIVE_CANDIDATE_COMMON_DATA_EXECUTION
-NEXT_OPERATION_AUTHORIZED = YES
-REGISTRY_ID_NEXT = PGH-OP-0094
+LATEST_COMPLETED_OPERATION = POST_PGH1_HURDAT2_FIVE_CANDIDATE_RESULT_NAVIGATION_RECONCILIATION
+REGISTRY_ID = PGH-OP-0095
+INDEXED_SCIENTIFIC_BASELINE = 45c7f51cdc66ea5340f138eb77ffb31ae606b47a
+NEXT_RECOMMENDED_OPERATION = PGH1_POST_HURDAT2_FIVE_CANDIDATE_RESULT_ADJUDICATION
+NEXT_OPERATION_AUTHORIZED = NO
 ```
 
 <!-- PGH_CURRENT_STATE_CAPSULE_BEGIN -->
 ```json
-{"capsule_schema_version":"0.1.0","project":"Physical Grammar Hypothesis","current_phase":"PGH-1_HURDAT2_FIVE_CANDIDATE_EXECUTION_READY","canonical_hypothesis":"HYPOTHESIS.md","active_candidate_grammar":null,"current_handoff":"handoffs/POST_PGH1_HURDAT2_CUSTODY_REPAIR_NAVIGATION_RECONCILIATION_HANDOFF_0_1_0.md","source_bound_status":"TGT_008_AND_PGH_OBJ_0049_FROZEN__CANONICAL_CUSTODY_REQUALIFIED__PRIMARY_ANALYSIS_UNRUN","fcp_relationship":"INDEPENDENT_NO_EFFECT","next_recommended_operation":"PGH1_HURDAT2_FIVE_CANDIDATE_COMMON_DATA_EXECUTION","next_operation_authorized":true,"open_question_count":8,"do_not_assume":["HISTORICAL_CUSTODY_INCIDENT_ERASED","PRIMARY_G2_HAS_RUN","CAL1_HAS_RUN","CAL2_HAS_RUN","HOLM_HAS_RUN","ANY_CANDIDATE_VERDICT_EXISTS","SURVIVAL_EQUALS_CONFIRMATION","R2B_HAS_PASSED"]}
+{"capsule_schema_version":"0.1.0","project":"Physical Grammar Hypothesis","current_phase":"PGH-1_POST_HURDAT2_FIVE_CANDIDATE_RESULT_BOUNDARY","canonical_hypothesis":"HYPOTHESIS.md","active_candidate_grammar":null,"current_handoff":"handoffs/POST_PGH1_HURDAT2_FIVE_CANDIDATE_RESULT_NAVIGATION_RECONCILIATION_HANDOFF_0_1_0.md","source_bound_status":"TGT_008_EXECUTED__CURRENT_FIVE_POST_KP_SUCCESSOR_PACKAGES_REFUTED__POST_RESULT_ADJUDICATION_PENDING","fcp_relationship":"INDEPENDENT_NO_EFFECT","next_recommended_operation":"PGH1_POST_HURDAT2_FIVE_CANDIDATE_RESULT_ADJUDICATION","next_operation_authorized":false,"open_question_count":8,"do_not_assume":["ALL_CONCEIVABLE_PGH_IS_REFUTED","FORMAL_DAG_THEOREMS_ARE_REFUTED","A_SECOND_TARGET_IS_AUTHORIZED","A_FAILED_CANDIDATE_MAY_BE_REPAIRED_IN_PLACE","A_NEW_DAG_IS_AUTHORIZED","R2B_HAS_PASSED"]}
 ```
 <!-- PGH_CURRENT_STATE_CAPSULE_END -->
 
