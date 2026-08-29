@@ -2,7 +2,7 @@
 
 > **Status:** Speculative foundational research — independent incubation
 >
-> **Current phase:** `PGH-0_GRAMMAR_GENERATED_EMPIRICAL_INTERFACE_CLOSURE`
+> **Current phase:** `PGH-0_EMPIRICAL_GENERATOR_INVARIANCE`
 >
 > **FCP relationship:** None at present; this repository has no canonical effect on FCP.
 
@@ -14,26 +14,24 @@ No physical grammar has been found and PGH novelty remains unresolved.
 
 ## Latest result
 
-PGH now has a formally viable route from a small law-free empirical contact seed to a larger generated context family:
+The empirical-seed question has narrowed to generator equivalence:
 
 ```text
-PGH-OBJ-0011 = GRAMMAR_GENERATED_EMPIRICAL_INTERFACE_CLOSURE_SCHEMA
-PGH-DER-0009 = LEAST_GRAMMAR_INTERFACE_CLOSURE
-PGH-FAIL-0009 = ARBITRARY_OR_RESPONSE_SENSITIVE_INTERFACE_CLOSURE
+PGH-DER-0010 = EMPIRICAL_GENERATOR_CLOSURE_EQUIVALENCE
+PGH-FAIL-0010 = UNIQUE_OR_MINIMAL_EMPIRICAL_SEED
 ```
 
-For a fixed grammar formation skeleton, response-independent extraction convention, and empirical seed, the empirical interface can be taken as the unique least grammar-generated closure. This eliminates the need for a separately listed complete probe set or independent extensional closure table at formal scope.
+Different law-free seeds that generate the same grammar-closed interface are interchangeable for all structure that factors through that closure. But minimum generators need not be unique or symmetry-related, and an inclusion-irredundant generator need not exist at all.
 
-But arbitrary closure operators and freely selected constructor families can encode any target interface. The result therefore does **not** establish physical completeness, physical privilege of the grammar, or uniqueness of the empirical seed.
+So PGH does not currently need one uniquely fundamental seed at interface-generation scope. The unresolved object is the generated closed empirical substructure itself.
 
 ## Residual program
 
 ```text
 R1 = PHYSICAL_IRRELEVANCE_SELECTOR
-R1_LAW_FREE_EMPIRICAL_CONTACT = FORMALLY_ADMISSIBLE
-R1_REPRESENTATION_ROBUSTNESS = FORMALLY_FEASIBLE_CONDITIONALLY
-R1_GRAMMAR_GENERATED_INTERFACE_CLOSURE = FORMALLY_FEASIBLE
-R1_SEED_PRIVILEGE = UNESTABLISHED
+R1_GENERATOR_EQUIVALENCE = QUALIFIED_AT_CLOSURE_SCOPE
+R1_UNIQUE_EMPIRICAL_SEED_REQUIRED = NO_AT_CLOSURE_SCOPE
+R1_EMPIRICAL_SUBSTRUCTURE_PRIVILEGE = UNESTABLISHED
 R1_PHYSICAL_COMPLETENESS = UNESTABLISHED
 R1_SOLVED = NO
 
@@ -44,11 +42,11 @@ R2_STATUS = DEFERRED
 ## Next operation
 
 ```text
-NEXT_RECOMMENDED_OPERATION = PGH0_EMPIRICAL_GENERATOR_INVARIANCE_AND_SEED_MINIMALITY_GATE
+NEXT_RECOMMENDED_OPERATION = PGH0_EMPIRICAL_SUBSTRUCTURE_PRIVILEGE_GATE
 NEXT_OPERATION_AUTHORIZED = YES
 ```
 
-The next gate asks whether different law-free empirical seeds that generate the same grammar-closed interface are merely alternative generators of one interface, and whether minimal generators exist or are unique.
+The next gate tests whether any intrinsic, response-independent property of generated closed empirical substructures can select a physically privileged interface without simply relocating the arbitrariness.
 
 ## Authority
 

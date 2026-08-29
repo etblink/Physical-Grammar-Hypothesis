@@ -4,19 +4,19 @@
   "canonical_hypothesis": "HYPOTHESIS.md",
   "canonical_state": "CURRENT_STATE.md",
   "counts": {
-    "open_question_records": 21,
+    "open_question_records": 22,
     "open_questions": 8,
-    "operation_records": 23,
-    "research_object_records": 31
+    "operation_records": 25,
+    "research_object_records": 33
   },
-  "current_handoff": "handoffs/POST_PGH0_GRAMMAR_GENERATED_EMPIRICAL_INTERFACE_CLOSURE_RECONCILIATION_HANDOFF_0_1_0.md",
-  "current_phase": "PGH-0_GRAMMAR_GENERATED_EMPIRICAL_INTERFACE_CLOSURE",
+  "current_handoff": "handoffs/POST_PGH0_EMPIRICAL_GENERATOR_INVARIANCE_RECONCILIATION_HANDOFF_0_1_0.md",
+  "current_phase": "PGH-0_EMPIRICAL_GENERATOR_INVARIANCE",
   "fcp_relationship": "INDEPENDENT_INCUBATION",
-  "indexed_research_baseline_commit": "9d45ec03ac83da8d362d8ed891fff85de24d24e6",
-  "indexed_research_baseline_tree": "dbdc20fe03954839f5e1ba2883959e0042f291a7",
-  "latest_completed_operation": "POST_PGH0_GRAMMAR_GENERATED_EMPIRICAL_INTERFACE_CLOSURE_RECONCILIATION",
+  "indexed_research_baseline_commit": "a96c9ecb6013d877aa3674b8044d427156c6a529",
+  "indexed_research_baseline_tree": "4a848d7ba1e92f61d2f292364dbb1a7f10ee91fb",
+  "latest_completed_operation": "POST_PGH0_EMPIRICAL_GENERATOR_INVARIANCE_RECONCILIATION",
   "next_operation_authorized": true,
-  "next_recommended_operation": "PGH0_EMPIRICAL_GENERATOR_INVARIANCE_AND_SEED_MINIMALITY_GATE",
+  "next_recommended_operation": "PGH0_EMPIRICAL_SUBSTRUCTURE_PRIVILEGE_GATE",
   "schema_version": "0.1.0",
   "source_bound_status": "REPRESENTATIVE_LANDSCAPE_FROZEN"
 }

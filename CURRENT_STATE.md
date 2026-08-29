@@ -5,7 +5,7 @@
 ```text
 PROJECT = Physical Grammar Hypothesis
 PROJECT_CLASS = SPECULATIVE_FOUNDATIONAL_RESEARCH
-CURRENT_PHASE = PGH-0_GRAMMAR_GENERATED_EMPIRICAL_INTERFACE_CLOSURE
+CURRENT_PHASE = PGH-0_EMPIRICAL_GENERATOR_INVARIANCE
 FCP_RELATIONSHIP = INDEPENDENT_INCUBATION
 FCP_FRAMEWORK_STATUS = NONE
 CANONICAL_EFFECT_ON_FCP = NONE
@@ -29,37 +29,37 @@ PGH_NOVELTY = UNRESOLVED
 ## Latest canonical scientific result
 
 ```text
-PGH0_GRAMMAR_GENERATED_EMPIRICAL_INTERFACE_CLOSURE_CHALLENGE = CANONICALLY_COMPLETE
-SCIENTIFIC_BASELINE_COMMIT = 9d45ec03ac83da8d362d8ed891fff85de24d24e6
-SCIENTIFIC_BASELINE_TREE = dbdc20fe03954839f5e1ba2883959e0042f291a7
-OUTCOME = C__GRAMMAR_EXTRACTED_LEAST_CLOSURE_REMOVES_AN_INDEPENDENT_INTERFACE_ORACLE_BUT_PHYSICAL_GRAMMAR_SEED_AND_COMPLETENESS_REMAIN_UNESTABLISHED
+PGH0_EMPIRICAL_GENERATOR_INVARIANCE_AND_SEED_MINIMALITY_GATE = CANONICALLY_COMPLETE
+SCIENTIFIC_BASELINE_COMMIT = a96c9ecb6013d877aa3674b8044d427156c6a529
+SCIENTIFIC_BASELINE_TREE = 4a848d7ba1e92f61d2f292364dbb1a7f10ee91fb
+OUTCOME = B__EQUAL_CLOSURE_SEEDS_ARE_EQUIVALENT_ONLY_FOR_CLOSURE_FACTORING_STRUCTURE_AND_MINIMAL_GENERATORS_ARE_NOT_GENERALLY_UNIQUE_OR_GUARANTEED
 ```
-
-The qualified closure architecture is
-
-\[
-C_G^*(C_0)=Cl_{E(G)}(C_0),
-\]
-
-where `C0` is a law-free empirical seed and `E(G)` is a response-independent family of context constructors mechanically inherited from the candidate grammar formation skeleton.
 
 ## New formal result
 
 ```text
-PGH-DER-0009 = LEAST_GRAMMAR_INTERFACE_CLOSURE
+PGH-DER-0010 = EMPIRICAL_GENERATOR_CLOSURE_EQUIVALENCE
 STATUS = QUALIFIED_FORMAL
 ```
 
-A unique least constructor closure exists. A finite seed can generate a strictly larger, even unbounded, formal context family, and the same closure can support incompatible response evaluators.
+For a fixed grammar-generated closure `Cl`, seeds satisfy
+
+\[
+A\sim_{Cl}B \iff Cl(A)=Cl(B).
+\]
+
+Any downstream quantity that factors through the generated closure is invariant under replacement of one seed by another seed in the same generator-equivalence class.
+
+This does not establish full physical equivalence unless the relevant physical semantics itself factors through closure.
 
 ## New preserved failure
 
 ```text
-PGH-FAIL-0009 = ARBITRARY_OR_RESPONSE_SENSITIVE_INTERFACE_CLOSURE
+PGH-FAIL-0010 = UNIQUE_OR_MINIMAL_EMPIRICAL_SEED
 STATUS = FAILED_PRESERVED
 ```
 
-An arbitrary closure operator or freely selected constructor family can encode any desired target interface. Response-sensitive closure rules smuggle the response law or physical possibility relation into interface generation.
+Minimum generators can be nonunique and need not be related by grammar automorphisms. A finitary unary closure can have no inclusion-irredundant full generating seed at all. Minimum cardinality, irredundancy, or target-defined optimization therefore cannot generally select one physically privileged empirical seed.
 
 ## R1 state
 
@@ -69,22 +69,24 @@ R1_LAW_FREE_EMPIRICAL_CONTACT = FORMALLY_ADMISSIBLE
 R1_RESPONSE_LAW_SEPARATION = PASS
 R1_REPRESENTATION_ROBUSTNESS = PASS_CONDITIONALLY
 R1_GRAMMAR_GENERATED_INTERFACE_CLOSURE = FORMALLY_FEASIBLE
-R1_SEPARATE_INTERFACE_ORACLE = NOT_REQUIRED_AT_FORMAL_SCOPE
-R1_GRAMMAR_PRIVILEGE = UNESTABLISHED
-R1_EMPIRICAL_SEED_PRIVILEGE = UNESTABLISHED
+R1_GENERATOR_EQUIVALENCE = QUALIFIED_AT_CLOSURE_SCOPE
+R1_UNIQUE_EMPIRICAL_SEED_REQUIRED = NO_AT_CLOSURE_SCOPE
+R1_SEED_MINIMALITY_SELECTION = FAILED_AS_GENERAL_PRINCIPLE
+R1_PHYSICAL_SEMANTIC_FACTORIZATION = UNESTABLISHED
+R1_EMPIRICAL_SUBSTRUCTURE_PRIVILEGE = UNESTABLISHED
 R1_PHYSICAL_COMPLETENESS = UNESTABLISHED
 R1_SOLVED = NO
 ```
 
-`PGH-Q-0020` is resolved at formal interface-generation scope.
+`PGH-Q-0021` is resolved at closure-factorization/generator scope.
 
 The immediate live burden is now:
 
 ```text
-PGH-Q-0021 = OPEN
+PGH-Q-0022 = OPEN
 ```
 
-> If two law-free empirical seeds generate the same grammar-closed empirical interface, are they equivalent as presentations of that interface, and can seed choice be reduced to generator choice without presupposing the target physical closure?
+> Does any intrinsic, non-result-directed property of grammar-generated closed empirical substructures select a physically privileged empirical interface, rather than merely relocating arbitrariness from seeds to substructures?
 
 `PGH-Q-0016` remains the encompassing physical-irrelevance burden.
 
@@ -109,33 +111,31 @@ SOURCE_EXPANSION_JUSTIFIED = NO
 ## Accounting
 
 ```text
-OPERATION_RECORD_COUNT = 23
-RESEARCH_OBJECT_RECORD_COUNT = 31
-QUESTION_RECORD_COUNT = 21
+OPERATION_RECORD_COUNT = 25
+RESEARCH_OBJECT_RECORD_COUNT = 33
+QUESTION_RECORD_COUNT = 22
 OPEN_QUESTION_COUNT = 8
-QUALIFIED_FORMAL_DERIVATION_COUNT = 9
-FAILED_DERIVATION_COUNT = 9
+QUALIFIED_FORMAL_DERIVATION_COUNT = 10
+FAILED_DERIVATION_COUNT = 10
 PHYSICAL_LAW_DERIVED = NO
 EMPIRICAL_PREDICTION = NONE
 FCP_EFFECT = NONE
 ```
 
-Navigation identity note:
+Registry gap preserved:
 
 ```text
 PGH-OP-0021 = UNUSED
 ```
 
-The preregistered scientific operation fixed `PGH-OP-0022`; the earlier derived navigation had provisionally assigned `0021`. Because canonical Markdown governs and structured navigation is derived, the registry is corrected to the preregistered identity rather than giving one operation two IDs.
-
 ## Next authorized operation
 
 ```text
-NEXT_RECOMMENDED_OPERATION = PGH0_EMPIRICAL_GENERATOR_INVARIANCE_AND_SEED_MINIMALITY_GATE
+NEXT_RECOMMENDED_OPERATION = PGH0_EMPIRICAL_SUBSTRUCTURE_PRIVILEGE_GATE
 NEXT_OPERATION_AUTHORIZED = YES
 ```
 
-The gate will test equal-closure seed equivalence, irredundant/minimal generators, uniqueness up to grammar automorphism, and whether generator choice can be demoted to presentation without smuggling a target interface.
+The gate will test intrinsic selectors on generated closed empirical substructures, including smallest nontrivial, largest reachable, automorphism-invariant, canonical/fixed-point, intersection/union, and explicit multi-solution underdetermination controls. It may not use desired record responses or empirical success as a selector.
 
 ## Structured current-state capsule
 
@@ -144,21 +144,21 @@ The gate will test equal-closure seed equivalence, irredundant/minimal generator
 {
   "capsule_schema_version": "0.1.0",
   "project": "Physical Grammar Hypothesis",
-  "current_phase": "PGH-0_GRAMMAR_GENERATED_EMPIRICAL_INTERFACE_CLOSURE",
+  "current_phase": "PGH-0_EMPIRICAL_GENERATOR_INVARIANCE",
   "canonical_hypothesis": "HYPOTHESIS.md",
   "active_candidate_grammar": "PGH-GRAM-0002",
-  "current_handoff": "handoffs/POST_PGH0_GRAMMAR_GENERATED_EMPIRICAL_INTERFACE_CLOSURE_RECONCILIATION_HANDOFF_0_1_0.md",
+  "current_handoff": "handoffs/POST_PGH0_EMPIRICAL_GENERATOR_INVARIANCE_RECONCILIATION_HANDOFF_0_1_0.md",
   "source_bound_status": "REPRESENTATIVE_LANDSCAPE_FROZEN",
   "fcp_relationship": "INDEPENDENT_INCUBATION",
-  "next_recommended_operation": "PGH0_EMPIRICAL_GENERATOR_INVARIANCE_AND_SEED_MINIMALITY_GATE",
+  "next_recommended_operation": "PGH0_EMPIRICAL_SUBSTRUCTURE_PRIVILEGE_GATE",
   "next_operation_authorized": true,
   "open_question_count": 8,
   "do_not_assume": [
-    "GRAMMAR_GENERATED_CLOSURE_IS_PHYSICALLY_COMPLETE",
-    "PGH_GRAM_0002_IS_PHYSICALLY_PRIVILEGED",
-    "GRAMMAR_EXTRACTION_RULE_IS_UNIQUE",
-    "EMPIRICAL_SEED_IS_UNIQUE_OR_FUNDAMENTAL",
-    "EQUAL_GENERATED_CLOSURE_MAKES_SEEDS_PHYSICALLY_EQUIVALENT",
+    "EQUAL_GENERATED_CLOSURE_IS_FULL_PHYSICAL_EQUIVALENCE",
+    "PHYSICAL_SEMANTICS_FACTORS_THROUGH_CLOSURE",
+    "MINIMUM_EMPIRICAL_SEED_IS_UNIQUE",
+    "IRREDUNDANT_EMPIRICAL_SEED_EXISTS",
+    "EMPIRICAL_SUBSTRUCTURE_IS_PHYSICALLY_PRIVILEGED",
     "R1_IS_SOLVED",
     "R2_HAS_STARTED",
     "PGH_SR_IS_NOVEL",
