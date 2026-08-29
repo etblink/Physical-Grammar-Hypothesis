@@ -5,7 +5,7 @@
 ```text
 PROJECT = Physical Grammar Hypothesis
 PROJECT_CLASS = SPECULATIVE_FOUNDATIONAL_RESEARCH
-CURRENT_PHASE = PGH-0_EMPIRICAL_INTERFACE_PRIMITIVE_FEASIBILITY
+CURRENT_PHASE = PGH-0_LAW_FREE_EMPIRICAL_CONTACT
 FCP_RELATIONSHIP = INDEPENDENT_INCUBATION
 FCP_FRAMEWORK_STATUS = NONE
 CANONICAL_EFFECT_ON_FCP = NONE
@@ -20,6 +20,7 @@ ACTIVE_CANDIDATE_GRAMMAR = PGH-GRAM-0002
 WORKING_SCIENTIFIC_TARGET = PGH-OBJ-0008
 PGH-OBJ-0008 = RESIDUAL_STRONG_PHYSICAL_GRAMMAR_HYPOTHESIS
 PGH-OBJ-0009 = CONTEXT_RECORD_SEMANTIC_ANCHOR_SCHEMA
+PGH-OBJ-0010 = LAW_FREE_EMPIRICAL_CONTACT_SIGNATURE
 PHYSICAL_GRAMMAR_FOUND = NO
 PGH_NOVELTY = UNRESOLVED
 ```
@@ -27,71 +28,50 @@ PGH_NOVELTY = UNRESOLVED
 ## Latest canonical scientific result
 
 ```text
-PGH0_CONTEXT_RECORD_ANCHOR_ROBUSTNESS_GATE = CANONICALLY_COMPLETE
-SCIENTIFIC_BASELINE_COMMIT = 7c03766220faafbd8bd603d8c79e2bbde4569068
-SCIENTIFIC_BASELINE_TREE = 625f7821d2b34439f7abe914c0a9d8c0e9c3f58f
-OUTCOME = B__COMMUTING_INTERFACE_TRANSLATIONS_YIELD_FORMAL_ROBUSTNESS_BUT_DO_NOT_SELECT_A_UNIQUE_PHYSICAL_ANCHOR
+PGH0_EMPIRICAL_INTERFACE_PRIMITIVE_FEASIBILITY_GATE = CANONICALLY_COMPLETE
+SCIENTIFIC_BASELINE_COMMIT = 463b5981536d121d901ee6f09cc97a6266ff2c8e
+SCIENTIFIC_BASELINE_TREE = 70d7e6387d8ab5b7229950ee5d376374de97cfe6
+OUTCOME = B__LAW_FREE_EMPIRICAL_CONTACT_SIGNATURE_IS_FORMALLY_ADMISSIBLE_BUT_DOES_NOT_SOLVE_PHYSICAL_PRIVILEGE_OR_COMPLETENESS
 ```
 
-The context/record anchor
+The qualified provisional signature is
 
 \[
-A=(C,R,\rho)
+\Sigma_E=(C,R,\iota_C,\rho),
 \]
 
-can be representation robust on an explicitly declared shared interface when evaluator translation and record interpretation commute.
-
-## New formal result
-
-```text
-PGH-DER-0008 = ANCHOR_TRANSLATION_COMMUTATION
-STATUS = QUALIFIED_CONDITIONAL_FORMAL
-```
-
-For translation maps `tau_X`, `tau_C`, and `tau_T`, if
-
-\[
-\tau_T(e_1(c,x))=e_2(\tau_C(c),\tau_X(x))
-\]
-
-and
-
-\[
-\rho_2(\tau_T(t))=\rho_1(t),
-\]
-
-then record profiles commute on the translated interface:
-
-\[
-O_2(\tau_Xx)(\tau_Cc)=O_1(x)(c).
-\]
+where empirical probe/interface tokens and record labels may be semantically designated without primitive-supplying a response relation, response distribution, or complete physical possibility set.
 
 ## New preserved failure
 
 ```text
-PGH-FAIL-0007 = REPRESENTATION_ROBUSTNESS_AS_PHYSICAL_PRIVILEGE
+PGH-FAIL-0008 = EMPIRICAL_INTERFACE_AS_RESPONSE_LAW
 STATUS = FAILED_PRESERVED
 ```
 
-Fine and coarse record maps can both be representation robust while inducing different distinguishability partitions. Therefore representation robustness is a consistency property, not a physical-selection principle.
+Primitive allowed-response relations, probability/weight kernels, and complete possible/impossible task sets perform substantive physical selection and cannot count as mere semantic contact under strong PGH.
 
 ## R1 state
 
 ```text
 R1_PURELY_FORMAL_ROUTE = FAILED_AT_CURRENT_SCOPE
-R1_MINIMAL_SEMANTIC_INTERFACE = FORMALLY_FEASIBLE
-R1_REPRESENTATION_ROBUSTNESS = FORMALLY_FEASIBLE_CONDITIONALLY
-R1_PHYSICAL_PRIVILEGE = UNESTABLISHED
+R1_LAW_FREE_EMPIRICAL_CONTACT = FORMALLY_ADMISSIBLE
+R1_RESPONSE_LAW_SEPARATION = PASS
+R1_REPRESENTATION_ROBUSTNESS = PASS_CONDITIONALLY
+R1_INTERFACE_PRIVILEGE = UNESTABLISHED
+R1_INTERFACE_COMPLETENESS = UNESTABLISHED
 R1_SOLVED = NO
 ```
 
-`PGH-Q-0018` is resolved at formal scope. The immediate live burden is now:
+`PGH-Q-0019` is resolved at formal admissibility scope.
+
+The immediate live burden is now:
 
 ```text
-PGH-Q-0019 = OPEN
+PGH-Q-0020 = OPEN
 ```
 
-> Can a minimal empirical contact interface be admitted as primitive semantic contact without encoding the response law, the allowed possibility set, or an independent physical selection rule?
+> Can a small law-free empirical contact seed be expanded by grammar-generated admissible composition into a nontrivial probe/context closure without externally listing the complete physical probe universe or encoding the target response law in the closure rule?
 
 `PGH-Q-0016` remains the encompassing physical-irrelevance burden.
 
@@ -103,7 +83,7 @@ R2_LAW_EXHAUSTION = DEFERRED
 R2_STARTED = NO
 ```
 
-R2 remains deferred until the empirical-interface primitive question is resolved or a separately justified route is established.
+R2 remains deferred.
 
 ## Source state
 
@@ -113,30 +93,28 @@ SPECIFIC_SOURCE_GAP = NONE_AT_CURRENT_BOUNDARY
 SOURCE_EXPANSION_JUSTIFIED = NO
 ```
 
-The next gate is conceptual/admissibility-first. It must not expand the corpus unless it identifies a precise blocking source deficiency.
-
 ## Accounting
 
 ```text
-OPERATION_RECORD_COUNT = 19
-RESEARCH_OBJECT_RECORD_COUNT = 26
-QUESTION_RECORD_COUNT = 19
+OPERATION_RECORD_COUNT = 21
+RESEARCH_OBJECT_RECORD_COUNT = 28
+QUESTION_RECORD_COUNT = 20
 OPEN_QUESTION_COUNT = 8
 QUALIFIED_FORMAL_DERIVATION_COUNT = 8
-FAILED_DERIVATION_COUNT = 7
+FAILED_DERIVATION_COUNT = 8
 PHYSICAL_LAW_DERIVED = NO
 EMPIRICAL_PREDICTION = NONE
 FCP_EFFECT = NONE
 ```
 
-## Next authorized operation
+## Next recommended operation
 
 ```text
-NEXT_RECOMMENDED_OPERATION = PGH0_EMPIRICAL_INTERFACE_PRIMITIVE_FEASIBILITY_GATE
-NEXT_OPERATION_AUTHORIZED = YES
+NEXT_RECOMMENDED_OPERATION = PGH0_GRAMMAR_GENERATED_EMPIRICAL_INTERFACE_CLOSURE_CHALLENGE
+NEXT_OPERATION_AUTHORIZED = NO
 ```
 
-The gate must distinguish primitive empirical **contact** from primitive empirical **response law**. Any proposed interface that already specifies the response table, allowed physical possibilities, dynamical law, or target equivalence must fail the no-smuggling test.
+The next challenge should test whether grammar can generate a larger admissible empirical-interface closure from a small law-free seed, with the closure rule itself subjected to universal-encoding and response-law-smuggling controls.
 
 ## Structured current-state capsule
 
@@ -145,21 +123,21 @@ The gate must distinguish primitive empirical **contact** from primitive empiric
 {
   "capsule_schema_version": "0.1.0",
   "project": "Physical Grammar Hypothesis",
-  "current_phase": "PGH-0_EMPIRICAL_INTERFACE_PRIMITIVE_FEASIBILITY",
+  "current_phase": "PGH-0_LAW_FREE_EMPIRICAL_CONTACT",
   "canonical_hypothesis": "HYPOTHESIS.md",
   "active_candidate_grammar": "PGH-GRAM-0002",
-  "current_handoff": "handoffs/POST_PGH0_CONTEXT_RECORD_ANCHOR_ROBUSTNESS_RECONCILIATION_HANDOFF_0_1_0.md",
+  "current_handoff": "handoffs/POST_PGH0_EMPIRICAL_INTERFACE_PRIMITIVE_RECONCILIATION_HANDOFF_0_1_0.md",
   "source_bound_status": "REPRESENTATIVE_LANDSCAPE_FROZEN",
   "fcp_relationship": "INDEPENDENT_INCUBATION",
-  "next_recommended_operation": "PGH0_EMPIRICAL_INTERFACE_PRIMITIVE_FEASIBILITY_GATE",
-  "next_operation_authorized": true,
+  "next_recommended_operation": "PGH0_GRAMMAR_GENERATED_EMPIRICAL_INTERFACE_CLOSURE_CHALLENGE",
+  "next_operation_authorized": false,
   "open_question_count": 8,
   "do_not_assume": [
-    "CONTEXT_RECORD_ANCHOR_IS_PHYSICALLY_PRIVILEGED",
+    "LAW_FREE_CONTACT_SIGNATURE_IS_PHYSICALLY_FUNDAMENTAL",
+    "DECLARED_EMPIRICAL_INTERFACE_IS_COMPLETE",
     "REPRESENTATION_ROBUSTNESS_SELECTS_UNIQUE_ANCHOR",
     "RECORD_EQUIVALENCE_IS_FULL_PHYSICAL_IDENTITY",
-    "SHARED_INTERFACE_IS_COMPLETE",
-    "EMPIRICAL_CONTACT_CAN_BE_PRIMITIVE_WITHOUT_TESTING",
+    "GRAMMAR_GENERATED_INTERFACE_CLOSURE_IS_POSSIBLE",
     "R1_IS_SOLVED",
     "R2_HAS_STARTED",
     "PGH_SR_IS_NOVEL",

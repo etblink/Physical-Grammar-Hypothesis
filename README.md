@@ -2,7 +2,7 @@
 
 > **Status:** Speculative foundational research — independent incubation
 >
-> **Current phase:** `PGH-0_EMPIRICAL_INTERFACE_PRIMITIVE_FEASIBILITY`
+> **Current phase:** `PGH-0_LAW_FREE_EMPIRICAL_CONTACT`
 >
 > **FCP relationship:** None at present; this repository has no canonical effect on FCP.
 
@@ -14,31 +14,25 @@ No physical grammar has been found and PGH novelty remains unresolved.
 
 ## Latest result
 
-The context/record semantic anchor is now formally representation robust under explicit commuting translation conditions:
+PGH now has a formally admissible distinction between empirical **contact/reference** and empirical **response law**:
 
 ```text
-PGH-OBJ-0009 = CONTEXT_RECORD_SEMANTIC_ANCHOR_SCHEMA
-PGH-DER-0008 = ANCHOR_TRANSLATION_COMMUTATION
-PGH-FAIL-0007 = REPRESENTATION_ROBUSTNESS_AS_PHYSICAL_PRIVILEGE
+PGH-OBJ-0010 = LAW_FREE_EMPIRICAL_CONTACT_SIGNATURE
+PGH-FAIL-0008 = EMPIRICAL_INTERFACE_AS_RESPONSE_LAW
 ```
 
-If evaluator translation and record interpretation commute, record profiles commute on the declared shared interface. But fine and coarse record maps can both satisfy representation robustness while inducing different distinguishability partitions.
+A semantic signature may designate formal contexts as empirical probe/interface tokens and designated terminals as record labels while remaining compatible with mutually incompatible response laws.
 
-Therefore:
-
-```text
-REPRESENTATION_ROBUSTNESS = FORMALLY_AVAILABLE
-PHYSICAL_PRIVILEGE_FROM_ROBUSTNESS = NO
-R1_SOLVED = NO
-```
+But primitive allowed-response relations, probability kernels, or complete physical possibility/task sets already perform substantive physical selection and are therefore rejected as mere semantics under strong PGH.
 
 ## Residual program
 
 ```text
 R1 = PHYSICAL_IRRELEVANCE_SELECTOR
-R1_MINIMAL_SEMANTIC_INTERFACE = FORMALLY_FEASIBLE
+R1_LAW_FREE_EMPIRICAL_CONTACT = FORMALLY_ADMISSIBLE
 R1_REPRESENTATION_ROBUSTNESS = FORMALLY_FEASIBLE_CONDITIONALLY
-R1_PHYSICAL_PRIVILEGE = UNESTABLISHED
+R1_INTERFACE_COMPLETENESS = UNESTABLISHED
+R1_SOLVED = NO
 
 R2 = LAW_EXHAUSTION
 R2_STATUS = DEFERRED
@@ -47,13 +41,11 @@ R2_STATUS = DEFERRED
 ## Next operation
 
 ```text
-NEXT_RECOMMENDED_OPERATION = PGH0_EMPIRICAL_INTERFACE_PRIMITIVE_FEASIBILITY_GATE
-NEXT_OPERATION_AUTHORIZED = YES
+NEXT_RECOMMENDED_OPERATION = PGH0_GRAMMAR_GENERATED_EMPIRICAL_INTERFACE_CLOSURE_CHALLENGE
+NEXT_OPERATION_AUTHORIZED = NO
 ```
 
-The next gate asks whether minimal empirical contact—records, probes, interventions, or correlations—may be admitted as primitive semantic contact while leaving the substantive response law and physical possibility selection to the grammar.
-
-Any interface that already contains the response table or an independent physical law fails.
+The next challenge will ask whether a small law-free empirical seed can be expanded by grammar into a nontrivial probe/context closure, avoiding the need to primitive-list the complete physical probe universe.
 
 ## Authority
 
