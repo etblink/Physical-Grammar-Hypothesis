@@ -3,11 +3,11 @@
 <!-- PGH_DERIVED_CURRENT_STATUS_BEGIN -->
 ## Current scientific status
 
-Five post-Kp successor packages remain admission-qualified and physically distinct. Their common-target empirical protocol is now frozen: one genuinely new prospectively discovered target must confront all five, with Holm familywise correction and two independent calibration architectures. Previously discovered pre-Kp target opportunities are quarantined from first positive successor credit.
+Five post-Kp successor packages remain admission-qualified. Their common target is now prospectively frozen as `TGT-008`: Atlantic NHC HURDAT2 native system status, standard six-hour synoptic records, complete years 1988–2025. No target values have been accessed.
 
 Current derived state: [`CURRENT_STATE.md`](CURRENT_STATE.md).
 
-Next authorized science: `PGH1_POST_KP_COMMON_TARGET_MULTI_CANDIDATE_TARGET_DISCOVERY_AND_FREEZE`.
+Next authorized science: `PGH1_POST_KP_HURDAT2_FIVE_CANDIDATE_ANALYSIS_AND_CUSTODY_PREREGISTRATION_GATE`.
 <!-- PGH_DERIVED_CURRENT_STATUS_END -->
 
 
