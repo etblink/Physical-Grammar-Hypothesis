@@ -379,6 +379,14 @@ static bool self_test(){
     std::array<std::string,12> tm={"0000","0600","1200","1800","0000","0600","1200","1800","0000","0600","0000","0600"};
     for(int i=0;i<12;++i) ss<<dt[i]<<", "<<tm[i]<<", , "<<st[i]<<", 0, 0N, 0W, 0, 0, 0,\n";
     std::istringstream si(ss.str());auto p=parse_hurdat(si);if(p.triples.size()!=3||p.audit.unrecognized_status_breaks!=1||p.audit.continuity_breaks<1)return false;
+    std::ostringstream leapss; leapss << "AL022020, LEAP, 6,\n";
+    std::array<std::string,6> ldate={"20200228","20200229","20200229","20200229","20200229","20200301"};
+    std::array<std::string,6> ltime={"1800","0000","0600","1200","1800","0000"};
+    for(int i=0;i<6;++i) leapss<<ldate[i]<<", "<<ltime[i]<<", , TD, 0, 0N, 0W, 0, 0, 0,\n";
+    std::istringstream leapi(leapss.str()); auto lp=parse_hurdat(leapi); if(lp.triples.size()!=2||lp.audit.continuity_breaks!=0)return false;
+    BigUInt bp=BigUInt::mul(BigUInt(std::numeric_limits<uint64_t>::max()),BigUInt(std::numeric_limits<uint64_t>::max()));
+    if(bp.w!=std::vector<uint32_t>({1U,0U,0xfffffffeU,0xffffffffU}))return false;
+    BigUInt bd; bd.w={123U,456U,16U}; Xoshiro ug=stream_from_master(m,2,5,17); for(int i=0;i<256;++i)if(BigUInt::cmp(uniform_big(bd,ug),bd)>=0)return false;
     std::vector<Triple> z;for(int a=0;a<2;++a)for(int c=0;c<2;++c)for(int r=0;r<10;++r)z.push_back(Triple{(uint8_t)a,0,(uint8_t)c});if(std::fabs(g2_uncond(z,0,2))>1e-10L)return false;
     std::vector<Triple> dep;for(int a=0;a<2;++a)for(int r=0;r<20;++r)dep.push_back(Triple{(uint8_t)a,0,(uint8_t)a});if(!(g2_uncond(dep,0,2)>1.0L))return false;
     std::vector<Triple> syn;for(int a=0;a<3;++a)for(int b=0;b<3;++b)for(int c=0;c<3;++c)for(int r=0;r<1+a+b+c;++r)syn.push_back(Triple{(uint8_t)a,(uint8_t)b,(uint8_t)c});auto cc=make_counts(syn);
