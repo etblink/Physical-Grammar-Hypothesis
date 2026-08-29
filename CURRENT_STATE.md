@@ -5,7 +5,7 @@
 ```text
 PROJECT = Physical Grammar Hypothesis
 PROJECT_CLASS = SPECULATIVE_FOUNDATIONAL_RESEARCH
-CURRENT_PHASE = PGH-0_LAW_FREE_EMPIRICAL_CONTACT
+CURRENT_PHASE = PGH-0_GRAMMAR_GENERATED_EMPIRICAL_INTERFACE_CLOSURE
 FCP_RELATIONSHIP = INDEPENDENT_INCUBATION
 FCP_FRAMEWORK_STATUS = NONE
 CANONICAL_EFFECT_ON_FCP = NONE
@@ -21,6 +21,7 @@ WORKING_SCIENTIFIC_TARGET = PGH-OBJ-0008
 PGH-OBJ-0008 = RESIDUAL_STRONG_PHYSICAL_GRAMMAR_HYPOTHESIS
 PGH-OBJ-0009 = CONTEXT_RECORD_SEMANTIC_ANCHOR_SCHEMA
 PGH-OBJ-0010 = LAW_FREE_EMPIRICAL_CONTACT_SIGNATURE
+PGH-OBJ-0011 = GRAMMAR_GENERATED_EMPIRICAL_INTERFACE_CLOSURE_SCHEMA
 PHYSICAL_GRAMMAR_FOUND = NO
 PGH_NOVELTY = UNRESOLVED
 ```
@@ -28,28 +29,37 @@ PGH_NOVELTY = UNRESOLVED
 ## Latest canonical scientific result
 
 ```text
-PGH0_EMPIRICAL_INTERFACE_PRIMITIVE_FEASIBILITY_GATE = CANONICALLY_COMPLETE
-SCIENTIFIC_BASELINE_COMMIT = 463b5981536d121d901ee6f09cc97a6266ff2c8e
-SCIENTIFIC_BASELINE_TREE = 70d7e6387d8ab5b7229950ee5d376374de97cfe6
-OUTCOME = B__LAW_FREE_EMPIRICAL_CONTACT_SIGNATURE_IS_FORMALLY_ADMISSIBLE_BUT_DOES_NOT_SOLVE_PHYSICAL_PRIVILEGE_OR_COMPLETENESS
+PGH0_GRAMMAR_GENERATED_EMPIRICAL_INTERFACE_CLOSURE_CHALLENGE = CANONICALLY_COMPLETE
+SCIENTIFIC_BASELINE_COMMIT = 9d45ec03ac83da8d362d8ed891fff85de24d24e6
+SCIENTIFIC_BASELINE_TREE = dbdc20fe03954839f5e1ba2883959e0042f291a7
+OUTCOME = C__GRAMMAR_EXTRACTED_LEAST_CLOSURE_REMOVES_AN_INDEPENDENT_INTERFACE_ORACLE_BUT_PHYSICAL_GRAMMAR_SEED_AND_COMPLETENESS_REMAIN_UNESTABLISHED
 ```
 
-The qualified provisional signature is
+The qualified closure architecture is
 
 \[
-\Sigma_E=(C,R,\iota_C,\rho),
+C_G^*(C_0)=Cl_{E(G)}(C_0),
 \]
 
-where empirical probe/interface tokens and record labels may be semantically designated without primitive-supplying a response relation, response distribution, or complete physical possibility set.
+where `C0` is a law-free empirical seed and `E(G)` is a response-independent family of context constructors mechanically inherited from the candidate grammar formation skeleton.
+
+## New formal result
+
+```text
+PGH-DER-0009 = LEAST_GRAMMAR_INTERFACE_CLOSURE
+STATUS = QUALIFIED_FORMAL
+```
+
+A unique least constructor closure exists. A finite seed can generate a strictly larger, even unbounded, formal context family, and the same closure can support incompatible response evaluators.
 
 ## New preserved failure
 
 ```text
-PGH-FAIL-0008 = EMPIRICAL_INTERFACE_AS_RESPONSE_LAW
+PGH-FAIL-0009 = ARBITRARY_OR_RESPONSE_SENSITIVE_INTERFACE_CLOSURE
 STATUS = FAILED_PRESERVED
 ```
 
-Primitive allowed-response relations, probability/weight kernels, and complete possible/impossible task sets perform substantive physical selection and cannot count as mere semantic contact under strong PGH.
+An arbitrary closure operator or freely selected constructor family can encode any desired target interface. Response-sensitive closure rules smuggle the response law or physical possibility relation into interface generation.
 
 ## R1 state
 
@@ -58,20 +68,23 @@ R1_PURELY_FORMAL_ROUTE = FAILED_AT_CURRENT_SCOPE
 R1_LAW_FREE_EMPIRICAL_CONTACT = FORMALLY_ADMISSIBLE
 R1_RESPONSE_LAW_SEPARATION = PASS
 R1_REPRESENTATION_ROBUSTNESS = PASS_CONDITIONALLY
-R1_INTERFACE_PRIVILEGE = UNESTABLISHED
-R1_INTERFACE_COMPLETENESS = UNESTABLISHED
+R1_GRAMMAR_GENERATED_INTERFACE_CLOSURE = FORMALLY_FEASIBLE
+R1_SEPARATE_INTERFACE_ORACLE = NOT_REQUIRED_AT_FORMAL_SCOPE
+R1_GRAMMAR_PRIVILEGE = UNESTABLISHED
+R1_EMPIRICAL_SEED_PRIVILEGE = UNESTABLISHED
+R1_PHYSICAL_COMPLETENESS = UNESTABLISHED
 R1_SOLVED = NO
 ```
 
-`PGH-Q-0019` is resolved at formal admissibility scope.
+`PGH-Q-0020` is resolved at formal interface-generation scope.
 
 The immediate live burden is now:
 
 ```text
-PGH-Q-0020 = OPEN
+PGH-Q-0021 = OPEN
 ```
 
-> Can a small law-free empirical contact seed be expanded by grammar-generated admissible composition into a nontrivial probe/context closure without externally listing the complete physical probe universe or encoding the target response law in the closure rule?
+> If two law-free empirical seeds generate the same grammar-closed empirical interface, are they equivalent as presentations of that interface, and can seed choice be reduced to generator choice without presupposing the target physical closure?
 
 `PGH-Q-0016` remains the encompassing physical-irrelevance burden.
 
@@ -96,25 +109,33 @@ SOURCE_EXPANSION_JUSTIFIED = NO
 ## Accounting
 
 ```text
-OPERATION_RECORD_COUNT = 21
-RESEARCH_OBJECT_RECORD_COUNT = 28
-QUESTION_RECORD_COUNT = 20
+OPERATION_RECORD_COUNT = 23
+RESEARCH_OBJECT_RECORD_COUNT = 31
+QUESTION_RECORD_COUNT = 21
 OPEN_QUESTION_COUNT = 8
-QUALIFIED_FORMAL_DERIVATION_COUNT = 8
-FAILED_DERIVATION_COUNT = 8
+QUALIFIED_FORMAL_DERIVATION_COUNT = 9
+FAILED_DERIVATION_COUNT = 9
 PHYSICAL_LAW_DERIVED = NO
 EMPIRICAL_PREDICTION = NONE
 FCP_EFFECT = NONE
 ```
 
-## Next recommended operation
+Navigation identity note:
 
 ```text
-NEXT_RECOMMENDED_OPERATION = PGH0_GRAMMAR_GENERATED_EMPIRICAL_INTERFACE_CLOSURE_CHALLENGE
-NEXT_OPERATION_AUTHORIZED = NO
+PGH-OP-0021 = UNUSED
 ```
 
-The next challenge should test whether grammar can generate a larger admissible empirical-interface closure from a small law-free seed, with the closure rule itself subjected to universal-encoding and response-law-smuggling controls.
+The preregistered scientific operation fixed `PGH-OP-0022`; the earlier derived navigation had provisionally assigned `0021`. Because canonical Markdown governs and structured navigation is derived, the registry is corrected to the preregistered identity rather than giving one operation two IDs.
+
+## Next authorized operation
+
+```text
+NEXT_RECOMMENDED_OPERATION = PGH0_EMPIRICAL_GENERATOR_INVARIANCE_AND_SEED_MINIMALITY_GATE
+NEXT_OPERATION_AUTHORIZED = YES
+```
+
+The gate will test equal-closure seed equivalence, irredundant/minimal generators, uniqueness up to grammar automorphism, and whether generator choice can be demoted to presentation without smuggling a target interface.
 
 ## Structured current-state capsule
 
@@ -123,21 +144,21 @@ The next challenge should test whether grammar can generate a larger admissible 
 {
   "capsule_schema_version": "0.1.0",
   "project": "Physical Grammar Hypothesis",
-  "current_phase": "PGH-0_LAW_FREE_EMPIRICAL_CONTACT",
+  "current_phase": "PGH-0_GRAMMAR_GENERATED_EMPIRICAL_INTERFACE_CLOSURE",
   "canonical_hypothesis": "HYPOTHESIS.md",
   "active_candidate_grammar": "PGH-GRAM-0002",
-  "current_handoff": "handoffs/POST_PGH0_EMPIRICAL_INTERFACE_PRIMITIVE_RECONCILIATION_HANDOFF_0_1_0.md",
+  "current_handoff": "handoffs/POST_PGH0_GRAMMAR_GENERATED_EMPIRICAL_INTERFACE_CLOSURE_RECONCILIATION_HANDOFF_0_1_0.md",
   "source_bound_status": "REPRESENTATIVE_LANDSCAPE_FROZEN",
   "fcp_relationship": "INDEPENDENT_INCUBATION",
-  "next_recommended_operation": "PGH0_GRAMMAR_GENERATED_EMPIRICAL_INTERFACE_CLOSURE_CHALLENGE",
-  "next_operation_authorized": false,
+  "next_recommended_operation": "PGH0_EMPIRICAL_GENERATOR_INVARIANCE_AND_SEED_MINIMALITY_GATE",
+  "next_operation_authorized": true,
   "open_question_count": 8,
   "do_not_assume": [
-    "LAW_FREE_CONTACT_SIGNATURE_IS_PHYSICALLY_FUNDAMENTAL",
-    "DECLARED_EMPIRICAL_INTERFACE_IS_COMPLETE",
-    "REPRESENTATION_ROBUSTNESS_SELECTS_UNIQUE_ANCHOR",
-    "RECORD_EQUIVALENCE_IS_FULL_PHYSICAL_IDENTITY",
-    "GRAMMAR_GENERATED_INTERFACE_CLOSURE_IS_POSSIBLE",
+    "GRAMMAR_GENERATED_CLOSURE_IS_PHYSICALLY_COMPLETE",
+    "PGH_GRAM_0002_IS_PHYSICALLY_PRIVILEGED",
+    "GRAMMAR_EXTRACTION_RULE_IS_UNIQUE",
+    "EMPIRICAL_SEED_IS_UNIQUE_OR_FUNDAMENTAL",
+    "EQUAL_GENERATED_CLOSURE_MAKES_SEEDS_PHYSICALLY_EQUIVALENT",
     "R1_IS_SOLVED",
     "R2_HAS_STARTED",
     "PGH_SR_IS_NOVEL",
