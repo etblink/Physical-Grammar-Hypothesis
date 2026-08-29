@@ -3,11 +3,11 @@
 <!-- PGH_DERIVED_CURRENT_STATUS_BEGIN -->
 ## Current scientific status
 
-PGH-GRAM-0010, the fixed independent-source triangle doctrine, now qualifies as a nontrivial **formal** primitive grammar candidate. Its network/source restrictions generate real model-class exclusions, but no physical bridge or physical privilege has been established.
+PGH-GRAM-0010 remains a nontrivial formal primitive grammar candidate, and PGH-OBJ-0051 now qualifies as a conditional full-observed-model-class bridge. No complete physical candidate exists until scope and prospective instantiation are bound and A0-A9 are passed.
 
 Current derived state: [`CURRENT_STATE.md`](CURRENT_STATE.md).
 
-Next authorized science: `PGH1_R2B_NETWORK_SOURCE_INDEPENDENCE_PHYSICAL_BRIDGE_FEASIBILITY_GATE`.
+Next authorized science: `PGH1_POST_KP_NETWORK_SOURCE_SUCCESSOR_PACKAGE_COMPLETION_AND_ADMISSION_GATE`. Target discovery remains closed until that gate passes.
 <!-- PGH_DERIVED_CURRENT_STATUS_END -->
 
 
