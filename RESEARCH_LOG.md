@@ -179,6 +179,102 @@ Question:
 
 ---
 
+## 2026-08-28 — Repository scalability and navigation foundation
+
+### Reason
+
+Before beginning the first formal PGH derivation, the project established a lightweight scalable repository spine so future growth would not depend on chat context or later metadata reconstruction.
+
+Operation:
+
+```text
+PGH_REPOSITORY_SCALABILITY_AND_NAVIGATION_FOUNDATION
+```
+
+### Scientific boundary
+
+The operation was infrastructure-only:
+
+```text
+SCIENTIFIC_CHANGE = NONE
+HYPOTHESIS_CHANGE = NONE
+PRIMITIVE_ADJUDICATION = NONE
+NEW_DERIVATION = NONE
+NEW_SOURCE_SEARCH = NONE
+```
+
+The recommended `PGH0_MINIMAL_GRAMMAR_CHALLENGE` remained unstarted.
+
+### Authority hierarchy
+
+The project adopted:
+
+```text
+GIT = PROVENANCE_AUTHORITY
+CANONICAL_MARKDOWN_ARTIFACTS = RESEARCH_AND_GOVERNANCE_AUTHORITY
+STRUCTURED_NAVIGATION_LAYER = DERIVED_NAVIGATION_ONLY
+```
+
+### Stable IDs and registries
+
+The project established durable IDs for operations, questions, research objects, derivations, failures, and candidate grammars, together with:
+
+- an operation registry;
+- a research-object registry;
+- an open-question registry;
+- a derived canonical index;
+- a navigation schema and checker.
+
+The opening ten questions were assigned stable IDs `PGH-Q-0001` through `PGH-Q-0010`.
+
+The current D/C/I candidate shell was assigned:
+
+```text
+PGH-GRAM-0001
+```
+
+This identity does not establish minimality, coherence, or physical significance.
+
+### Assumption ancestry
+
+Future substantive derivations are required to expose primitive, rule, lemma, semantic, physical, and source dependencies.
+
+The purpose is to make hidden physical imports mechanically traceable.
+
+### Failure preservation
+
+Failure classes were standardized without scoring them.
+
+Historical failures must remain preserved rather than being silently repaired out of the record.
+
+### Handoff discipline
+
+Future major handoffs now require a machine-readable capsule containing a `do_not_assume` list.
+
+This is intended to protect successor instances from promoting analogies into established results.
+
+### Source boundary
+
+A reserved `sources/` area was created while preserving:
+
+```text
+SOURCE_BOUND_STATUS = NOT_YET_SOURCE_BOUND
+```
+
+No source search or literature admission occurred.
+
+### Result
+
+The repository is now prepared for larger-scale research without changing the PGH scientific state.
+
+The next recommended operation remains:
+
+```text
+PGH0_MINIMAL_GRAMMAR_CHALLENGE
+```
+
+---
+
 ## Log discipline for future entries
 
 Each substantive entry should identify, where applicable:

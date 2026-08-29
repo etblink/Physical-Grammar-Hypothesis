@@ -48,15 +48,83 @@ This repository follows a small set of strict research rules:
 7. **No premature physics claims.** Formal resemblance to gauge symmetry, conservation, locality, causal order, quantum theory, or other physics is not itself a derivation of those structures.
 8. **No premature FCP import.** Nothing in this repository alters FCP unless a later, separately justified process explicitly establishes a relationship.
 
+## Authority model
+
+PGH now uses a lightweight authority hierarchy designed to scale:
+
+```text
+GIT = PROVENANCE_AUTHORITY
+CANONICAL_MARKDOWN_ARTIFACTS = RESEARCH_AND_GOVERNANCE_AUTHORITY
+STRUCTURED_NAVIGATION_LAYER = DERIVED_NAVIGATION_ONLY
+```
+
+If navigation metadata conflicts with a canonical research artifact, the canonical artifact wins.
+
 ## Repository map
 
-- [`governance/PGH_REPOSITORY_OPENING_CHARTER_0_1_0.md`](governance/PGH_REPOSITORY_OPENING_CHARTER_0_1_0.md) — project scope, epistemic boundaries, provenance discipline, and phase structure.
-- [`CURRENT_STATE.md`](CURRENT_STATE.md) — exact present research state and next recommended test.
-- [`HYPOTHESIS.md`](HYPOTHESIS.md) — weak, strong, and identity forms of PGH, including falsification conditions.
+### Current research authority
+
+- [`CURRENT_STATE.md`](CURRENT_STATE.md) — exact present research state, live uncertainties, and next recommended test.
+- [`HYPOTHESIS.md`](HYPOTHESIS.md) — weak, strong, and identity forms of PGH, including failure conditions.
 - [`PRIMITIVES.md`](PRIMITIVES.md) — candidate minimal primitives and the anti-import firewall.
-- [`NONTRIVIALITY_TESTS.md`](NONTRIVIALITY_TESTS.md) — tests intended to distinguish a genuine explanatory grammar from relabeling or universal encoding.
-- [`RESEARCH_LOG.md`](RESEARCH_LOG.md) — chronological decisions, failed ideas, and conceptual changes.
-- [`handoffs/`](handoffs/) — compact continuation artifacts for resuming work without relying on chat context.
+- [`NONTRIVIALITY_TESTS.md`](NONTRIVIALITY_TESTS.md) — tests distinguishing a genuine explanatory grammar from relabeling or universal encoding.
+- [`RESEARCH_LOG.md`](RESEARCH_LOG.md) — chronological decisions, failures, and conceptual changes.
+
+### Governance
+
+- [`governance/PGH_REPOSITORY_OPENING_CHARTER_0_1_0.md`](governance/PGH_REPOSITORY_OPENING_CHARTER_0_1_0.md)
+- [`governance/PGH_ARTIFACT_AND_PROVENANCE_POLICY_0_1_0.md`](governance/PGH_ARTIFACT_AND_PROVENANCE_POLICY_0_1_0.md)
+- [`governance/PGH_NAVIGATION_AND_HANDOFF_POLICY_0_1_0.md`](governance/PGH_NAVIGATION_AND_HANDOFF_POLICY_0_1_0.md)
+- [`governance/PGH_BRANCH_AND_REF_LIFECYCLE_POLICY_0_1_0.md`](governance/PGH_BRANCH_AND_REF_LIFECYCLE_POLICY_0_1_0.md)
+
+### Scalable research layout
+
+- [`research/`](research/) — versioned derivations, failures, formalizations, models, and representation tests as they are created.
+- [`sources/`](sources/) — reserved source-intake area; PGH is explicitly not yet source-bound.
+- [`handoffs/`](handoffs/) — durable human + machine-readable continuation artifacts.
+
+### Derived navigation
+
+- [`meta/PGH_CANONICAL_INDEX.json`](meta/PGH_CANONICAL_INDEX.json)
+- [`meta/PGH_OPERATION_REGISTRY.jsonl`](meta/PGH_OPERATION_REGISTRY.jsonl)
+- [`meta/PGH_RESEARCH_OBJECT_REGISTRY.jsonl`](meta/PGH_RESEARCH_OBJECT_REGISTRY.jsonl)
+- [`meta/PGH_OPEN_QUESTION_REGISTRY.jsonl`](meta/PGH_OPEN_QUESTION_REGISTRY.jsonl)
+- [`meta/PGH_NAVIGATION_SCHEMA_0_1_0.json`](meta/PGH_NAVIGATION_SCHEMA_0_1_0.json)
+- [`tools/pgh_navigation.py`](tools/pgh_navigation.py)
+
+The navigation layer is derived orientation, not scientific authority.
+
+## Stable identities
+
+PGH uses durable IDs:
+
+```text
+PGH-OP-####    operations
+PGH-Q-####     open questions
+PGH-OBJ-####   general research objects
+PGH-DER-####   derivations
+PGH-FAIL-####  failed derivations
+PGH-GRAM-####  candidate grammars
+```
+
+The numeric suffix is an identity only. It is not a score, ranking, or phase level.
+
+## Failed derivations and assumption ancestry
+
+A failed derivation remains preserved.
+
+Substantive derivations should expose:
+
+```text
+PRIMITIVE_DEPENDENCIES
+RULE_DEPENDENCIES
+LEMMA_DEPENDENCIES
+SEMANTIC_ASSUMPTIONS
+PHYSICAL_ASSUMPTIONS
+SOURCE_DEPENDENCIES
+```
+
+This is intended to make hidden physical imports traceable rather than relying on prose memory.
 
 ## Project phases
 
@@ -77,6 +145,22 @@ Advancement through these labels is not automatic.
 
 A much stronger linguistic–physical identity hypothesis may eventually be formulated, but it is not assumed at project opening.
 
+## Navigation check
+
+From a normal checkout:
+
+```text
+python -B tools/pgh_navigation.py check
+```
+
+Derived index regeneration requires an explicit logical research baseline:
+
+```text
+python -B tools/pgh_navigation.py build --baseline-commit <commit>
+```
+
+Markdown parsers are expected to tolerate CRLF checkouts; machine-readable JSON/JSONL/Python files are pinned to LF.
+
 ## Current status
 
 ```text
@@ -88,7 +172,10 @@ CANONICAL_EFFECT_ON_FCP = NONE
 CURRENT_PHASE = PGH-0_CONCEPTUAL_FORMULATION
 EMPIRICAL_STATUS = UNESTABLISHED
 SOURCE_BOUND_STATUS = NOT_YET_SOURCE_BOUND
+ACTIVE_CANDIDATE_GRAMMAR = PGH-GRAM-0001
 FAILED_DERIVATIONS_ARE_FIRST_CLASS_RESULTS = YES
+NEXT_RECOMMENDED_OPERATION = PGH0_MINIMAL_GRAMMAR_CHALLENGE
+NEXT_OPERATION_AUTHORIZED = NO
 ```
 
 The project should be judged by whether its hypotheses become precise, nontrivial, representation-independent, and capable of failure — not by whether PGH survives.

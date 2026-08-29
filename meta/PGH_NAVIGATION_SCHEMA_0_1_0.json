@@ -1,0 +1,253 @@
+{
+  "$defs": {
+    "open_question_record": {
+      "properties": {
+        "created_by_operation": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "question": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "question_id": {
+          "pattern": "^PGH-Q-[0-9]{4}$",
+          "type": "string"
+        },
+        "related_objects": {
+          "items": {
+            "type": "string"
+          },
+          "type": "array"
+        },
+        "resolution_artifact": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "status": {
+          "minLength": 1,
+          "type": "string"
+        }
+      },
+      "required": [
+        "question_id",
+        "status",
+        "question",
+        "created_by_operation",
+        "related_objects",
+        "resolution_artifact"
+      ],
+      "type": "object"
+    },
+    "operation_record": {
+      "properties": {
+        "handoff": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "inputs": {
+          "items": {
+            "type": "string"
+          },
+          "type": "array"
+        },
+        "notes": {
+          "type": "string"
+        },
+        "operation_class": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "operation_id": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "outputs": {
+          "items": {
+            "type": "string"
+          },
+          "type": "array"
+        },
+        "registry_id": {
+          "pattern": "^PGH-OP-[0-9]{4}$",
+          "type": "string"
+        },
+        "scientific_change": {
+          "type": "boolean"
+        },
+        "status": {
+          "minLength": 1,
+          "type": "string"
+        }
+      },
+      "required": [
+        "registry_id",
+        "operation_id",
+        "operation_class",
+        "status",
+        "scientific_change",
+        "inputs",
+        "outputs",
+        "handoff"
+      ],
+      "type": "object"
+    },
+    "research_object_record": {
+      "properties": {
+        "canonical_artifact": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "dependencies": {
+          "items": {
+            "type": "string"
+          },
+          "type": "array"
+        },
+        "name": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "notes": {
+          "type": "string"
+        },
+        "object_id": {
+          "pattern": "^PGH-(?:OBJ|GRAM|DER|FAIL)-[0-9]{4}$",
+          "type": "string"
+        },
+        "object_type": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "status": {
+          "minLength": 1,
+          "type": "string"
+        }
+      },
+      "required": [
+        "object_id",
+        "object_type",
+        "name",
+        "status",
+        "canonical_artifact",
+        "dependencies"
+      ],
+      "type": "object"
+    }
+  },
+  "$id": "PGH_NAVIGATION_SCHEMA_0_1_0",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": false,
+  "properties": {
+    "active_candidate_grammar": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "authority": {
+      "const": "DERIVED_NAVIGATION_ONLY"
+    },
+    "canonical_hypothesis": {
+      "minLength": 1,
+      "type": "string"
+    },
+    "canonical_state": {
+      "minLength": 1,
+      "type": "string"
+    },
+    "counts": {
+      "additionalProperties": false,
+      "properties": {
+        "open_question_records": {
+          "minimum": 0,
+          "type": "integer"
+        },
+        "open_questions": {
+          "minimum": 0,
+          "type": "integer"
+        },
+        "operation_records": {
+          "minimum": 0,
+          "type": "integer"
+        },
+        "research_object_records": {
+          "minimum": 0,
+          "type": "integer"
+        }
+      },
+      "required": [
+        "operation_records",
+        "research_object_records",
+        "open_question_records",
+        "open_questions"
+      ],
+      "type": "object"
+    },
+    "current_handoff": {
+      "minLength": 1,
+      "type": "string"
+    },
+    "current_phase": {
+      "minLength": 1,
+      "type": "string"
+    },
+    "fcp_relationship": {
+      "minLength": 1,
+      "type": "string"
+    },
+    "indexed_research_baseline_commit": {
+      "pattern": "^[0-9a-f]{40}$",
+      "type": "string"
+    },
+    "indexed_research_baseline_tree": {
+      "pattern": "^[0-9a-f]{40}$",
+      "type": "string"
+    },
+    "latest_completed_operation": {
+      "minLength": 1,
+      "type": "string"
+    },
+    "next_operation_authorized": {
+      "type": "boolean"
+    },
+    "next_recommended_operation": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "schema_version": {
+      "const": "0.1.0"
+    },
+    "source_bound_status": {
+      "minLength": 1,
+      "type": "string"
+    }
+  },
+  "required": [
+    "schema_version",
+    "authority",
+    "indexed_research_baseline_commit",
+    "indexed_research_baseline_tree",
+    "current_phase",
+    "latest_completed_operation",
+    "current_handoff",
+    "canonical_state",
+    "canonical_hypothesis",
+    "active_candidate_grammar",
+    "counts",
+    "next_recommended_operation",
+    "next_operation_authorized",
+    "source_bound_status",
+    "fcp_relationship"
+  ],
+  "title": "Physical Grammar Hypothesis Navigation Schema 0.1.0",
+  "type": "object"
+}

@@ -148,22 +148,65 @@ Several tempting analogies have been deliberately withheld from derivation statu
 
 ## Open questions
 
-1. Can `DISTINGUISH` be defined without presupposing a set of already individuated objects?
-2. Can `COMPOSE` be defined without already importing boundaries, types, or causal ordering?
-3. Can `IDENTIFY` be reduced to compositional indistinguishability in all contexts, making it derived rather than primitive?
-4. Can boundary arise from the conditions under which composition is partial?
-5. Can transformation be represented entirely as a compositional relation rather than a separate primitive?
-6. Does any minimal grammar produce a genuine exclusion rather than a definitional tautology?
-7. What kind of semantics map is weak enough not to carry the physics itself?
-8. What would count as faithful translation between genuinely different mathematical surface languages?
-9. Is “physical possibility” the right target object, or does that phrase already import too much modal/physical structure?
-10. Can PGH be distinguished from structural realism, computation, category-theoretic foundations, informational reconstructions, and other nearby programs once source work begins?
+Canonical open-question identities are now maintained in `meta/PGH_OPEN_QUESTION_REGISTRY.jsonl`.
+
+The opening set remains:
+
+1. `PGH-Q-0001` — Can `DISTINGUISH` be defined without presupposing a set of already individuated objects?
+2. `PGH-Q-0002` — Can `COMPOSE` be defined without already importing boundaries, types, or causal ordering?
+3. `PGH-Q-0003` — Can `IDENTIFY` be reduced to compositional indistinguishability in all contexts, making it derived rather than primitive?
+4. `PGH-Q-0004` — Can boundary arise from the conditions under which composition is partial?
+5. `PGH-Q-0005` — Can transformation be represented entirely as a compositional relation rather than a separate primitive?
+6. `PGH-Q-0006` — Does any minimal grammar produce a genuine exclusion rather than a definitional tautology?
+7. `PGH-Q-0007` — What kind of semantics map is weak enough not to carry the physics itself?
+8. `PGH-Q-0008` — What would count as faithful translation between genuinely different mathematical surface languages?
+9. `PGH-Q-0009` — Is “physical possibility” the right target object, or does that phrase already import too much modal/physical structure?
+10. `PGH-Q-0010` — Can PGH be distinguished from structural realism, computation, category-theoretic foundations, informational reconstructions, and other nearby programs once source work begins?
+
+## Scalability and navigation foundation
+
+The repository now has a lightweight scalable navigation/provenance spine.
+
+```text
+PGH_REPOSITORY_SCALABILITY_AND_NAVIGATION_FOUNDATION = CANONICALLY_COMPLETE
+SCIENTIFIC_CHANGE_FROM_INFRASTRUCTURE = NONE
+HYPOTHESIS_CHANGE_FROM_INFRASTRUCTURE = NONE
+PRIMITIVE_ADJUDICATION_FROM_INFRASTRUCTURE = NONE
+NEW_DERIVATION_FROM_INFRASTRUCTURE = NONE
+NEW_SOURCE_SEARCH_FROM_INFRASTRUCTURE = NONE
+```
+
+Authority remains:
+
+```text
+GIT = PROVENANCE_AUTHORITY
+CANONICAL_MARKDOWN_ARTIFACTS = RESEARCH_AND_GOVERNANCE_AUTHORITY
+STRUCTURED_NAVIGATION_LAYER = DERIVED_NAVIGATION_ONLY
+```
+
+Current navigation counts:
+
+```text
+OPERATION_RECORD_COUNT = 3
+RESEARCH_OBJECT_RECORD_COUNT = 8
+OPEN_QUESTION_RECORD_COUNT = 10
+OPEN_QUESTION_COUNT = 10
+```
+
+Active working grammar identity:
+
+```text
+ACTIVE_CANDIDATE_GRAMMAR = PGH-GRAM-0001
+```
+
+This identity names the still-unfixed `{DISTINGUISH, COMPOSE, IDENTIFY}` candidate shell. It does not qualify it.
 
 ## Next recommended task
 
 ```text
 NEXT_RECOMMENDED_TASK = PGH0_MINIMAL_GRAMMAR_CHALLENGE
 TASK_STATUS = RECOMMENDED_NOT_STARTED
+NEXT_OPERATION_AUTHORIZED = NO
 ```
 
 Question:
@@ -172,17 +215,52 @@ Question:
 
 The task should stop before claiming a physical consequence unless the nontriviality tests have been explicitly passed.
 
+## Structured current-state capsule
+
+<!-- PGH_CURRENT_STATE_CAPSULE_BEGIN -->
+```json
+{
+  "capsule_schema_version": "0.1.0",
+  "project": "Physical Grammar Hypothesis",
+  "current_phase": "PGH-0_CONCEPTUAL_FORMULATION",
+  "canonical_hypothesis": "HYPOTHESIS.md",
+  "active_candidate_grammar": "PGH-GRAM-0001",
+  "current_handoff": "handoffs/PGH_REPOSITORY_SCALABILITY_AND_NAVIGATION_FOUNDATION_HANDOFF_0_1_0.md",
+  "source_bound_status": "NOT_YET_SOURCE_BOUND",
+  "fcp_relationship": "INDEPENDENT_INCUBATION",
+  "next_recommended_operation": "PGH0_MINIMAL_GRAMMAR_CHALLENGE",
+  "next_operation_authorized": false,
+  "open_question_count": 10,
+  "do_not_assume": [
+    "DISTINGUISH_COMPOSE_IDENTIFY_IS_MINIMAL",
+    "BOUNDARY_IS_DERIVED",
+    "TRANSFORMATION_IS_DERIVED",
+    "DERIVATIONAL_ORDER_IS_PHYSICAL_TIME",
+    "BOUNDARY_MATCHING_IS_CONSERVATION",
+    "CONTEXTUAL_EQUIVALENCE_IS_GAUGE_SYMMETRY",
+    "COMPOSITIONALITY_IMPLIES_LOCALITY",
+    "CATEGORY_THEORY_IS_THE_PRIVILEGED_PGH_FORMALISM",
+    "PGH_HAS_EMPIRICAL_SUPPORT",
+    "PGH_HAS_ANY_CANONICAL_EFFECT_ON_FCP"
+  ]
+}
+```
+<!-- PGH_CURRENT_STATE_CAPSULE_END -->
+
 ## Continuation rule
 
 A successor research instance should read, at minimum:
 
 1. `governance/PGH_REPOSITORY_OPENING_CHARTER_0_1_0.md`
-2. `CURRENT_STATE.md`
-3. `HYPOTHESIS.md`
-4. `PRIMITIVES.md`
-5. `NONTRIVIALITY_TESTS.md`
-6. `RESEARCH_LOG.md`
-7. the latest file in `handoffs/`
+2. `governance/PGH_ARTIFACT_AND_PROVENANCE_POLICY_0_1_0.md`
+3. `governance/PGH_NAVIGATION_AND_HANDOFF_POLICY_0_1_0.md`
+4. `CURRENT_STATE.md`
+5. `HYPOTHESIS.md`
+6. `PRIMITIVES.md`
+7. `NONTRIVIALITY_TESTS.md`
+8. `RESEARCH_LOG.md`
+9. `meta/PGH_CANONICAL_INDEX.json`
+10. the current handoff named above.
 
 Do not infer missing progress from phase names.
 
