@@ -2,48 +2,51 @@
 
 > **Status:** Speculative foundational research — independent incubation
 >
-> **Current phase:** `PGH-0_R1_PHYSICAL_IRRELEVANCE_BOUNDARY`
+> **Current phase:** `PGH-0_ANCHORED_R2_LAW_EXHAUSTION`
 >
 > **FCP relationship:** None at present; this repository has no canonical effect on FCP.
 
 ## Current target
 
-The active formal baseline remains `PGH-GRAM-0002`; the prior-art-subtracted working hypothesis remains `PGH-OBJ-0008`.
+The active formal baseline remains `PGH-GRAM-0002`.
+
+The prior residual target `PGH-OBJ-0008` is now blocked at R1 scope because no physically privileged irrelevance selector was established.
+
+The active provisional research target is:
+
+```text
+PGH-OBJ-0012 = ANCHORED_STRONG_PHYSICAL_GRAMMAR_HYPOTHESIS
+```
+
+It permits minimal law-free physical reference/contact as primitive or externally anchored, while still requiring grammar to generate all substantive physical selection.
 
 No physical grammar has been found, no physical law has been derived, and PGH novelty remains unresolved.
 
-## Latest result
-
-The search for a grammar-internal empirical-interface selector has reached a boundary:
+## R1 boundary result
 
 ```text
-PGH-DER-0011 = INTRINSIC_SUBSTRUCTURE_SELECTOR_SYMMETRY_OBSTRUCTION
-PGH-FAIL-0011 = GENERIC_EMPIRICAL_SUBSTRUCTURE_PRIVILEGE_SELECTORS
+PGH-FAIL-0012 = RESIDUAL_STRONG_PGH_R1_UNSATISFIED
 ```
 
-Intrinsic selectors can uniquely identify proper closed substructures in some asymmetric grammars, but no tested general criterion avoids nonuniqueness, trivial extremes, or the introduction of an additional selector. Empirical success cannot be relabeled as an internally derived privilege criterion.
+This is an explicit hypothesis reformulation, not a retroactive claim that the original residual target succeeded.
 
-## Residual program
+The successor's firewall is:
 
 ```text
-R1 = PHYSICAL_IRRELEVANCE_SELECTOR
-R1_GENERIC_INTRINSIC_SUBSTRUCTURE_SELECTOR = NOT_FOUND
-R1_SPECIAL_GRAMMAR_INTRINSIC_UNIQUENESS = POSSIBLE
-R1_PHYSICAL_PRIVILEGE = UNESTABLISHED
-R1_SOLVED = NO
-
-R2 = LAW_EXHAUSTION
-R2_STATUS = DEFERRED
+PRIMITIVE_REFERENCE = PERMITTED
+PRIMITIVE_RESPONSE_OR_POSSIBILITY_LAW = FORBIDDEN
+INDEPENDENT_SUBSTANTIVE_LAW_SET = FORBIDDEN
+GRAMMAR_DERIVED_SUBSTANTIVE_EXCLUSION = REQUIRED
 ```
 
 ## Next operation
 
 ```text
-NEXT_RECOMMENDED_OPERATION = PGH0_R1_PHYSICAL_IRRELEVANCE_BOUNDARY_ADJUDICATION
+NEXT_RECOMMENDED_OPERATION = PGH0_ANCHORED_R2_LAW_EXHAUSTION_FEASIBILITY_GATE
 NEXT_OPERATION_AUTHORIZED = YES
 ```
 
-The next operation adjudicates what unresolved physical privilege means for residual strong PGH before R2 can begin.
+The next gate will hold the law-free anchor fixed and test whether the current grammar architecture can generate any substantive physical restriction without an independent law selector or hidden semantic import.
 
 ## Authority
 

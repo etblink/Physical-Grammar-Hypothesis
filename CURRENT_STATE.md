@@ -5,7 +5,7 @@
 ```text
 PROJECT = Physical Grammar Hypothesis
 PROJECT_CLASS = SPECULATIVE_FOUNDATIONAL_RESEARCH
-CURRENT_PHASE = PGH-0_R1_PHYSICAL_IRRELEVANCE_BOUNDARY
+CURRENT_PHASE = PGH-0_ANCHORED_R2_LAW_EXHAUSTION
 FCP_RELATIONSHIP = INDEPENDENT_INCUBATION
 FCP_FRAMEWORK_STATUS = NONE
 CANONICAL_EFFECT_ON_FCP = NONE
@@ -13,15 +13,15 @@ SOURCE_BOUND_STATUS = REPRESENTATIVE_LANDSCAPE_FROZEN
 EMPIRICAL_STATUS = UNESTABLISHED
 ```
 
-## Active formal baseline and working target
+## Active baseline and working target
 
 ```text
 ACTIVE_CANDIDATE_GRAMMAR = PGH-GRAM-0002
-WORKING_SCIENTIFIC_TARGET = PGH-OBJ-0008
 PGH-OBJ-0008 = RESIDUAL_STRONG_PHYSICAL_GRAMMAR_HYPOTHESIS
-PGH-OBJ-0009 = CONTEXT_RECORD_SEMANTIC_ANCHOR_SCHEMA
-PGH-OBJ-0010 = LAW_FREE_EMPIRICAL_CONTACT_SIGNATURE
-PGH-OBJ-0011 = GRAMMAR_GENERATED_EMPIRICAL_INTERFACE_CLOSURE_SCHEMA
+PGH-OBJ-0008_STATUS = BLOCKED_BY_R1_AS_SPECIFIED_AT_CURRENT_SCOPE
+WORKING_SCIENTIFIC_TARGET = PGH-OBJ-0012
+PGH-OBJ-0012 = ANCHORED_STRONG_PHYSICAL_GRAMMAR_HYPOTHESIS
+PGH-OBJ-0012_STATUS = PROVISIONAL_RESEARCH_TARGET
 PHYSICAL_GRAMMAR_FOUND = NO
 PGH_NOVELTY = UNRESOLVED
 ```
@@ -29,68 +29,79 @@ PGH_NOVELTY = UNRESOLVED
 ## Latest canonical scientific result
 
 ```text
-PGH0_EMPIRICAL_SUBSTRUCTURE_PRIVILEGE_GATE = CANONICALLY_COMPLETE
-SCIENTIFIC_BASELINE_COMMIT = 94d751f193b599c95ce93441c1c14cd44a2337ce
-SCIENTIFIC_BASELINE_TREE = 7afa9aa5fb617857218557e0d127cf9e9d3df333
-OUTCOME = B__INTRINSIC_SELECTORS_CAN_SELECT_IN_SPECIAL_GRAMMARS_BUT_NO_TESTED_GENERAL_CRITERION_AVOIDS_NONUNIQUENESS_TRIVIAL_EXTREMES_OR_EXTRA_SELECTOR_INPUT
+PGH0_R1_PHYSICAL_IRRELEVANCE_BOUNDARY_ADJUDICATION = CANONICALLY_COMPLETE
+SCIENTIFIC_BASELINE_COMMIT = 2d6c1f8b21965a4faeeec68d2dd1ac6bd3997e35
+SCIENTIFIC_BASELINE_TREE = b1813a76a0082cdef0911397556eea8f0cb71c47
+OUTCOME = B__PGH_SR_R1_REMAINS_UNSATISFIED_BUT_AN_EXPLICITLY_ANCHORED_SUCCESSOR_IS_COHERENT_AND_PRESERVES_THE_NO_INDEPENDENT_LAW_CORE
 ```
 
-## New formal result
+## R1 boundary result
 
 ```text
-PGH-DER-0011 = INTRINSIC_SUBSTRUCTURE_SELECTOR_SYMMETRY_OBSTRUCTION
-STATUS = QUALIFIED_FORMAL
-```
-
-Any uniquely selected closed substructure under an automorphism-invariant intrinsic criterion must be fixed setwise by every grammar automorphism. In the symmetric control, the only globally invariant closed substructures are the empty and whole formal universes.
-
-## New preserved failure
-
-```text
-PGH-FAIL-0011 = GENERIC_EMPIRICAL_SUBSTRUCTURE_PRIVILEGE_SELECTORS
+PGH-FAIL-0012 = RESIDUAL_STRONG_PGH_R1_UNSATISFIED
 STATUS = FAILED_PRESERVED
 ```
 
-Smallest nontrivial, largest, automorphism-invariant, closure-fixed-point, meet/join, simplicity, and freely introduced canonical-operator routes do not supply a general nontrivial unique empirical-interface selector. Empirical-success selection remains result-directed relative to R1.
+The original residual target required a physically justified irrelevance selector. The completed R1 program did not identify a physically privileged equivalence/interface, so `PGH-OBJ-0008` may not be treated as having satisfied R1.
 
-An asymmetric control shows that a special grammar may nevertheless contain a unique intrinsic proper closed substructure. The result is therefore not a universal impossibility theorem.
+The successor makes the explanatory concession explicit:
+
+```text
+PHYSICAL_REFERENCE_PRIVILEGE = PRIMITIVE_OR_EXTERNALLY_ANCHORED_AT_CURRENT_SCOPE
+GRAMMAR_DERIVATION_OF_REFERENCE_PRIVILEGE = NOT_CLAIMED
+ANCHOR_CONTAINS_SUBSTANTIVE_RESPONSE_LAW = FORBIDDEN
+ANCHOR_COMPLETENESS = UNESTABLISHED
+```
+
+## Anchored successor
+
+The active target is now:
+
+```text
+PGH-OBJ-0012 = ANCHORED_STRONG_PHYSICAL_GRAMMAR_HYPOTHESIS
+```
+
+Schematic program:
+
+\[
+A_{ref}+G\longrightarrow P,
+\]
+
+where `A_ref` supplies only law-free physical reference/contact and `G` must supply substantive physical selection.
+
+The successor remains distinct from the null only if:
+
+```text
+INDEPENDENT_SUBSTANTIVE_LAW_SET = FORBIDDEN
+SUBSTANTIVE_PHYSICAL_EXCLUSION_FROM_GRAMMAR = REQUIRED
+NO_SEMANTIC_SMUGGLING = REQUIRED
+AT_LEAST_ONE_INDEPENDENT_PHYSICAL_RESTRICTION_FROM_GRAMMAR = REQUIRED
+```
 
 ## R1 state
 
 ```text
-R1_FORMAL_EQUIVALENCE = INSUFFICIENT_FOR_PHYSICAL_PRIVILEGE
-R1_LAW_FREE_EMPIRICAL_CONTACT = FORMALLY_ADMISSIBLE
-R1_RESPONSE_LAW_SEPARATION = PASS
-R1_REPRESENTATION_ROBUSTNESS = PASS_CONDITIONALLY
-R1_GRAMMAR_GENERATED_INTERFACE_CLOSURE = FORMALLY_FEASIBLE
-R1_GENERATOR_EQUIVALENCE = QUALIFIED_AT_CLOSURE_SCOPE
-R1_GENERIC_INTRINSIC_SUBSTRUCTURE_SELECTOR = NOT_FOUND
-R1_SPECIAL_GRAMMAR_INTRINSIC_UNIQUENESS = POSSIBLE
-R1_PHYSICAL_PRIVILEGE = UNESTABLISHED
-R1_SOLVED = NO
+ORIGINAL_R1 = UNSATISFIED_AT_CURRENT_SCOPE
+ORIGINAL_TARGET = BLOCKED
+LAW_FREE_REFERENCE_IS_SUBSTANTIVE_LAW = NO_AT_CURRENT_FORMAL_SCOPE
+PHYSICAL_REFERENCE_PRIVILEGE_IS_GRAMMAR_DERIVED = NO
+ANCHORED_SUCCESSOR = COHERENT_PROVISIONAL_TARGET
 ```
 
-`PGH-Q-0022` is resolved at generic intrinsic-selector scope.
+`PGH-Q-0023` is resolved by the boundary adjudication.
 
-The immediate live question is now:
-
-```text
-PGH-Q-0023 = OPEN
-```
-
-> Given that no tested general grammar-internal criterion supplies physical privilege, may residual strong PGH consistently treat a law-free empirical interface/substructure as irreducible semantic contact while still requiring grammar to generate substantive physical laws, or does that unresolved external privilege block or downgrade the strong claim?
-
-`PGH-Q-0016` remains the encompassing R1 burden.
+`PGH-Q-0016` remains open as the broader unresolved question of whether a non-result-directed physical-irrelevance criterion can ever be found; it is no longer required for the active anchored successor.
 
 ## R2 state
 
 ```text
 PGH-Q-0017 = OPEN
-R2_LAW_EXHAUSTION = DEFERRED
-R2_STARTED = NO
+R2_TARGET = PGH-OBJ-0012
+R2_STATUS = AUTHORIZED_FEASIBILITY_GATE_NOT_STARTED
+R2_EXECUTED = NO
 ```
 
-R2 may not begin until the R1 boundary question is adjudicated.
+The immediate question is whether, with the law-free anchor held fixed, `PGH-GRAM-0002` or any currently justified grammar structure can generate a substantive physical restriction without an independent law-like selector doing the work.
 
 ## Source state
 
@@ -103,12 +114,12 @@ SOURCE_EXPANSION_JUSTIFIED = NO
 ## Accounting
 
 ```text
-OPERATION_RECORD_COUNT = 27
-RESEARCH_OBJECT_RECORD_COUNT = 35
+OPERATION_RECORD_COUNT = 29
+RESEARCH_OBJECT_RECORD_COUNT = 37
 QUESTION_RECORD_COUNT = 23
-OPEN_QUESTION_COUNT = 8
+OPEN_QUESTION_COUNT = 7
 QUALIFIED_FORMAL_DERIVATION_COUNT = 11
-FAILED_DERIVATION_COUNT = 11
+FAILED_DERIVATION_COUNT = 12
 PHYSICAL_LAW_DERIVED = NO
 EMPIRICAL_PREDICTION = NONE
 FCP_EFFECT = NONE
@@ -123,11 +134,11 @@ PGH-OP-0021 = UNUSED
 ## Next authorized operation
 
 ```text
-NEXT_RECOMMENDED_OPERATION = PGH0_R1_PHYSICAL_IRRELEVANCE_BOUNDARY_ADJUDICATION
+NEXT_RECOMMENDED_OPERATION = PGH0_ANCHORED_R2_LAW_EXHAUSTION_FEASIBILITY_GATE
 NEXT_OPERATION_AUTHORIZED = YES
 ```
 
-This is an adjudication of the residual strong hypothesis, not another search for a routine formal selector. It must decide whether irreducible law-free empirical contact is compatible with strong PGH, requires a formal downgrade/reformulation, or blocks the strong program. R2 remains forbidden until that result is frozen.
+The next gate must hold the law-free anchor fixed. It may not count a restriction already encoded in the anchor, formation table, constructor extraction rule, or realization map as a grammar-derived physical law.
 
 ## Structured current-state capsule
 
@@ -136,23 +147,23 @@ This is an adjudication of the residual strong hypothesis, not another search fo
 {
   "capsule_schema_version": "0.1.0",
   "project": "Physical Grammar Hypothesis",
-  "current_phase": "PGH-0_R1_PHYSICAL_IRRELEVANCE_BOUNDARY",
+  "current_phase": "PGH-0_ANCHORED_R2_LAW_EXHAUSTION",
   "canonical_hypothesis": "HYPOTHESIS.md",
   "active_candidate_grammar": "PGH-GRAM-0002",
-  "current_handoff": "handoffs/POST_PGH0_EMPIRICAL_SUBSTRUCTURE_PRIVILEGE_RECONCILIATION_HANDOFF_0_1_0.md",
+  "working_scientific_target": "PGH-OBJ-0012",
+  "current_handoff": "handoffs/POST_PGH0_R1_PHYSICAL_IRRELEVANCE_BOUNDARY_RECONCILIATION_HANDOFF_0_1_0.md",
   "source_bound_status": "REPRESENTATIVE_LANDSCAPE_FROZEN",
   "fcp_relationship": "INDEPENDENT_INCUBATION",
-  "next_recommended_operation": "PGH0_R1_PHYSICAL_IRRELEVANCE_BOUNDARY_ADJUDICATION",
+  "next_recommended_operation": "PGH0_ANCHORED_R2_LAW_EXHAUSTION_FEASIBILITY_GATE",
   "next_operation_authorized": true,
-  "open_question_count": 8,
+  "open_question_count": 7,
   "do_not_assume": [
-    "NO_GRAMMAR_CAN_HAVE_A_UNIQUE_INTRINSIC_EMPIRICAL_SUBSTRUCTURE",
-    "LAW_FREE_EMPIRICAL_CONTACT_IS_COMPATIBLE_WITH_STRONG_PGH",
-    "R1_FAILURE_REFUTES_STRONG_PGH",
-    "R1_IS_SOLVED",
-    "R2_HAS_STARTED",
-    "PGH_SR_IS_NOVEL",
-    "PGH_SR_IS_TRUE",
+    "PGH_OBJ_0008_R1_WAS_SATISFIED",
+    "PGH_OBJ_0012_IS_TRUE",
+    "PRIMITIVE_REFERENCE_IS_GRAMMAR_DERIVED",
+    "ANCHOR_IS_PHYSICALLY_COMPLETE",
+    "R2_HAS_PASSED",
+    "PHYSICAL_GRAMMAR_HAS_BEEN_FOUND",
     "PGH_HAS_ANY_CANONICAL_EFFECT_ON_FCP"
   ]
 }

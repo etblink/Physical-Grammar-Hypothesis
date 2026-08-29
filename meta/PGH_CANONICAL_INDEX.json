@@ -5,18 +5,19 @@
   "canonical_state": "CURRENT_STATE.md",
   "counts": {
     "open_question_records": 23,
-    "open_questions": 8,
-    "operation_records": 27,
-    "research_object_records": 35
+    "open_questions": 7,
+    "operation_records": 29,
+    "research_object_records": 37
   },
-  "current_handoff": "handoffs/POST_PGH0_EMPIRICAL_SUBSTRUCTURE_PRIVILEGE_RECONCILIATION_HANDOFF_0_1_0.md",
-  "current_phase": "PGH-0_R1_PHYSICAL_IRRELEVANCE_BOUNDARY",
+  "current_handoff": "handoffs/POST_PGH0_R1_PHYSICAL_IRRELEVANCE_BOUNDARY_RECONCILIATION_HANDOFF_0_1_0.md",
+  "current_phase": "PGH-0_ANCHORED_R2_LAW_EXHAUSTION",
   "fcp_relationship": "INDEPENDENT_INCUBATION",
-  "indexed_research_baseline_commit": "94d751f193b599c95ce93441c1c14cd44a2337ce",
-  "indexed_research_baseline_tree": "7afa9aa5fb617857218557e0d127cf9e9d3df333",
-  "latest_completed_operation": "POST_PGH0_EMPIRICAL_SUBSTRUCTURE_PRIVILEGE_RECONCILIATION",
+  "indexed_research_baseline_commit": "2d6c1f8b21965a4faeeec68d2dd1ac6bd3997e35",
+  "indexed_research_baseline_tree": "b1813a76a0082cdef0911397556eea8f0cb71c47",
+  "latest_completed_operation": "POST_PGH0_R1_PHYSICAL_IRRELEVANCE_BOUNDARY_RECONCILIATION",
   "next_operation_authorized": true,
-  "next_recommended_operation": "PGH0_R1_PHYSICAL_IRRELEVANCE_BOUNDARY_ADJUDICATION",
+  "next_recommended_operation": "PGH0_ANCHORED_R2_LAW_EXHAUSTION_FEASIBILITY_GATE",
   "schema_version": "0.1.0",
-  "source_bound_status": "REPRESENTATIVE_LANDSCAPE_FROZEN"
+  "source_bound_status": "REPRESENTATIVE_LANDSCAPE_FROZEN",
+  "working_scientific_target": "PGH-OBJ-0012"
 }
