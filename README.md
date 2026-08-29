@@ -3,11 +3,11 @@
 <!-- PGH_DERIVED_CURRENT_STATUS_BEGIN -->
 ## Current scientific status
 
-Five target-free post-Kp successor packages (`PGH-OBJ-0041..0045`) pass the strict A0-A9 admission standard, but none is selected or empirically supported. The historical Kp-failed package remains failed; target discovery is still closed pending representation and plurality resolution.
+Five post-Kp successor packages remain admission-qualified and physically distinct under the ordered empirical interface, although they contain only two abstract formal grammar classes. No scientific target-free winner exists; target discovery is still closed.
 
 Current derived state: [`CURRENT_STATE.md`](CURRENT_STATE.md).
 
-Next authorized science: `PGH1_POST_KP_SUCCESSOR_PLURALITY_REPRESENTATION_AND_TARGET_FREE_SELECTION_GATE`.
+Next authorized science: `PGH1_POST_KP_COMMON_TARGET_MULTI_CANDIDATE_MULTIPLICITY_PROTOCOL_GATE`.
 <!-- PGH_DERIVED_CURRENT_STATUS_END -->
 
 
