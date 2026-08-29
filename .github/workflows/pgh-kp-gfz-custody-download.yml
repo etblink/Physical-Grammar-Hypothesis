@@ -1,0 +1,50 @@
+name: PGH Kp GFZ custody download
+
+on:
+  push:
+    branches:
+      - custody/pgh-kp-gfz-download-20260829
+
+permissions:
+  contents: read
+
+jobs:
+  custody:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Download exact official definitive GFZ yearly WDC files
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p raw
+          base='https://datapub.gfz.de/download/10.5880.Kp.0001/Kp_definitive'
+          for y in $(seq 1932 2025); do
+            f="Kp_def${y}.wdc"
+            curl --fail --location --retry 5 --retry-delay 2 --output "raw/${f}" "${base}/${f}"
+            test -s "raw/${f}"
+          done
+          (cd raw && sha256sum Kp_def*.wdc | sort -k2) > SHA256_YEARLY.txt
+          cat $(printf 'raw/Kp_def%s.wdc ' $(seq 1932 2025)) > Kp_def_1932_2025.wdc.concat
+          sha256sum Kp_def_1932_2025.wdc.concat > SHA256_RAW_CONCAT.txt
+          wc -c raw/Kp_def*.wdc > BYTE_COUNTS.txt
+          wc -c Kp_def_1932_2025.wdc.concat >> BYTE_COUNTS.txt
+          printf '%s\n' \
+            'SOURCE=https://datapub.gfz.de/download/10.5880.Kp.0001/Kp_definitive/' \
+            'DOI=https://doi.org/10.5880/Kp.0001' \
+            'YEARS=1932-2025' \
+            'ORDER=ascending year, exact file bytes concatenated without separators' \
+            > CUSTODY.txt
+
+      - name: Upload custody artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: pgh-kp-gfz-definitive-1932-2025
+          path: |
+            raw/
+            Kp_def_1932_2025.wdc.concat
+            SHA256_YEARLY.txt
+            SHA256_RAW_CONCAT.txt
+            BYTE_COUNTS.txt
+            CUSTODY.txt
+          if-no-files-found: error
+          retention-days: 7
