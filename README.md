@@ -3,11 +3,11 @@
 <!-- PGH_DERIVED_CURRENT_STATUS_BEGIN -->
 ## Current scientific status
 
-PGH-OBJ-0052 now freezes a complete target-free independent-source-triangle successor package and passes all A0-A9 admission gates. It is eligible for a genuinely new prospective target search, but has no empirical support or confirmation credit.
+`PGH-OBJ-0052` remains the A0-A9-admitted strong-PGH candidate package. Its first post-freeze target-discovery attempt ended at preregistered Outcome D because search-transport provenance was insufficient to freeze a target; no target values or empirical test occurred.
 
 Current derived state: [`CURRENT_STATE.md`](CURRENT_STATE.md).
 
-Next recommended operation: `PGH1_POST_KP_NETWORK_SOURCE_SUCCESSOR_TARGET_DISCOVERY_AND_FREEZE`. It is **not authorized** and no target discovery has started.
+Next authorized science: `PGH1_POST_KP_NETWORK_SOURCE_TARGET_DISCOVERY_TRANSPORT_REPAIR_AND_REEXECUTION` — transport-only repair with all scientific target-selection rules unchanged.
 <!-- PGH_DERIVED_CURRENT_STATUS_END -->
 
 
