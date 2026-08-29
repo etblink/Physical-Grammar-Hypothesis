@@ -3,11 +3,11 @@
 <!-- PGH_DERIVED_CURRENT_STATUS_BEGIN -->
 ## Current scientific status
 
-The first frozen Kp instantiation of `PGH-GRAM-0008` is **REFUTED_AT_KP_TARGET**. A post-result scope audit found no qualifying pre-Kp physical-domain selector, so the failed target cannot be removed by retrospective scope narrowing. The formal grammar remains a formal candidate with no physical validation; R2B remains unsatisfied.
+The first frozen Kp instantiation of `PGH-GRAM-0008` remains **REFUTED_AT_KP_TARGET**. The unchanged candidate is now retired from further physical-target testing and retained only as a formal/methodological control. No active physical predictive grammar is currently selected.
 
 Current derived state: [`CURRENT_STATE.md`](CURRENT_STATE.md).
 
-Next recommended science (not authorized): `PGH1_POST_KP_CANDIDATE_DISPOSITION_AND_SUCCESSOR_ARCHITECTURE_SEQUENCING_GATE`.
+Next authorized science: `PGH1_POST_KP_PROSPECTIVE_GRAMMAR_BRIDGE_SCOPE_ARCHITECTURE_DISCOVERY_GATE`.
 <!-- PGH_DERIVED_CURRENT_STATUS_END -->
 
 

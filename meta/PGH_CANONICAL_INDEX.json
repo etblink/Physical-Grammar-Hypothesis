@@ -1,22 +1,22 @@
 {
-  "active_candidate_grammar": "PGH-GRAM-0008",
+  "active_candidate_grammar": null,
   "authority": "DERIVED_NAVIGATION_ONLY",
   "canonical_hypothesis": "HYPOTHESIS.md",
   "canonical_state": "CURRENT_STATE.md",
   "counts": {
     "open_question_records": 28,
     "open_questions": 7,
-    "operation_records": 66,
+    "operation_records": 68,
     "research_object_records": 113
   },
-  "current_handoff": "handoffs/POST_PGH1_POST_KP_SCOPE_GATE_NAVIGATION_RECONCILIATION_HANDOFF_0_1_0.md",
-  "current_phase": "PGH-1_POST_KP_CANDIDATE_DISPOSITION",
+  "current_handoff": "handoffs/POST_PGH1_POST_KP_CANDIDATE_DISPOSITION_NAVIGATION_RECONCILIATION_HANDOFF_0_1_0.md",
+  "current_phase": "PGH-1_POST_KP_PROSPECTIVE_ARCHITECTURE_DISCOVERY",
   "fcp_relationship": "INDEPENDENT_NO_EFFECT",
-  "indexed_research_baseline_commit": "82d9b7aca26daff27a0a62d78c6f214b0ff439fc",
-  "indexed_research_baseline_tree": "b66991127ccedf888d77591fe4a59fd8f52b9ab2",
-  "latest_completed_operation": "POST_PGH1_POST_KP_SCOPE_GATE_NAVIGATION_RECONCILIATION",
-  "next_operation_authorized": false,
-  "next_recommended_operation": "PGH1_POST_KP_CANDIDATE_DISPOSITION_AND_SUCCESSOR_ARCHITECTURE_SEQUENCING_GATE",
+  "indexed_research_baseline_commit": "6e94d986a2b9eceebb5065880228c1b0645fc6bf",
+  "indexed_research_baseline_tree": "609b26c651b97f83fc13bd379ed10d20b509aefd",
+  "latest_completed_operation": "POST_PGH1_POST_KP_CANDIDATE_DISPOSITION_NAVIGATION_RECONCILIATION",
+  "next_operation_authorized": true,
+  "next_recommended_operation": "PGH1_POST_KP_PROSPECTIVE_GRAMMAR_BRIDGE_SCOPE_ARCHITECTURE_DISCOVERY_GATE",
   "schema_version": "0.1.0",
   "source_bound_status": "85_DISTINCT_ACCEPTED_SOURCES_FROZEN"
 }
