@@ -3,11 +3,11 @@
 <!-- PGH_DERIVED_CURRENT_STATUS_BEGIN -->
 ## Current scientific status
 
-The first frozen Kp instantiation of `PGH-GRAM-0008` remains **REFUTED_AT_KP_TARGET**. The unchanged candidate is now retired from further physical-target testing and retained only as a formal/methodological control. No active physical predictive grammar is currently selected.
+`PGH-GRAM-0008` remains **REFUTED_AT_KP_TARGET** and retired from unchanged-identity physical testing. No active physical predictive grammar is selected. A prospective `C=(G,J,S,I)` candidate-accounting schema is qualified, but SG5 theory-applicability/effective-regime sources are missing.
 
 Current derived state: [`CURRENT_STATE.md`](CURRENT_STATE.md).
 
-Next authorized science: `PGH1_POST_KP_PROSPECTIVE_GRAMMAR_BRIDGE_SCOPE_ARCHITECTURE_DISCOVERY_GATE`.
+Next authorized science: `PGH1_POST_KP_PHYSICAL_SCOPE_AND_THEORY_APPLICABILITY_SOURCE_INTAKE`.
 <!-- PGH_DERIVED_CURRENT_STATUS_END -->
 
 
