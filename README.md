@@ -3,11 +3,11 @@
 <!-- PGH_DERIVED_CURRENT_STATUS_BEGIN -->
 ## Current scientific status
 
-The first frozen Kp instantiation of `PGH-GRAM-0008` remains **REFUTED_AT_KP_TARGET**, and the unchanged grammar is retired from physical-target testing. Source-bound scope-origin adjudication found universal scope to be the only presently clean strong-PGH scope architecture; restricted F1/F2 routes remain formally live but physically unearned, while independent effective-regime physics does not receive strong-PGH law-exhaustion credit unless internalized.
+`PGH-GRAM-0008` remains a retired formal/methodological control after its frozen Kp instantiation was refuted. The post-Kp strong-PGH successor admission standard (`PGH-OBJ-0040`) now requires A0-A9 hard-gate completion and full `C=(G,J,S,I)` freeze before empirical target discovery.
 
 Current derived state: [`CURRENT_STATE.md`](CURRENT_STATE.md).
 
-Next authorized science: `PGH1_POST_KP_STRONG_PGH_SUCCESSOR_ADMISSION_STANDARD_GATE`.
+Next authorized science: `PGH1_POST_KP_STRONG_PGH_SUCCESSOR_CANDIDATE_GENERATION_AND_ADMISSION_SCREEN`.
 <!-- PGH_DERIVED_CURRENT_STATUS_END -->
 
 
