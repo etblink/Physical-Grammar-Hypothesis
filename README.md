@@ -3,11 +3,11 @@
 <!-- PGH_DERIVED_CURRENT_STATUS_BEGIN -->
 ## Current scientific status
 
-The first genuinely prospective post-Kp common-target test is complete. All five frozen successor packages were refuted on TGT-008 Atlantic HURDAT2 by both separately Holm-corrected calibration architectures. This is a failure of the current five-package successor family, not a global proof against every conceivable PGH.
+Two prospective empirical episodes are now canonical: the historical Kp physical package failed, and all five post-Kp successor packages failed on TGT-008 HURDAT2. OP-0096 retires the exhaustive minimal three-role/two-edge sparse-DAG path architecture from active positive strong-PGH successor search while preserving its formal mathematics. Strong PGH remains logically open but has no active predictive candidate and no positive empirical credit.
 
 Current derived state: [`CURRENT_STATE.md`](CURRENT_STATE.md).
 
-Next recommended science: `PGH1_POST_HURDAT2_FIVE_CANDIDATE_RESULT_ADJUDICATION` — not yet authorized.
+Next authorized science: `PGH1_POST_EMPIRICAL_FAILURE_ARCHITECTURE_RESEARCH_SEQUENCING_GATE` — target-free sequencing only.
 <!-- PGH_DERIVED_CURRENT_STATUS_END -->
 
 
