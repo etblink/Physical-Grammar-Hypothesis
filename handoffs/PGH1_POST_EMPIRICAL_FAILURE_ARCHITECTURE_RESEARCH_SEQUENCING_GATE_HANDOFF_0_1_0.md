@@ -1,0 +1,47 @@
+# PGH-1 Post-Empirical-Failure Architecture Research Sequencing Gate — Handoff 0.1.0
+
+```text
+OPERATION_ID = PGH1_POST_EMPIRICAL_FAILURE_ARCHITECTURE_RESEARCH_SEQUENCING_GATE
+REGISTRY_ID = PGH-OP-0098
+STATUS = COMPLETE_CANDIDATE
+OUTCOME = A__ONE_EXISTING_TARGET_FREE_ARCHITECTURE_LANE_HAS_A_SPECIFIC_INDEPENDENTLY_MOTIVATED_UNRESOLVED_PROBLEM
+SELECTED_RESEARCH_DIRECTION = SG4_M3__NETWORK_TOPOLOGY_SOURCE_INDEPENDENCE_AND_RESOURCE_ARCHITECTURE_STRUCTURAL_CONSTRAINTS
+M3_SELECTED_AS_PHYSICAL_GRAMMAR = NO
+ACTIVE_PHYSICAL_PREDICTIVE_CANDIDATE = NONE
+POSITIVE_EMPIRICAL_PGH_CREDIT = NONE
+R2B = UNSATISFIED
+FCP_EFFECT = NONE
+```
+
+The selected M3 direction was already identified in the pre-empirical SG4 adjudication as a stronger structural mechanism to examine **after** M2 causal/DAG factorization. Its selection now is therefore not derived from Kp or HURDAT2 fit behavior.
+
+The next operation should be:
+
+```text
+PGH1_R2B_NETWORK_SOURCE_INDEPENDENCE_STRUCTURAL_CONSTRAINT_FEASIBILITY_GATE
+```
+
+It is a target-free formal feasibility gate only. It should determine whether fixed network topology plus source-independence/resource assumptions can generate a nontrivial model-class exclusion stronger/different from the retired minimal path-CI route while keeping every selective input visible.
+
+The gate must stop before:
+
+```text
+PHYSICAL_NETWORK_SELECTION
+STRONG_PGH_CANDIDATE_ADMISSION
+SEMANTIC_TARGET_BRIDGE
+TARGET_DISCOVERY
+EMPIRICAL_DATA
+```
+
+If the M3 gate fails, no automatic M4/new-formalism sequence is authorized; the project should instead re-adjudicate whether active strong-PGH successor generation should be suspended.
+
+```text
+NEXT_RECOMMENDED_OPERATION = PGH1_R2B_NETWORK_SOURCE_INDEPENDENCE_STRUCTURAL_CONSTRAINT_FEASIBILITY_GATE
+NEXT_OPERATION_AUTHORIZED = NO
+```
+
+<!-- PGH_HANDOFF_CAPSULE_BEGIN -->
+```json
+{"capsule_schema_version":"0.1.0","operation_id":"PGH1_POST_EMPIRICAL_FAILURE_ARCHITECTURE_RESEARCH_SEQUENCING_GATE","status":"COMPLETE_CANDIDATE","indexed_research_baseline_commit":"59d199c4de8ed7504f86096fb06a5453cf2236a5","must_read":["governance/PGH1_POST_EMPIRICAL_FAILURE_ARCHITECTURE_RESEARCH_SEQUENCING_GATE_PREREGISTRATION_0_1_0.md","audits/PGH1_POST_EMPIRICAL_FAILURE_ARCHITECTURE_RESEARCH_SEQUENCING_GATE_0_1_0.md","audits/PGH1_R2B_SG4_STRUCTURAL_PROCESS_CONSTRAINT_ADJUDICATION_0_1_0.md","audits/PGH1_POST_HURDAT2_FIVE_CANDIDATE_RESULT_ADJUDICATION_0_1_0.md"],"outputs":["audits/PGH1_POST_EMPIRICAL_FAILURE_ARCHITECTURE_RESEARCH_SEQUENCING_GATE_0_1_0.md","handoffs/PGH1_POST_EMPIRICAL_FAILURE_ARCHITECTURE_RESEARCH_SEQUENCING_GATE_HANDOFF_0_1_0.md"],"open_questions":["PGH-Q-0017"],"next_recommended_operation":"PGH1_R2B_NETWORK_SOURCE_INDEPENDENCE_STRUCTURAL_CONSTRAINT_FEASIBILITY_GATE","next_operation_authorized":false,"do_not_assume":["M3_IS_A_PHYSICAL_GRAMMAR","NETWORK_TOPOLOGY_IS_PHYSICALLY_PRIVILEGED","SOURCE_INDEPENDENCE_IS_FREE","A_STRONG_PGH_CANDIDATE_EXISTS","A_TARGET_IS_AUTHORIZED","POSITIVE_EMPIRICAL_PGH_EVIDENCE_EXISTS","R2B_HAS_PASSED"]}
+```
+<!-- PGH_HANDOFF_CAPSULE_END -->
