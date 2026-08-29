@@ -3,11 +3,11 @@
 <!-- PGH_DERIVED_CURRENT_STATUS_BEGIN -->
 ## Current scientific status
 
-The HURDAT2 target and five-candidate analysis protocol remain frozen and unexecuted. The first raw-custody attempt is canonically recorded as a technical failure because raw bytes entered temporary unintegrated Git construction history. No primary statistic was run. A transport-only custody repair is the next authorized operation.
+The five post-Kp successor packages, TGT-008 Atlantic HURDAT2 target, complete target-specific analysis, and canonical raw-data custody are frozen and qualified. The historical OP-0090 custody incident remains provenance feedback, but OP-0092 requalified the immutable artifact without raw payload in the candidate tree. No primary statistic has yet run.
 
 Current derived state: [`CURRENT_STATE.md`](CURRENT_STATE.md).
 
-Next authorized science: `PGH1_HURDAT2_CUSTODY_TRANSPORT_REPAIR_AND_REQUALIFICATION`.
+Next authorized science: `PGH1_HURDAT2_FIVE_CANDIDATE_COMMON_DATA_EXECUTION`.
 <!-- PGH_DERIVED_CURRENT_STATUS_END -->
 
 
