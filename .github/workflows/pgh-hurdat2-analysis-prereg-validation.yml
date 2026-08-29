@@ -19,11 +19,7 @@ jobs:
             echo "SOURCE_SHA256=$(sha256sum tools/pgh_hurdat2_five_candidate.cpp | awk '{print $1}')"
             echo "COMPILER=$(g++ --version | head -1)"
             echo "KERNEL=$(uname -srm)"
-            echo "LONG_DOUBLE_SIZE=$(python3 - <<'PY'
-import ctypes
-print(ctypes.sizeof(ctypes.c_longdouble))
-PY
-)"
+            echo "LONG_DOUBLE_SIZE=$(python3 -c 'import ctypes; print(ctypes.sizeof(ctypes.c_longdouble))')"
             /tmp/pgh_hurdat2_five_candidate --self-test
             if grep -nE 'std::(random|shuffle|uniform_|discrete_distribution|mt19937)' tools/pgh_hurdat2_five_candidate.cpp; then
               echo "STD_RANDOM_DISTRIBUTION_USE=FOUND"
