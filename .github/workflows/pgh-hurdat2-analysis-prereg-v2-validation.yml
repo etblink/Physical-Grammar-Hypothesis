@@ -1,0 +1,18 @@
+name: PGH repaired HURDAT2 prereg validation
+on:
+  push:
+    branches:
+      - validation/pgh1-hurdat2-analysis-prereg-v2
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Compile exact committed source
+        run: g++ -std=c++20 -O2 -Wall -Wextra -pedantic -Werror tools/pgh_hurdat2_five_candidate.cpp -o /tmp/pgh_hurdat2_five_candidate
+      - name: Synthetic qualification
+        run: /tmp/pgh_hurdat2_five_candidate --self-test
+      - name: Dependency and source identity audit
+        run: |
+          test "$(sha256sum tools/pgh_hurdat2_five_candidate.cpp | awk '{print $1}')" = "1514eb108bb49bb69c6ccd99e0d2357278a3498a6a6e5162e1945c9253e0f492"
+          ! grep -nE 'boost|std::(random|shuffle|uniform_|discrete_distribution|mt19937)|__int128' tools/pgh_hurdat2_five_candidate.cpp
