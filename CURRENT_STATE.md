@@ -9,7 +9,7 @@ CURRENT_PHASE = PGH-0_CONCEPTUAL_FORMULATION
 FCP_RELATIONSHIP = INDEPENDENT_INCUBATION
 FCP_FRAMEWORK_STATUS = NONE
 CANONICAL_EFFECT_ON_FCP = NONE
-SOURCE_BOUND_STATUS = SOURCE_LANDSCAPE_INTAKE_AUTHORIZED_NOT_STARTED
+SOURCE_BOUND_STATUS = REPRESENTATIVE_LANDSCAPE_FROZEN
 EMPIRICAL_STATUS = UNESTABLISHED
 ```
 
@@ -20,88 +20,89 @@ ACTIVE_CANDIDATE_GRAMMAR = PGH-GRAM-0002
 NAME = EXTENSIONAL_FORMATION_BASELINE
 STATUS = PROVISIONAL_FORMAL_BASELINE_NONPHYSICAL
 SUCCESSOR_GRAMMAR_QUALIFIED = NO
+PHYSICAL_GRAMMAR_FOUND = NO
 ```
 
-## Latest canonical scientific result
+The formal baseline has not changed as a result of source intake.
+
+## Latest canonical research result
 
 ```text
-PGH0_REPRESENTATION_EQUIVALENCE_AND_COHERENCE_CHALLENGE = CANONICALLY_COMPLETE
-LATEST_SCIENTIFIC_BASELINE_COMMIT = daf6320d3fc679343a8cd32c472be1fd90ac5a51
-LATEST_SCIENTIFIC_BASELINE_TREE = f363bbd89f28304b35924b2a46fa3a790a8aa90c
-OUTCOME = B__OUTCOME_INDEPENDENT_EQUIVALENCE_IS_DEFINED_BUT_PROJECTION_SELECTION_REMAINS_UNDERDETERMINED
+PGH0_REPRESENTATION_COHERENCE_SOURCE_LANDSCAPE_INTAKE = CANONICALLY_COMPLETE
+SOURCE_FREEZE_COMMIT = 2f3b8b45a4ead81980ab0809fdb3160e8d0454b0
+SOURCE_FREEZE_TREE = 5e303dc43b69788948ddb70315ec4008d6d543a6
+ACCEPTED_SOURCE_COUNT = 37
+REVIEWED_CANDIDATE_COUNT = 52
+SEARCH_LANE_COVERAGE = 12_OF_12
+SOURCE_SELECTION_AUDIT = PASS
+LANDSCAPE_SATURATION = PASS_FOR_REPRESENTATIVE_SCOPE
 ```
 
-Canonical new results:
+The frozen landscape establishes extensive prior-art neighborhoods for the mathematics and foundational methodology already used by PGH. It does not establish PGH's novelty or physical correctness.
+
+## Prior-art discipline now in force
 
 ```text
-PGH-DER-0004 = PRESENTATION_PROJECTION_FACTORIZATION
-PGH-DER-0005 = COHERENCE_MONOTONICITY_UNDER_FORGETTING
-PGH-FAIL-0004 = UNIQUE_PROJECTION_FROM_REPRESENTATION_INVARIANCE
+PGH-DER-0001 = STRONG_FORMAL_PRIOR_ART_OVERLAP
+PGH-DER-0002 = FOUNDATIONAL_INVARIANCE_PRIOR_ART_NEIGHBORHOOD
+PGH-DER-0003 = DIRECT_THEOREM_FAMILY_OVERLAP_WITH_MAC_LANE_COHERENCE
+PGH-DER-0004 = STRONG_QUOTIENT_ALGEBRAIC_THEORY_PRIOR_ART_NEIGHBORHOOD
+PGH-DER-0005 = PROJECT_SPECIFIC_FINITE_CONTROL_WITH_NONUNIQUE_GENERAL_PRIOR_ART_STATUS
 ```
 
-A presentation equivalence can be defined without evaluating the candidate operation by using a projection `q:P→I` and equating presentations with the same `q`-image. Coherence is then exactly factorization of evaluation through `q`.
+In particular, `PGH-DER-0003` should be treated as a rediscovery/local specialization of an established coherence theorem family, not as a candidate novel mathematical theorem.
 
-The amount of presentation detail forgotten controls the strength of coherence constraints. In the two-element binary-operation controls:
+## Current residual burden
 
-```text
-P0_FULL_TREE_IDENTITY = 16 coherent operations
-P1_ORDERED_LEAF_WORD = 8 coherent operations
-P2_LEAF_MULTISET = 6 coherent operations
-P3_LEAF_COUNT = 0 coherent operations
-```
+The literature provides mature machinery for congruences/quotients, rewriting and confluence, categorical coherence, operads/multicategories, algebraic theories/monads, graphical calculi, and multiple notions of theoretical equivalence.
 
-Thus the project has solved the formal circularity problem but not the foundational selection problem.
+It also provides substantial nearby foundational positions and physical applications: structural realism, process/categorical physics, operational reconstructions, constructor theory, laws as constraints, and mathematical-universe theses.
 
-## Current bottleneck
+The clearest live PGH burden remains:
 
 ```text
-PGH-Q-0013 = RESOLVED_AT_FORMAL_SCOPE
 PGH-Q-0016 = OPEN
 ```
 
-The live question is:
+> What non-result-directed principle, if any, selects which presentation distinctions count as physically irrelevant invariant content?
 
-> What non-result-directed principle, if any, selects which presentation distinctions count as invariant content and which are representationally irrelevant?
+The source landscape strengthens rather than resolves that question: established literature offers many legitimate equivalence notions, not one universal physical selector.
 
-Current PGH methodology does not justify privileging P1, P2, or any other nontrivial projection.
+## Novelty status
 
-## Why the next step changes mode
+```text
+PGH_NOVELTY = UNRESOLVED
+EXACT_PRIOR_ART_IDENTITY_OF_STRONG_PGH = NOT_ESTABLISHED_IN_FROZEN_LANDSCAPE
+NOVELTY_CLAIM_FROM_SEARCH_ABSENCE = FORBIDDEN
+```
 
-Further internally invented projection-selection axioms now risk rediscovering standard mathematics or choosing invariant content by intuition.
+The project-specific research package is presently the conjectural conjunction of a generative grammar of physical possibility, representation-independent well-formedness, a physical-equivalence quotient, law as grammar constraint, and a non-result-directed rule selecting physically irrelevant presentation structure.
 
-The Project Lead therefore directs the project to pause new internal axiom invention and begin a bounded source-landscape audit covering established work relevant to:
-
-- presentations and quotient structures;
-- coherence and rewriting;
-- universal algebra;
-- operads and variable-arity composition;
-- categorical coherence and equivalence;
-- structural/relational accounts of physical law;
-- formal-language and compositional approaches relevant to the PGH claim.
-
-This source operation is for landscape mapping and source selection only. It does not admit a physical grammar or change FCP.
+That is a description of the live conjecture, not a novelty assertion.
 
 ## Accounting
 
 ```text
-OPERATION_RECORD_COUNT = 9
+OPERATION_RECORD_COUNT = 11
 RESEARCH_OBJECT_RECORD_COUNT = 18
 QUESTION_RECORD_COUNT = 16
 OPEN_QUESTION_COUNT = 13
 QUALIFIED_FORMAL_DERIVATION_COUNT = 5
 FAILED_DERIVATION_COUNT = 4
-PHYSICAL_GRAMMAR_FOUND = NO
+FROZEN_LANDSCAPE_SOURCE_COUNT = 37
 PHYSICAL_LAW_DERIVED = NO
 EMPIRICAL_PREDICTION = NONE
 FCP_EFFECT = NONE
 ```
 
-## Next authorized operation
+## Next recommended operation
 
 ```text
-NEXT_RECOMMENDED_OPERATION = PGH0_REPRESENTATION_COHERENCE_SOURCE_LANDSCAPE_INTAKE
-NEXT_OPERATION_AUTHORIZED = YES
+NEXT_RECOMMENDED_OPERATION = PGH0_PRIOR_ART_OVERLAP_AND_RESIDUAL_NOVELTY_ADJUDICATION
+NEXT_OPERATION_AUTHORIZED = NO
 ```
+
+That operation should use only the frozen landscape unless separately authorized to expand it. Its purpose is to determine what remains of PGH after explicit prior-art subtraction, not to defend novelty.
 
 ## Structured current-state capsule
 
@@ -113,23 +114,24 @@ NEXT_OPERATION_AUTHORIZED = YES
   "current_phase": "PGH-0_CONCEPTUAL_FORMULATION",
   "canonical_hypothesis": "HYPOTHESIS.md",
   "active_candidate_grammar": "PGH-GRAM-0002",
-  "current_handoff": "handoffs/POST_PGH0_REPRESENTATION_EQUIVALENCE_RECONCILIATION_HANDOFF_0_1_0.md",
-  "source_bound_status": "SOURCE_LANDSCAPE_INTAKE_AUTHORIZED_NOT_STARTED",
+  "current_handoff": "handoffs/POST_PGH0_REPRESENTATION_COHERENCE_SOURCE_LANDSCAPE_RECONCILIATION_HANDOFF_0_1_0.md",
+  "source_bound_status": "REPRESENTATIVE_LANDSCAPE_FROZEN",
   "fcp_relationship": "INDEPENDENT_INCUBATION",
-  "next_recommended_operation": "PGH0_REPRESENTATION_COHERENCE_SOURCE_LANDSCAPE_INTAKE",
-  "next_operation_authorized": true,
+  "next_recommended_operation": "PGH0_PRIOR_ART_OVERLAP_AND_RESIDUAL_NOVELTY_ADJUDICATION",
+  "next_operation_authorized": false,
   "open_question_count": 13,
   "do_not_assume": [
+    "PGH_IS_NOVEL",
+    "PGH_ALREADY_EXISTS_IN_THE_LITERATURE",
+    "SEARCH_ABSENCE_ESTABLISHES_NOVELTY",
     "PGH_GRAM_0002_IS_PHYSICAL",
-    "P1_IS_THE_FUNDAMENTAL_PROJECTION",
-    "ASSOCIATIVITY_IS_PHYSICAL",
-    "COMMUTATIVITY_IS_PHYSICAL",
-    "MORE_FORGETTING_IS_PHYSICALLY_BETTER",
-    "LESS_FORGETTING_IS_PHYSICALLY_BETTER",
-    "QUOTIENT_FACTORIZATION_IS_A_PHYSICAL_LAW",
-    "INVARIANT_CONTENT_SELECTION_IS_SOLVED",
-    "PGH_IS_NOVEL_RELATIVE_TO_EXISTING_LITERATURE",
-    "PGH_HAS_EMPIRICAL_SUPPORT",
+    "MAC_LANE_COHERENCE_ESTABLISHES_PHYSICAL_GRAMMAR",
+    "CATEGORY_THEORY_OR_OPERADS_OR_MONADS_ARE_PRIVILEGED_PGH_ONTOLOGY",
+    "STRUCTURAL_REALISM_IS_PGH",
+    "CONSTRUCTOR_THEORY_IS_PGH",
+    "LAWS_AS_CONSTRAINTS_IS_PGH",
+    "SOURCE_FREQUENCY_ESTABLISHES_PHYSICAL_TRUTH",
+    "PHYSICAL_BRIDGE_IS_AUTHORIZED",
     "PGH_HAS_ANY_CANONICAL_EFFECT_ON_FCP"
   ]
 }

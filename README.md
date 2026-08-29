@@ -12,41 +12,40 @@
 ACTIVE_CANDIDATE_GRAMMAR = PGH-GRAM-0002
 STATUS = PROVISIONAL_FORMAL_BASELINE_NONPHYSICAL
 PHYSICAL_GRAMMAR_FOUND = NO
+SOURCE_BOUND_STATUS = REPRESENTATIVE_LANDSCAPE_FROZEN
 ```
 
-PGH has now qualified five formal derivations and preserved four failed proposals.
+PGH has qualified five formal derivations, preserved four failed proposals, and now frozen a representative prior-art/source landscape.
 
-The latest result is:
+## Source landscape
 
 ```text
-PGH-DER-0004 = PRESENTATION_PROJECTION_FACTORIZATION
-PGH-DER-0005 = COHERENCE_MONOTONICITY_UNDER_FORGETTING
-PGH-FAIL-0004 = UNIQUE_PROJECTION_FROM_REPRESENTATION_INVARIANCE
+PGH0_REPRESENTATION_COHERENCE_SOURCE_LANDSCAPE_INTAKE = CANONICALLY_COMPLETE
+ACCEPTED_SOURCES = 37
+REVIEWED_CANDIDATES = 52
+SEARCH_LANES = 12_OF_12
+SOURCE_SELECTION_AUDIT = PASS
+LANDSCAPE_SATURATION = PASS_FOR_REPRESENTATIVE_SCOPE
 ```
 
-A syntax-level projection can define representation equivalence without consulting the algebraic result, and coherence is factorization through the retained invariant content. But different outcome-independent projections induce different law classes.
+The landscape shows that much of PGH's current formal machinery sits inside mature mathematical traditions: universal algebra and quotients, rewriting/confluence, categorical coherence, operads/multicategories, algebraic theories/monads, and graphical calculi. Existing philosophy of physics also supplies multiple notions of theoretical equivalence, while structural realism, process approaches, constructor theory, laws-as-constraints, operational reconstructions, and mathematical-universe theses occupy nearby foundational territory.
 
-For the two-element binary controls:
+This does **not** establish that strong PGH is either novel or already present in the literature.
+
+## Current research burden
+
+The clearest remaining question is:
+
+> What non-result-directed principle selects which presentation distinctions are physically irrelevant?
+
+The frozen landscape suggests that the mathematical availability of equivalence/coherence machinery is not the bottleneck. The unresolved issue is physical privilege and interpretation.
 
 ```text
-FULL_TREE_IDENTITY -> 16 operations
-ORDERED_LEAF_WORD -> 8 operations
-LEAF_MULTISET -> 6 operations
-LEAF_COUNT -> 0 operations
+PGH_NOVELTY = UNRESOLVED
+PHYSICAL_BRIDGE = NOT_AUTHORIZED
+NEXT_RECOMMENDED_OPERATION = PGH0_PRIOR_ART_OVERLAP_AND_RESIDUAL_NOVELTY_ADJUDICATION
+NEXT_OPERATION_AUTHORIZED = NO
 ```
-
-So the live problem is no longer how to define equivalence noncircularly. It is how to select **which content is invariant** without choosing the answer by hand.
-
-## Leadership direction
-
-The next step changes mode deliberately. Before inventing another internal axiom, PGH will perform a bounded prior-art/source landscape audit.
-
-```text
-NEXT_RECOMMENDED_OPERATION = PGH0_REPRESENTATION_COHERENCE_SOURCE_LANDSCAPE_INTAKE
-NEXT_OPERATION_AUTHORIZED = YES
-```
-
-The audit will map established work on presentations, quotients, coherence, rewriting, universal algebra, operads, categorical equivalence, and related foundational-physics approaches. It will not yet admit a physical grammar or alter FCP.
 
 ## Authority
 
@@ -56,4 +55,4 @@ CANONICAL_MARKDOWN_ARTIFACTS = RESEARCH_AND_GOVERNANCE_AUTHORITY
 STRUCTURED_NAVIGATION_LAYER = DERIVED_NAVIGATION_ONLY
 ```
 
-See [`CURRENT_STATE.md`](CURRENT_STATE.md) and the latest file in [`handoffs/`](handoffs/) for the exact continuation boundary.
+See [`CURRENT_STATE.md`](CURRENT_STATE.md), the frozen files under [`sources/`](sources/), and the current file in [`handoffs/`](handoffs/) for the exact continuation boundary.
