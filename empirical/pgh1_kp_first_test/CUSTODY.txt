@@ -1,0 +1,4 @@
+SOURCE=https://datapub.gfz.de/download/10.5880.Kp.0001/Kp_definitive/
+DOI=https://doi.org/10.5880/Kp.0001
+YEARS=1932-2025
+ORDER=ascending year, exact file bytes concatenated without separators
