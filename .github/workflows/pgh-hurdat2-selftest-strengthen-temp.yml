@@ -1,0 +1,32 @@
+name: PGH temporary strengthened HURDAT2 self-test
+on:
+  push:
+    branches:
+      - research/pgh1-hurdat2-five-candidate-analysis-prereg
+permissions:
+  contents: write
+jobs:
+  qualify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Apply and qualify strengthened self-test
+        run: |
+          set -euo pipefail
+          python3 tools/_temp_strengthen_hurdat_selftest.py
+          g++ -std=c++20 -O2 -Wall -Wextra -pedantic -Werror tools/pgh_hurdat2_five_candidate.cpp -o /tmp/pgh_hurdat2_five_candidate
+          /tmp/pgh_hurdat2_five_candidate --self-test
+          if grep -nE 'boost|std::(random|shuffle|uniform_|discrete_distribution|mt19937)|__int128' tools/pgh_hurdat2_five_candidate.cpp; then exit 1; fi
+          sha256sum tools/pgh_hurdat2_five_candidate.cpp
+          rm tools/_temp_strengthen_hurdat_selftest.py
+          rm .github/workflows/pgh-hurdat2-selftest-strengthen-temp.yml
+      - name: Commit strengthened qualified candidate
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -A
+          git diff --cached --check
+          git commit -m 'Strengthen HURDAT2 synthetic implementation qualification'
+          git push
