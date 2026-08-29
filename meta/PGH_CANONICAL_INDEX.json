@@ -1,22 +1,22 @@
 {
-  "active_candidate_grammar": "PGH-GRAM-0001",
+  "active_candidate_grammar": "PGH-GRAM-0002",
   "authority": "DERIVED_NAVIGATION_ONLY",
   "canonical_hypothesis": "HYPOTHESIS.md",
   "canonical_state": "CURRENT_STATE.md",
   "counts": {
-    "open_question_records": 10,
+    "open_question_records": 12,
     "open_questions": 10,
-    "operation_records": 3,
-    "research_object_records": 8
+    "operation_records": 5,
+    "research_object_records": 11
   },
-  "current_handoff": "handoffs/PGH_REPOSITORY_SCALABILITY_AND_NAVIGATION_FOUNDATION_HANDOFF_0_1_0.md",
+  "current_handoff": "handoffs/POST_PGH0_MINIMAL_GRAMMAR_RECONCILIATION_HANDOFF_0_1_0.md",
   "current_phase": "PGH-0_CONCEPTUAL_FORMULATION",
   "fcp_relationship": "INDEPENDENT_INCUBATION",
-  "indexed_research_baseline_commit": "1d8463fc051617baf93b5e1b65f28dd25beda976",
-  "indexed_research_baseline_tree": "5f29d71965e0c46924c6998a64a86daef704e4fe",
-  "latest_completed_operation": "PGH_REPOSITORY_SCALABILITY_AND_NAVIGATION_FOUNDATION",
+  "indexed_research_baseline_commit": "bb490460acfd2c169435369adcb3489b1803beea",
+  "indexed_research_baseline_tree": "28ee5f8254e0810557100cb1ab4dfcaac2997a7c",
+  "latest_completed_operation": "POST_PGH0_MINIMAL_GRAMMAR_RECONCILIATION",
   "next_operation_authorized": false,
-  "next_recommended_operation": "PGH0_MINIMAL_GRAMMAR_CHALLENGE",
+  "next_recommended_operation": "PGH0_NONARBITRARY_FORMATION_CONSTRAINT_CHALLENGE",
   "schema_version": "0.1.0",
   "source_bound_status": "NOT_YET_SOURCE_BOUND"
 }

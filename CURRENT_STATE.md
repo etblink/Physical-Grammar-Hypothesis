@@ -15,9 +15,9 @@ EMPIRICAL_STATUS = UNESTABLISHED
 
 ## Current strongest hypothesis
 
-The strongest version presently under consideration is:
+The strongest live hypothesis remains:
 
-> There exists a compact, representation-independent generative grammar whose well-formed structures or derivations, modulo physical equivalence, correspond to the physically possible structures of the universe, with the fundamental laws of physics arising from that grammar rather than from an additional independently imposed dynamical rule set.
+> There exists a compact, representation-independent generative grammar whose well-formed structures or derivations, modulo physical equivalence, correspond to physically possible structures, with the fundamental laws of physics arising from that grammar rather than from an additional independently imposed law set.
 
 Schematic form:
 
@@ -25,69 +25,143 @@ Schematic form:
 P \cong W(G)/{\sim}.
 \]
 
-This is a research hypothesis, not an established result.
+This remains a research hypothesis, not an established theory.
 
-## Current null hypothesis
-
-```text
-H0 = GRAMMATICAL_STRUCTURE_IS_A_FEATURE_OF_REPRESENTATION_AND_INDEPENDENT_PHYSICAL_LAWS_REMAIN_NECESSARY
-```
-
-The project has not yet produced evidence sufficient to prefer PGH over this null hypothesis.
-
-## Current candidate primitive reduction
-
-The initial conceptual list was:
+## Canonical PGH-0 minimal-grammar result
 
 ```text
-DISTINCTION
-BOUNDARY
-COMPOSITION
-TRANSFORMATION
-EQUIVALENCE
+PGH0_MINIMAL_GRAMMAR_CHALLENGE = CANONICALLY_COMPLETE
+SCIENTIFIC_BASELINE_COMMIT = bb490460acfd2c169435369adcb3489b1803beea
+SCIENTIFIC_BASELINE_TREE = 28ee5f8254e0810557100cb1ab4dfcaac2997a7c
 ```
 
-The current reduction candidate is:
+The opening shell
 
 ```text
-DISTINGUISH
-COMPOSE
-IDENTIFY
+PGH-GRAM-0001 = {DISTINGUISH, COMPOSE, IDENTIFY}
 ```
 
-Current status:
+is superseded as a set of three independent object-level primitives at bare formation well-formedness scope.
+
+The current formal baseline is:
 
 ```text
-DISTINGUISH = CANDIDATE_PRIMITIVE_NOT_FORMALLY_FIXED
-COMPOSE = CANDIDATE_PRIMITIVE_NOT_FORMALLY_FIXED
-IDENTIFY = CANDIDATE_PRIMITIVE_NOT_FORMALLY_FIXED
-BOUNDARY = CANDIDATE_DERIVED_NOT_PROVEN
-TRANSFORMATION = CANDIDATE_DERIVED_NOT_PROVEN
-CONTEXT = CANDIDATE_DERIVED_NOT_PROVEN
+ACTIVE_CANDIDATE_GRAMMAR = PGH-GRAM-0002
+NAME = EXTENSIONAL_FORMATION_BASELINE
+STATUS = PROVISIONAL_FORMAL_BASELINE_NONPHYSICAL
 ```
 
-No claim has yet been established that three primitives are minimal, sufficient, independent, or even jointly coherent.
+At the weakest worked representation, let `A` be a formal carrier and let
 
-## What has been established
+\[
+F\subseteq A^3
+\]
 
-Only the following methodological points are currently accepted project state:
+be a bare formation relation. The complete formation-incidence profile of a label induces grammar-internal contextual equivalence and distinction.
 
-1. A useful PGH must be stronger than the statement that physics can be encoded formally.
-2. A candidate grammar must face a no-smuggling audit.
-3. A nontrivial candidate grammar must exclude something otherwise describable.
-4. A candidate deep grammar must be tested for representation invariance.
-5. A successful grammar should exhibit generative compression.
-6. Formal resemblance to known physics is not itself a physical derivation.
-7. Failed derivations must be preserved.
-8. PGH remains independent of FCP at this stage.
+Canonical results:
+
+```text
+IDENTIFY_INDEPENDENT_PRIMITIVE = REDUNDANT_AT_MINIMAL_WELL_FORMEDNESS_SCOPE
+DISTINGUISH_INDEPENDENT_PRIMITIVE = REDUNDANT_AT_MINIMAL_WELL_FORMEDNESS_SCOPE
+BINARY_COMPOSE_AS_FUNDAMENTAL = NOT_ESTABLISHED
+ABSTRACT_FORMATION_OR_GENERATIVE_RELATION = REQUIRED_FOR_GENERATIVE_GRAMMAR
+```
+
+The word `required` in the last line is architectural/definitional: a generative grammar needs some generative mechanism. It is not a physical law.
+
+## Qualified derivation
+
+```text
+PGH-DER-0001 = CONTEXTUAL_EXTENSIONAL_REDUCTION
+STATUS = QUALIFIED
+CLAIM_SCOPE = BARE_FORMATION_WELL_FORMEDNESS_ONLY
+PHYSICAL_CONSEQUENCE = NONE
+```
+
+If two labels have identical complete incidence profiles in `F`, substitution between them preserves well-formedness in every finite formation context. Conversely, depth-one contexts recover the complete profile. The induced equivalence is a congruence, and `F` descends to the quotient.
+
+This does not establish physical identity, gauge equivalence, observational equivalence, or metaphysical identity.
+
+## Preserved failure
+
+```text
+PGH-FAIL-0001 = BARE_FORMATION_GRAMMAR_PHYSICAL_SUFFICIENCY
+STATUS = FAILED_PRESERVED
+FAILURE_CLASS = NONEXCLUSIVE; UNDERDETERMINED
+```
+
+For any desired finite local admissibility table `S subset A^3`, choosing `F=S` reproduces that table directly. Therefore bare formation does not explain why one admissibility pattern obtains rather than another.
+
+The extensional quotient removes redundant labels but does not select the formation table.
+
+## Current nontriviality profile for PGH-GRAM-0002
+
+```text
+N0_FORMAL_DEFINABILITY = PASS
+N1_UNIVERSAL_ENCODING = FAIL
+N2_NO_SMUGGLING = PASS_FOR_PURE_FORMAL_REDUCTION
+N3_NONUNIVERSAL_EXCLUSION = FAIL
+N4_REPRESENTATION_INVARIANCE = PARTIAL
+N5_SEMANTIC_LOAD = NOT_APPLICABLE
+N6_GENERATIVE_COMPRESSION = FAIL
+N7_INDEPENDENT_CONSEQUENCE = FAIL
+N8_COUNTEREXAMPLE_EXPOSURE = PASS
+N9_RELABELING_INVARIANCE = PASS
+N10_PHYSICAL_BRIDGE = NOT_APPLICABLE
+```
+
+Therefore:
+
+```text
+PGH-GRAM-0002_OUTCOME = FORMALLY_INTERESTING_NONPHYSICAL
+OPENING_PGH0_GATE = FAIL_TO_ADVANCE_TO_PHYSICAL_BRIDGE
+```
+
+This is not a rejection of PGH. It rejects only the claim that bare formation plus extensional reduction is already a nontrivial physical grammar.
+
+## Resolved questions
+
+```text
+PGH-Q-0002 = RESOLVED
+PGH-Q-0003 = RESOLVED
+```
+
+At the declared PGH-0 scope:
+
+- a formation relation can be defined without importing physical boundaries, types, or causal order;
+- `IDENTIFY` can be reduced to contextual indistinguishability under bare formation well-formedness.
+
+The resolutions are scope-bounded and do not settle richer future grammars.
+
+## Open questions
+
+Ten questions remain open:
+
+```text
+PGH-Q-0001
+PGH-Q-0004
+PGH-Q-0005
+PGH-Q-0006
+PGH-Q-0007
+PGH-Q-0008
+PGH-Q-0009
+PGH-Q-0010
+PGH-Q-0011
+PGH-Q-0012
+```
+
+The two newly exposed central burdens are:
+
+- `PGH-Q-0011` — What is the weakest non-arbitrary structural constraint on formation that yields an exclusion not merely entered as an admissibility table?
+- `PGH-Q-0012` — Can formation/generativity be expressed in an arity- and ordering-neutral way that survives translation between genuinely different mathematical representations?
 
 ## What has NOT been established
 
 ```text
-MINIMAL_GRAMMAR = NONE
-FORMAL_GRAMMAR = NONE
 PHYSICAL_GRAMMAR_FOUND = NO
 NONTRIVIAL_PHYSICAL_CONSTRAINT_DERIVED = NO
+PHYSICAL_LAW_DERIVED = NO
 CONSERVATION_DERIVED = NO
 SYMMETRY_DERIVED = NO
 LOCALITY_DERIVED = NO
@@ -97,83 +171,30 @@ SPACE_DERIVED = NO
 GEOMETRY_DERIVED = NO
 QUANTUM_STRUCTURE_DERIVED = NO
 PROBABILITY_DERIVED = NO
+GAUGE_STRUCTURE_DERIVED = NO
 EMPIRICAL_PREDICTION = NONE
 EMPIRICAL_DISCRIMINATOR = NONE
 NATURAL_LANGUAGE_IDENTITY = NOT_ESTABLISHED
+FCP_EFFECT = NONE
 ```
 
-Earlier conversational observations that interface matching may resemble conservation, derivational order may resemble time, or contextual equivalence may resemble gauge/representation invariance are retained only as **analogy candidates**. They are not derivations.
-
-## Anti-import firewall
-
-Until separately derived or explicitly introduced as an assumption, do not import:
-
-- space or spacetime;
-- time;
-- locality;
-- causal order;
-- probability;
-- quantum theory;
-- geometry or dimension;
-- particles or fields;
-- energy, momentum, mass, or charge;
-- action principles or equations of motion;
-- conservation laws;
-- Hilbert-space structure;
-- category theory as fundamental ontology;
-- information or computation as fundamental ontology.
-
-## Current nontriviality burden
-
-A candidate grammar must survive the tests in `NONTRIVIALITY_TESTS.md`, especially:
+## Failed-derivation accounting
 
 ```text
-NO_SMUGGLING
-NONUNIVERSAL_EXCLUSION
-REPRESENTATION_INVARIANCE
-SEMANTIC_LOAD_AUDIT
-GENERATIVE_COMPRESSION
-INDEPENDENT_CONSEQUENCE
+FAILED_DERIVATION_COUNT = 1
+QUALIFIED_FORMAL_DERIVATION_COUNT = 1
 ```
 
-No candidate currently has `PASS` status on the complete test set.
+Failed results remain first-class research artifacts.
 
-## Failed derivations
-
-```text
-FAILED_DERIVATION_COUNT = 0_FORMALLY_LOGGED
-```
-
-Several tempting analogies have been deliberately withheld from derivation status, so they are not counted as failed derivations yet.
-
-## Open questions
-
-Canonical open-question identities are now maintained in `meta/PGH_OPEN_QUESTION_REGISTRY.jsonl`.
-
-The opening set remains:
-
-1. `PGH-Q-0001` — Can `DISTINGUISH` be defined without presupposing a set of already individuated objects?
-2. `PGH-Q-0002` — Can `COMPOSE` be defined without already importing boundaries, types, or causal ordering?
-3. `PGH-Q-0003` — Can `IDENTIFY` be reduced to compositional indistinguishability in all contexts, making it derived rather than primitive?
-4. `PGH-Q-0004` — Can boundary arise from the conditions under which composition is partial?
-5. `PGH-Q-0005` — Can transformation be represented entirely as a compositional relation rather than a separate primitive?
-6. `PGH-Q-0006` — Does any minimal grammar produce a genuine exclusion rather than a definitional tautology?
-7. `PGH-Q-0007` — What kind of semantics map is weak enough not to carry the physics itself?
-8. `PGH-Q-0008` — What would count as faithful translation between genuinely different mathematical surface languages?
-9. `PGH-Q-0009` — Is “physical possibility” the right target object, or does that phrase already import too much modal/physical structure?
-10. `PGH-Q-0010` — Can PGH be distinguished from structural realism, computation, category-theoretic foundations, informational reconstructions, and other nearby programs once source work begins?
-
-## Scalability and navigation foundation
-
-The repository now has a lightweight scalable navigation/provenance spine.
+## Navigation state
 
 ```text
-PGH_REPOSITORY_SCALABILITY_AND_NAVIGATION_FOUNDATION = CANONICALLY_COMPLETE
-SCIENTIFIC_CHANGE_FROM_INFRASTRUCTURE = NONE
-HYPOTHESIS_CHANGE_FROM_INFRASTRUCTURE = NONE
-PRIMITIVE_ADJUDICATION_FROM_INFRASTRUCTURE = NONE
-NEW_DERIVATION_FROM_INFRASTRUCTURE = NONE
-NEW_SOURCE_SEARCH_FROM_INFRASTRUCTURE = NONE
+OPERATION_RECORD_COUNT = 5
+RESEARCH_OBJECT_RECORD_COUNT = 11
+OPEN_QUESTION_RECORD_COUNT = 12
+OPEN_QUESTION_COUNT = 10
+ACTIVE_CANDIDATE_GRAMMAR = PGH-GRAM-0002
 ```
 
 Authority remains:
@@ -184,36 +205,14 @@ CANONICAL_MARKDOWN_ARTIFACTS = RESEARCH_AND_GOVERNANCE_AUTHORITY
 STRUCTURED_NAVIGATION_LAYER = DERIVED_NAVIGATION_ONLY
 ```
 
-Current navigation counts:
+## Next recommended operation
 
 ```text
-OPERATION_RECORD_COUNT = 3
-RESEARCH_OBJECT_RECORD_COUNT = 8
-OPEN_QUESTION_RECORD_COUNT = 10
-OPEN_QUESTION_COUNT = 10
-```
-
-Active working grammar identity:
-
-```text
-ACTIVE_CANDIDATE_GRAMMAR = PGH-GRAM-0001
-```
-
-This identity names the still-unfixed `{DISTINGUISH, COMPOSE, IDENTIFY}` candidate shell. It does not qualify it.
-
-## Next recommended task
-
-```text
-NEXT_RECOMMENDED_TASK = PGH0_MINIMAL_GRAMMAR_CHALLENGE
-TASK_STATUS = RECOMMENDED_NOT_STARTED
+NEXT_RECOMMENDED_OPERATION = PGH0_NONARBITRARY_FORMATION_CONSTRAINT_CHALLENGE
 NEXT_OPERATION_AUTHORIZED = NO
 ```
 
-Question:
-
-> Starting only from the candidate operations DISTINGUISH, COMPOSE, and IDENTIFY, define the weakest coherent formal structure possible and determine whether any primitive is redundant and whether any nontrivial exclusion follows before physical interpretation is added.
-
-The task should stop before claiming a physical consequence unless the nontriviality tests have been explicitly passed.
+That future operation should begin from the demonstrated arbitrariness of bare `F` and test candidate structural constraints one at a time, with explicit countermodels and no physical-law import.
 
 ## Structured current-state capsule
 
@@ -224,22 +223,23 @@ The task should stop before claiming a physical consequence unless the nontrivia
   "project": "Physical Grammar Hypothesis",
   "current_phase": "PGH-0_CONCEPTUAL_FORMULATION",
   "canonical_hypothesis": "HYPOTHESIS.md",
-  "active_candidate_grammar": "PGH-GRAM-0001",
-  "current_handoff": "handoffs/PGH_REPOSITORY_SCALABILITY_AND_NAVIGATION_FOUNDATION_HANDOFF_0_1_0.md",
+  "active_candidate_grammar": "PGH-GRAM-0002",
+  "current_handoff": "handoffs/POST_PGH0_MINIMAL_GRAMMAR_RECONCILIATION_HANDOFF_0_1_0.md",
   "source_bound_status": "NOT_YET_SOURCE_BOUND",
   "fcp_relationship": "INDEPENDENT_INCUBATION",
-  "next_recommended_operation": "PGH0_MINIMAL_GRAMMAR_CHALLENGE",
+  "next_recommended_operation": "PGH0_NONARBITRARY_FORMATION_CONSTRAINT_CHALLENGE",
   "next_operation_authorized": false,
   "open_question_count": 10,
   "do_not_assume": [
-    "DISTINGUISH_COMPOSE_IDENTIFY_IS_MINIMAL",
-    "BOUNDARY_IS_DERIVED",
-    "TRANSFORMATION_IS_DERIVED",
-    "DERIVATIONAL_ORDER_IS_PHYSICAL_TIME",
-    "BOUNDARY_MATCHING_IS_CONSERVATION",
-    "CONTEXTUAL_EQUIVALENCE_IS_GAUGE_SYMMETRY",
+    "PGH_GRAM_0002_IS_PHYSICAL",
+    "EXTENSIONALITY_IS_A_PHYSICAL_LAW",
+    "CONTEXTUAL_EQUIVALENCE_IS_GAUGE_EQUIVALENCE",
+    "FORMATION_IS_FUNDAMENTALLY_BINARY",
+    "ORDERED_ARGUMENTS_ARE_TEMPORAL_OR_CAUSAL",
+    "BARE_FORMATION_IS_NONTRIVIALLY_EXPLANATORY",
     "COMPOSITIONALITY_IMPLIES_LOCALITY",
-    "CATEGORY_THEORY_IS_THE_PRIVILEGED_PGH_FORMALISM",
+    "ABSENT_FORMATION_TRIPLES_ARE_DERIVED_EXCLUSIONS",
+    "FULL_REPRESENTATION_INVARIANCE_HAS_BEEN_ESTABLISHED",
     "PGH_HAS_EMPIRICAL_SUPPORT",
     "PGH_HAS_ANY_CANONICAL_EFFECT_ON_FCP"
   ]
@@ -249,19 +249,15 @@ The task should stop before claiming a physical consequence unless the nontrivia
 
 ## Continuation rule
 
-A successor research instance should read, at minimum:
+A successor instance should read at minimum:
 
-1. `governance/PGH_REPOSITORY_OPENING_CHARTER_0_1_0.md`
-2. `governance/PGH_ARTIFACT_AND_PROVENANCE_POLICY_0_1_0.md`
-3. `governance/PGH_NAVIGATION_AND_HANDOFF_POLICY_0_1_0.md`
-4. `CURRENT_STATE.md`
-5. `HYPOTHESIS.md`
-6. `PRIMITIVES.md`
-7. `NONTRIVIALITY_TESTS.md`
-8. `RESEARCH_LOG.md`
-9. `meta/PGH_CANONICAL_INDEX.json`
-10. the current handoff named above.
+1. `CURRENT_STATE.md`
+2. `HYPOTHESIS.md`
+3. `NONTRIVIALITY_TESTS.md`
+4. `research/formalizations/PGH0_MINIMAL_GRAMMAR_FORMALIZATION_0_1_0.md`
+5. `research/derivations/PGH_DERIVATION_CONTEXTUAL_EXTENSIONAL_REDUCTION_0_1_0.md`
+6. `research/failures/PGH_FAIL_BARE_FORMATION_GRAMMAR_PHYSICAL_SUFFICIENCY_0_1_0.md`
+7. `meta/PGH_CANONICAL_INDEX.json`
+8. the current handoff.
 
-Do not infer missing progress from phase names.
-
-Do not protect PGH from failure.
+Do not infer physical content from the formal result. Do not protect PGH from failure.
