@@ -4,19 +4,19 @@
   "canonical_hypothesis": "HYPOTHESIS.md",
   "canonical_state": "CURRENT_STATE.md",
   "counts": {
-    "open_question_records": 33,
+    "open_question_records": 34,
     "open_questions": 8,
-    "operation_records": 84,
-    "research_object_records": 126
+    "operation_records": 86,
+    "research_object_records": 127
   },
-  "current_handoff": "handoffs/POST_PGH1_HURDAT2_TARGET_FREEZE_NAVIGATION_RECONCILIATION_HANDOFF_0_1_0.md",
-  "current_phase": "PGH-1_POST_KP_HURDAT2_ANALYSIS_PREREGISTRATION",
+  "current_handoff": "handoffs/POST_PGH1_HURDAT2_ANALYSIS_PREREG_NAVIGATION_RECONCILIATION_HANDOFF_0_1_0.md",
+  "current_phase": "PGH-1_HURDAT2_RAW_DATA_CUSTODY_QUALIFICATION",
   "fcp_relationship": "INDEPENDENT_NO_EFFECT",
-  "indexed_research_baseline_commit": "4bfb4a12a5477c4b5d617b525808ba823d09bc81",
-  "indexed_research_baseline_tree": "bb3db09eb1f64ee1fa7189a1b4ef32ea39926a28",
-  "latest_completed_operation": "POST_PGH1_HURDAT2_TARGET_FREEZE_NAVIGATION_RECONCILIATION",
+  "indexed_research_baseline_commit": "802d5bf7858b00d4df5a1e6b955b65d16455ae6d",
+  "indexed_research_baseline_tree": "4bc88dae17f1ba84d5ccf6743cc7971ba6b3d8f4",
+  "latest_completed_operation": "POST_PGH1_HURDAT2_ANALYSIS_PREREG_NAVIGATION_RECONCILIATION",
   "next_operation_authorized": true,
-  "next_recommended_operation": "PGH1_POST_KP_HURDAT2_FIVE_CANDIDATE_ANALYSIS_AND_CUSTODY_PREREGISTRATION_GATE",
+  "next_recommended_operation": "PGH1_HURDAT2_RAW_DATA_CUSTODY_AND_PARSER_SUPPORT_QUALIFICATION",
   "schema_version": "0.1.0",
-  "source_bound_status": "106_DISTINCT_ACCEPTED_SOURCES_FROZEN__FIVE_SUCCESSOR_PACKAGES__TGT_008_HURDAT2_FROZEN_PRE_DATA"
+  "source_bound_status": "106_DISTINCT_ACCEPTED_SOURCES_FROZEN__TGT_008_FROZEN__PGH_OBJ_0049_PRE_DATA_PROTOCOL_QUALIFIED"
 }

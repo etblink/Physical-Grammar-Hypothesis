@@ -1,0 +1,22 @@
+# Post-PGH-1 HURDAT2 Analysis Preregistration Navigation Reconciliation — Handoff 0.1.0
+
+```text
+OPERATION_ID = POST_PGH1_HURDAT2_ANALYSIS_PREREG_NAVIGATION_RECONCILIATION
+REGISTRY_ID = PGH-OP-0089
+STATUS = COMPLETE_CANDIDATE
+INDEXED_SCIENTIFIC_BASELINE = 802d5bf7858b00d4df5a1e6b955b65d16455ae6d
+NEXT_RECOMMENDED_OPERATION = PGH1_HURDAT2_RAW_DATA_CUSTODY_AND_PARSER_SUPPORT_QUALIFICATION
+NEXT_OPERATION_AUTHORIZED = YES
+REGISTRY_ID_NEXT = PGH-OP-0090
+FCP_EFFECT = NONE
+```
+
+## Binding boundary
+
+OP-0090 may retrieve and hash only the official NHC Atlantic HURDAT2 1851-2025 release, derive the frozen master seed, and run `--parse-only` for parser/support qualification. Stop before any primary G2 statistic, CAL1/CAL2 replicate, Holm verdict, or candidate adjudication.
+
+<!-- PGH_HANDOFF_CAPSULE_BEGIN -->
+```json
+{"capsule_schema_version":"0.1.0","operation_id":"POST_PGH1_HURDAT2_ANALYSIS_PREREG_NAVIGATION_RECONCILIATION","status":"COMPLETE_CANDIDATE","indexed_research_baseline_commit":"802d5bf7858b00d4df5a1e6b955b65d16455ae6d","must_read":["governance/PGH1_POST_KP_HURDAT2_FIVE_CANDIDATE_ANALYSIS_PREREGISTRATION_0_1_0.md","tools/pgh_hurdat2_five_candidate.cpp","empirical/PGH1_POST_KP_COMMON_TARGET_FREEZE_0_1_0.md"],"outputs":["README.md","CURRENT_STATE.md","meta/PGH_CANONICAL_INDEX.json","meta/PGH_OPERATION_REGISTRY.jsonl","meta/PGH_RESEARCH_OBJECT_REGISTRY.jsonl","meta/PGH_OPEN_QUESTION_REGISTRY.jsonl","audits/POST_PGH1_HURDAT2_ANALYSIS_PREREG_NAVIGATION_RECONCILIATION_0_1_0.md","handoffs/POST_PGH1_HURDAT2_ANALYSIS_PREREG_NAVIGATION_RECONCILIATION_HANDOFF_0_1_0.md"],"open_questions":["PGH-Q-0017","PGH-Q-0034"],"next_recommended_operation":"PGH1_HURDAT2_RAW_DATA_CUSTODY_AND_PARSER_SUPPORT_QUALIFICATION","next_operation_authorized":true,"do_not_assume":["RAW_HURDAT2_HAS_BEEN_DOWNLOADED","REAL_PARSER_HAS_RUN","PRIMARY_STATISTICS_HAVE_RUN","MONTE_CARLO_HAS_RUN","ANY_CANDIDATE_VERDICT_EXISTS","R2B_HAS_PASSED"]}
+```
+<!-- PGH_HANDOFF_CAPSULE_END -->
