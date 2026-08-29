@@ -3,11 +3,11 @@
 <!-- PGH_DERIVED_CURRENT_STATUS_BEGIN -->
 ## Current scientific status
 
-`PGH-GRAM-0008` remains a retired formal/methodological control after its frozen Kp instantiation was refuted. The post-Kp strong-PGH successor admission standard (`PGH-OBJ-0040`) now requires A0-A9 hard-gate completion and full `C=(G,J,S,I)` freeze before empirical target discovery.
+Five target-free post-Kp successor packages (`PGH-OBJ-0041..0045`) pass the strict A0-A9 admission standard, but none is selected or empirically supported. The historical Kp-failed package remains failed; target discovery is still closed pending representation and plurality resolution.
 
 Current derived state: [`CURRENT_STATE.md`](CURRENT_STATE.md).
 
-Next authorized science: `PGH1_POST_KP_STRONG_PGH_SUCCESSOR_CANDIDATE_GENERATION_AND_ADMISSION_SCREEN`.
+Next authorized science: `PGH1_POST_KP_SUCCESSOR_PLURALITY_REPRESENTATION_AND_TARGET_FREE_SELECTION_GATE`.
 <!-- PGH_DERIVED_CURRENT_STATUS_END -->
 
 
