@@ -5,7 +5,7 @@
 ```text
 PROJECT = Physical Grammar Hypothesis
 PROJECT_CLASS = SPECULATIVE_FOUNDATIONAL_RESEARCH
-CURRENT_PHASE = PGH-1_R2_CANDIDATE_GRAMMAR_DISCOVERY
+CURRENT_PHASE = PGH-1_R2_GENERATED_COVER_AND_COMPATIBILITY_ORIGIN
 FCP_RELATIONSHIP = INDEPENDENT_INCUBATION
 FCP_FRAMEWORK_STATUS = NONE
 CANONICAL_EFFECT_ON_FCP = NONE
@@ -13,103 +13,111 @@ SOURCE_BOUND_STATUS = REPRESENTATIVE_LANDSCAPE_FROZEN
 EMPIRICAL_STATUS = UNESTABLISHED
 ```
 
-## Active hypothesis and formal baseline
+## Active hypothesis and formal baselines
 
 ```text
 WORKING_SCIENTIFIC_TARGET = PGH-OBJ-0012
 PGH-OBJ-0012 = ANCHORED_STRONG_PHYSICAL_GRAMMAR_HYPOTHESIS
-PGH-OBJ-0012_STATUS = PROVISIONAL_RESEARCH_TARGET_R2_UNSATISFIED_CURRENT_GRAMMAR
+PGH-OBJ-0012_STATUS = PROVISIONAL_RESEARCH_TARGET_R2_UNSATISFIED
+
 FORMAL_REFERENCE_BASELINE = PGH-GRAM-0002
 PGH-GRAM-0002_STATUS = FORMAL_BASELINE_R2_INSUFFICIENT
+
+ACTIVE_R2_MECHANISM_SCHEMA = PGH-OBJ-0013
+PGH-OBJ-0013 = LOCAL_TO_GLOBAL_CONSTRAINT_SCHEMA
+PGH-OBJ-0013_STATUS = PROVISIONAL_FORMAL_MECHANISM_R2_UNSATISFIED
+
 PHYSICAL_GRAMMAR_FOUND = NO
 PGH_NOVELTY = UNRESOLVED
 ```
 
-`PGH-GRAM-0002` remains canonical as the formal baseline against which later candidates are compared. It is not an active candidate physical grammar after the R2 gate.
+`PGH-GRAM-0002` remains the canonical formal comparison baseline, not a candidate physical grammar. `PGH-OBJ-0013` is a qualified mechanism schema, not a successor grammar.
 
 ## Latest canonical scientific result
 
 ```text
-PGH0_ANCHORED_R2_LAW_EXHAUSTION_FEASIBILITY_GATE = CANONICALLY_COMPLETE
-SCIENTIFIC_BASELINE_COMMIT = db2508349a0686ebbe5c4455a03bc2c41468942d
-SCIENTIFIC_BASELINE_TREE = 04f2199116d966bc60ee8d50dd1eabdf75e3f525
-OUTCOME = B__CURRENT_ARCHITECTURE_GENERATES_FORMAL_EXCLUSIONS_BUT_NO_R2_QUALIFYING_PHYSICAL_RESTRICTION__CURRENT_GRAMMAR_BASELINE_IS_INSUFFICIENT
+PGH1_R2_LOCAL_TO_GLOBAL_MECHANISM_GATE = CANONICALLY_COMPLETE
+SCIENTIFIC_BASELINE_COMMIT = 437f4f0d6b57d7a33aa7ec512db168ad9999bf23
+SCIENTIFIC_BASELINE_TREE = 85d1f0ddb7d98efe0c0ed1d0b0e8a0e27e57e154
+OUTCOME = B__LOCAL_TO_GLOBAL_OBSTRUCTION_IS_A_QUALIFIED_NON_TABLE_DRIVEN_FORMAL_MECHANISM_BUT_COVER_DOMAIN_AND_LOCAL_RULE_PRIVILEGE_REMAIN_UNEARNED
 ```
 
-Preserved failure:
+New formal result:
 
 ```text
-PGH-FAIL-0013 = CURRENT_GRAMMAR_R2_LAW_EXHAUSTION
+PGH-DER-0012 = ODD_CYCLE_LOCAL_TO_GLOBAL_OBSTRUCTION
+STATUS = QUALIFIED_FORMAL
+```
+
+New preserved failure:
+
+```text
+PGH-FAIL-0014 = UNPRIVILEGED_LOCAL_GLOBAL_INPUT_SELECTION
 STATUS = FAILED_PRESERVED
 ```
 
-## R2 result
+## PGH-1 discovery and source state
 
-The law-free reference anchor survived the gate unchanged.
-
-The failure lies in the current grammar architecture:
+Three PGH-1 scientific operations are now canonical:
 
 ```text
-BARE_FORMATION = UNIVERSAL_TABLE_ENCODER
-EXTENSIONAL_QUOTIENT = FORMAL_CANONICALIZATION
-PARSE_COHERENCE_ASSOCIATIVITY = FORMAL_EXCLUSION_WITHOUT_CURRENT_PHYSICAL_BRIDGE
-GRAMMAR_GENERATED_INTERFACE_CLOSURE = CONTEXT_AVAILABILITY_NOT_RESPONSE_OR_POSSIBILITY_LAW
+PGH1_R2_CANDIDATE_GRAMMAR_DISCOVERY_AND_SOURCE_GAP_AUDIT = COMPLETE
+PGH1_R2_LOCAL_TO_GLOBAL_AND_GLOBAL_CONSTRAINT_SOURCE_INTAKE = COMPLETE
+PGH1_R2_LOCAL_TO_GLOBAL_MECHANISM_GATE = COMPLETE
 ```
 
-Therefore:
+The discovery audit found no immediate `PRIORITY_A` grammar family and identified two concrete source gaps. The targeted source intake closed both gaps with a 15-source representative corpus:
 
 ```text
-PGH-OBJ-0012_R2 = UNSATISFIED_AT_CURRENT_GRAMMAR_SCOPE
-CURRENT_GRAMMAR_QUALIFIED_PHYSICAL_EXCLUSION_POWER = NONE_ESTABLISHED
-LAW_FREE_ANCHOR_COLLAPSED_INTO_LAW = NO
-ANCHORED_SUCCESSOR_REFUTED_IN_ALL_POSSIBLE_GRAMMARS = NO
+PGH1_LOCAL_GLOBAL_CORPUS_ACCEPTED = 15
+PGH1_NEW_EXTERNAL_ACCEPTED = 14
+PGH1_REUSED_CANONICAL_ACCEPTED = 1
+TOTAL_DISTINCT_FROZEN_ACCEPTED_SOURCES = 51
+SG1_LOCAL_TO_GLOBAL_OBSTRUCTION = CLOSED_AT_REPRESENTATIVE_SCOPE
+SG2_GLOBAL_CONSTRAINT_FORMALISM = CLOSED_AT_REPRESENTATIVE_SCOPE
 ```
 
-## Live scientific burden
+The strongest sourced mechanism is local-to-global obstruction. Global/all-at-once formulations remain important comparison and negative-control families because a global action or constraint functional can simply contain the physical law.
 
-`PGH-Q-0017` remains open:
+## R2 state
 
-> After a physical reference boundary is fixed, can grammatical well-formedness or coherence perform all substantive physical selection without an independent law set doing the real work?
-
-The current baseline answers only:
+The project now has a compact non-table-driven formal exclusion mechanism:
 
 ```text
-PGH-GRAM-0002 = NO_AT_CURRENT_SCOPE
+NON_TABLE_DRIVEN_GLOBAL_EXCLUSION_MECHANISM = YES
+UNIFORM_LOCAL_RULE_WITNESS = YES
+MULTIPLE_REPRESENTATION_CONTROL = PASS
 ```
 
-The next phase must discover candidate grammar-principle families rather than modify `PGH-GRAM-0002` post hoc.
-
-## Candidate-discovery firewall
-
-The next operation may classify candidate principle families but may not:
+But the physical inputs remain unearned:
 
 ```text
-RECODE_A_KNOWN_PHYSICAL_LAW_AS_A_PRODUCTION_AND_CALL_IT_DERIVED
-SELECT_A_PHYSICAL_GRAMMAR_BY_PREFERENCE
-CLAIM_A_FORMAL_EXCLUSION_IS_PHYSICAL_WITHOUT_A_BRIDGE
-EXPAND_SOURCES_WITHOUT_A_CONCRETE_GAP
-CLAIM_EMPIRICAL_SUCCESS
+PHYSICAL_PRIVILEGE_OF_CONTEXT_COVER = UNESTABLISHED
+PHYSICAL_PRIVILEGE_OF_VALUE_DOMAIN = UNESTABLISHED
+PHYSICAL_PRIVILEGE_OF_LOCAL_RULE = UNESTABLISHED
+PHYSICAL_BRIDGE = NONE
+R2_SATISFIED = NO
 ```
 
-Candidate families must be independently motivated of the target physical law they might later generate.
-
-## Source state
+The live sharpened burden is:
 
 ```text
-FROZEN_LANDSCAPE_SOURCE_COUNT = 37
-SPECIFIC_SOURCE_GAP = NONE_FOR_CURRENT_BASELINE_AUDIT
-SOURCE_EXPANSION_JUSTIFIED = NOT_YET__MUST_BE_IDENTIFIED_BY_NEXT_DISCOVERY_AUDIT
+PGH-Q-0024 = OPEN
 ```
+
+> Can the local-context cover, value-domain structure, and compatibility rule required by a non-table-driven local-to-global obstruction be generated from deeper, independently motivated PGH structure tied only to the law-free empirical anchor, rather than selected because they reproduce a target global impossibility?
+
+`PGH-Q-0017` remains the encompassing law-exhaustion burden.
 
 ## Accounting
 
 ```text
-OPERATION_RECORD_COUNT = 32
-RESEARCH_OBJECT_RECORD_COUNT = 38
-QUESTION_RECORD_COUNT = 23
-OPEN_QUESTION_COUNT = 7
-QUALIFIED_FORMAL_DERIVATION_COUNT = 11
-FAILED_DERIVATION_COUNT = 13
+OPERATION_RECORD_COUNT = 36
+RESEARCH_OBJECT_RECORD_COUNT = 41
+QUESTION_RECORD_COUNT = 24
+OPEN_QUESTION_COUNT = 8
+QUALIFIED_FORMAL_DERIVATION_COUNT = 12
+FAILED_DERIVATION_COUNT = 14
 PHYSICAL_LAW_DERIVED = NO
 EMPIRICAL_PREDICTION = NONE
 FCP_EFFECT = NONE
@@ -124,11 +132,11 @@ PGH-OP-0021 = UNUSED
 ## Next authorized operation
 
 ```text
-NEXT_RECOMMENDED_OPERATION = PGH1_R2_CANDIDATE_GRAMMAR_DISCOVERY_AND_SOURCE_GAP_AUDIT
+NEXT_RECOMMENDED_OPERATION = PGH1_R2_GENERATED_COVER_AND_COMPATIBILITY_ORIGIN_GATE
 NEXT_OPERATION_AUTHORIZED = YES
 ```
 
-The operation should use the frozen 37-source corpus first to identify candidate grammar-principle families with non-table-driven exclusion potential and determine where the current corpus lacks the sources needed to evaluate them. It must not select a physical grammar.
+The next gate must test the origin of the obstruction inputs. It may not choose a cover, domain, or compatibility rule because that choice reproduces a desired physical no-go result. It may not promote sheaf theory, graph theory, contextuality, or the odd-cycle witness to fundamental status by association.
 
 ## Structured current-state capsule
 
@@ -137,24 +145,23 @@ The operation should use the frozen 37-source corpus first to identify candidate
 {
   "capsule_schema_version": "0.1.0",
   "project": "Physical Grammar Hypothesis",
-  "current_phase": "PGH-1_R2_CANDIDATE_GRAMMAR_DISCOVERY",
+  "current_phase": "PGH-1_R2_GENERATED_COVER_AND_COMPATIBILITY_ORIGIN",
   "canonical_hypothesis": "HYPOTHESIS.md",
   "active_candidate_grammar": "PGH-GRAM-0002",
-  "active_candidate_grammar_status": "FORMAL_BASELINE_R2_INSUFFICIENT",
-  "working_scientific_target": "PGH-OBJ-0012",
-  "current_handoff": "handoffs/POST_PGH0_ANCHORED_R2_LAW_EXHAUSTION_RECONCILIATION_HANDOFF_0_1_0.md",
+  "current_handoff": "handoffs/POST_PGH1_R2_LOCAL_TO_GLOBAL_MECHANISM_RECONCILIATION_HANDOFF_0_1_0.md",
   "source_bound_status": "REPRESENTATIVE_LANDSCAPE_FROZEN",
   "fcp_relationship": "INDEPENDENT_INCUBATION",
-  "next_recommended_operation": "PGH1_R2_CANDIDATE_GRAMMAR_DISCOVERY_AND_SOURCE_GAP_AUDIT",
+  "next_recommended_operation": "PGH1_R2_GENERATED_COVER_AND_COMPATIBILITY_ORIGIN_GATE",
   "next_operation_authorized": true,
-  "open_question_count": 7,
+  "open_question_count": 8,
   "do_not_assume": [
     "PGH_GRAM_0002_IS_A_PHYSICAL_GRAMMAR",
-    "PGH_OBJ_0012_R2_PASSED",
-    "FORMAL_EXCLUSION_IS_PHYSICAL_EXCLUSION",
-    "A_NEW_GRAMMAR_HAS_BEEN_SELECTED",
+    "LOCAL_TO_GLOBAL_OBSTRUCTION_IS_A_PHYSICAL_LAW",
+    "PGH_OBJ_0013_IS_A_SUCCESSOR_GRAMMAR",
+    "CONTEXT_COVER_OR_LOCAL_RULE_IS_PHYSICALLY_PRIVILEGED",
+    "SHEAF_THEORY_OR_CONTEXTUALITY_IS_THE_PGH_GRAMMAR",
+    "R2_IS_SATISFIED",
     "PHYSICAL_LAW_HAS_BEEN_DERIVED",
-    "SOURCE_EXPANSION_IS_AUTOMATICALLY_JUSTIFIED",
     "PGH_HAS_ANY_CANONICAL_EFFECT_ON_FCP"
   ]
 }
