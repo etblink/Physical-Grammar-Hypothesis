@@ -2,7 +2,7 @@
 
 > **Status:** Speculative foundational research — independent incubation
 >
-> **Current phase:** `PGH-0_CONTEXT_RECORD_ANCHOR_ROBUSTNESS`
+> **Current phase:** `PGH-0_EMPIRICAL_INTERFACE_PRIMITIVE_FEASIBILITY`
 >
 > **FCP relationship:** None at present; this repository has no canonical effect on FCP.
 
@@ -14,25 +14,31 @@ No physical grammar has been found and PGH novelty remains unresolved.
 
 ## Latest result
 
-The minimal-semantic-anchor challenge qualified a formally feasible middle schema:
+The context/record semantic anchor is now formally representation robust under explicit commuting translation conditions:
 
 ```text
 PGH-OBJ-0009 = CONTEXT_RECORD_SEMANTIC_ANCHOR_SCHEMA
-PGH-DER-0007 = ANCHOR_RESPONSE_SEPARATION
-PGH-FAIL-0006 = SEMANTIC_ANCHOR_EXTREMES
+PGH-DER-0008 = ANCHOR_TRANSLATION_COMMUTATION
+PGH-FAIL-0007 = REPRESENTATION_ROBUSTNESS_AS_PHYSICAL_PRIVILEGE
 ```
 
-A context/record interface can specify which formal contexts count as probes and which terminal labels count as records while leaving the response law to the candidate grammar. The same anchor can support different evaluators with different record profiles.
+If evaluator translation and record interpretation commute, record profiles commute on the declared shared interface. But fine and coarse record maps can both satisfy representation robustness while inducing different distinguishability partitions.
 
-This establishes only formal feasibility. It does **not** establish that the anchor is physically privileged, complete, unique, or representation-independent.
+Therefore:
+
+```text
+REPRESENTATION_ROBUSTNESS = FORMALLY_AVAILABLE
+PHYSICAL_PRIVILEGE_FROM_ROBUSTNESS = NO
+R1_SOLVED = NO
+```
 
 ## Residual program
 
 ```text
 R1 = PHYSICAL_IRRELEVANCE_SELECTOR
 R1_MINIMAL_SEMANTIC_INTERFACE = FORMALLY_FEASIBLE
-R1_REPRESENTATION_ROBUSTNESS = UNTESTED
-R1_SOLVED = NO
+R1_REPRESENTATION_ROBUSTNESS = FORMALLY_FEASIBLE_CONDITIONALLY
+R1_PHYSICAL_PRIVILEGE = UNESTABLISHED
 
 R2 = LAW_EXHAUSTION
 R2_STATUS = DEFERRED
@@ -41,11 +47,13 @@ R2_STATUS = DEFERRED
 ## Next operation
 
 ```text
-NEXT_RECOMMENDED_OPERATION = PGH0_CONTEXT_RECORD_ANCHOR_ROBUSTNESS_GATE
+NEXT_RECOMMENDED_OPERATION = PGH0_EMPIRICAL_INTERFACE_PRIMITIVE_FEASIBILITY_GATE
 NEXT_OPERATION_AUTHORIZED = YES
 ```
 
-The next gate tests whether genuinely different formal presentations can share one context/record interface and whether anchor-relative distinguishability commutes with faithful translation without smuggling substantive physical law into the interface.
+The next gate asks whether minimal empirical contact—records, probes, interventions, or correlations—may be admitted as primitive semantic contact while leaving the substantive response law and physical possibility selection to the grammar.
+
+Any interface that already contains the response table or an independent physical law fails.
 
 ## Authority
 
