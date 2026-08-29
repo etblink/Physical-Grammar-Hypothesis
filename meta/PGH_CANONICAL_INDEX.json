@@ -4,19 +4,19 @@
   "canonical_hypothesis": "HYPOTHESIS.md",
   "canonical_state": "CURRENT_STATE.md",
   "counts": {
-    "open_question_records": 22,
+    "open_question_records": 23,
     "open_questions": 8,
-    "operation_records": 25,
-    "research_object_records": 33
+    "operation_records": 27,
+    "research_object_records": 35
   },
-  "current_handoff": "handoffs/POST_PGH0_EMPIRICAL_GENERATOR_INVARIANCE_RECONCILIATION_HANDOFF_0_1_0.md",
-  "current_phase": "PGH-0_EMPIRICAL_GENERATOR_INVARIANCE",
+  "current_handoff": "handoffs/POST_PGH0_EMPIRICAL_SUBSTRUCTURE_PRIVILEGE_RECONCILIATION_HANDOFF_0_1_0.md",
+  "current_phase": "PGH-0_R1_PHYSICAL_IRRELEVANCE_BOUNDARY",
   "fcp_relationship": "INDEPENDENT_INCUBATION",
-  "indexed_research_baseline_commit": "a96c9ecb6013d877aa3674b8044d427156c6a529",
-  "indexed_research_baseline_tree": "4a848d7ba1e92f61d2f292364dbb1a7f10ee91fb",
-  "latest_completed_operation": "POST_PGH0_EMPIRICAL_GENERATOR_INVARIANCE_RECONCILIATION",
+  "indexed_research_baseline_commit": "94d751f193b599c95ce93441c1c14cd44a2337ce",
+  "indexed_research_baseline_tree": "7afa9aa5fb617857218557e0d127cf9e9d3df333",
+  "latest_completed_operation": "POST_PGH0_EMPIRICAL_SUBSTRUCTURE_PRIVILEGE_RECONCILIATION",
   "next_operation_authorized": true,
-  "next_recommended_operation": "PGH0_EMPIRICAL_SUBSTRUCTURE_PRIVILEGE_GATE",
+  "next_recommended_operation": "PGH0_R1_PHYSICAL_IRRELEVANCE_BOUNDARY_ADJUDICATION",
   "schema_version": "0.1.0",
   "source_bound_status": "REPRESENTATIVE_LANDSCAPE_FROZEN"
 }

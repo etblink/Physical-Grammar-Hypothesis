@@ -2,37 +2,34 @@
 
 > **Status:** Speculative foundational research — independent incubation
 >
-> **Current phase:** `PGH-0_EMPIRICAL_GENERATOR_INVARIANCE`
+> **Current phase:** `PGH-0_R1_PHYSICAL_IRRELEVANCE_BOUNDARY`
 >
 > **FCP relationship:** None at present; this repository has no canonical effect on FCP.
 
 ## Current target
 
-The active formal baseline remains `PGH-GRAM-0002`, and the prior-art-subtracted working hypothesis remains `PGH-OBJ-0008`.
+The active formal baseline remains `PGH-GRAM-0002`; the prior-art-subtracted working hypothesis remains `PGH-OBJ-0008`.
 
-No physical grammar has been found and PGH novelty remains unresolved.
+No physical grammar has been found, no physical law has been derived, and PGH novelty remains unresolved.
 
 ## Latest result
 
-The empirical-seed question has narrowed to generator equivalence:
+The search for a grammar-internal empirical-interface selector has reached a boundary:
 
 ```text
-PGH-DER-0010 = EMPIRICAL_GENERATOR_CLOSURE_EQUIVALENCE
-PGH-FAIL-0010 = UNIQUE_OR_MINIMAL_EMPIRICAL_SEED
+PGH-DER-0011 = INTRINSIC_SUBSTRUCTURE_SELECTOR_SYMMETRY_OBSTRUCTION
+PGH-FAIL-0011 = GENERIC_EMPIRICAL_SUBSTRUCTURE_PRIVILEGE_SELECTORS
 ```
 
-Different law-free seeds that generate the same grammar-closed interface are interchangeable for all structure that factors through that closure. But minimum generators need not be unique or symmetry-related, and an inclusion-irredundant generator need not exist at all.
-
-So PGH does not currently need one uniquely fundamental seed at interface-generation scope. The unresolved object is the generated closed empirical substructure itself.
+Intrinsic selectors can uniquely identify proper closed substructures in some asymmetric grammars, but no tested general criterion avoids nonuniqueness, trivial extremes, or the introduction of an additional selector. Empirical success cannot be relabeled as an internally derived privilege criterion.
 
 ## Residual program
 
 ```text
 R1 = PHYSICAL_IRRELEVANCE_SELECTOR
-R1_GENERATOR_EQUIVALENCE = QUALIFIED_AT_CLOSURE_SCOPE
-R1_UNIQUE_EMPIRICAL_SEED_REQUIRED = NO_AT_CLOSURE_SCOPE
-R1_EMPIRICAL_SUBSTRUCTURE_PRIVILEGE = UNESTABLISHED
-R1_PHYSICAL_COMPLETENESS = UNESTABLISHED
+R1_GENERIC_INTRINSIC_SUBSTRUCTURE_SELECTOR = NOT_FOUND
+R1_SPECIAL_GRAMMAR_INTRINSIC_UNIQUENESS = POSSIBLE
+R1_PHYSICAL_PRIVILEGE = UNESTABLISHED
 R1_SOLVED = NO
 
 R2 = LAW_EXHAUSTION
@@ -42,11 +39,11 @@ R2_STATUS = DEFERRED
 ## Next operation
 
 ```text
-NEXT_RECOMMENDED_OPERATION = PGH0_EMPIRICAL_SUBSTRUCTURE_PRIVILEGE_GATE
+NEXT_RECOMMENDED_OPERATION = PGH0_R1_PHYSICAL_IRRELEVANCE_BOUNDARY_ADJUDICATION
 NEXT_OPERATION_AUTHORIZED = YES
 ```
 
-The next gate tests whether any intrinsic, response-independent property of generated closed empirical substructures can select a physically privileged interface without simply relocating the arbitrariness.
+The next operation adjudicates what unresolved physical privilege means for residual strong PGH before R2 can begin.
 
 ## Authority
 

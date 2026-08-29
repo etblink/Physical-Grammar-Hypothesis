@@ -5,7 +5,7 @@
 ```text
 PROJECT = Physical Grammar Hypothesis
 PROJECT_CLASS = SPECULATIVE_FOUNDATIONAL_RESEARCH
-CURRENT_PHASE = PGH-0_EMPIRICAL_GENERATOR_INVARIANCE
+CURRENT_PHASE = PGH-0_R1_PHYSICAL_IRRELEVANCE_BOUNDARY
 FCP_RELATIONSHIP = INDEPENDENT_INCUBATION
 FCP_FRAMEWORK_STATUS = NONE
 CANONICAL_EFFECT_ON_FCP = NONE
@@ -29,66 +29,58 @@ PGH_NOVELTY = UNRESOLVED
 ## Latest canonical scientific result
 
 ```text
-PGH0_EMPIRICAL_GENERATOR_INVARIANCE_AND_SEED_MINIMALITY_GATE = CANONICALLY_COMPLETE
-SCIENTIFIC_BASELINE_COMMIT = a96c9ecb6013d877aa3674b8044d427156c6a529
-SCIENTIFIC_BASELINE_TREE = 4a848d7ba1e92f61d2f292364dbb1a7f10ee91fb
-OUTCOME = B__EQUAL_CLOSURE_SEEDS_ARE_EQUIVALENT_ONLY_FOR_CLOSURE_FACTORING_STRUCTURE_AND_MINIMAL_GENERATORS_ARE_NOT_GENERALLY_UNIQUE_OR_GUARANTEED
+PGH0_EMPIRICAL_SUBSTRUCTURE_PRIVILEGE_GATE = CANONICALLY_COMPLETE
+SCIENTIFIC_BASELINE_COMMIT = 94d751f193b599c95ce93441c1c14cd44a2337ce
+SCIENTIFIC_BASELINE_TREE = 7afa9aa5fb617857218557e0d127cf9e9d3df333
+OUTCOME = B__INTRINSIC_SELECTORS_CAN_SELECT_IN_SPECIAL_GRAMMARS_BUT_NO_TESTED_GENERAL_CRITERION_AVOIDS_NONUNIQUENESS_TRIVIAL_EXTREMES_OR_EXTRA_SELECTOR_INPUT
 ```
 
 ## New formal result
 
 ```text
-PGH-DER-0010 = EMPIRICAL_GENERATOR_CLOSURE_EQUIVALENCE
+PGH-DER-0011 = INTRINSIC_SUBSTRUCTURE_SELECTOR_SYMMETRY_OBSTRUCTION
 STATUS = QUALIFIED_FORMAL
 ```
 
-For a fixed grammar-generated closure `Cl`, seeds satisfy
-
-\[
-A\sim_{Cl}B \iff Cl(A)=Cl(B).
-\]
-
-Any downstream quantity that factors through the generated closure is invariant under replacement of one seed by another seed in the same generator-equivalence class.
-
-This does not establish full physical equivalence unless the relevant physical semantics itself factors through closure.
+Any uniquely selected closed substructure under an automorphism-invariant intrinsic criterion must be fixed setwise by every grammar automorphism. In the symmetric control, the only globally invariant closed substructures are the empty and whole formal universes.
 
 ## New preserved failure
 
 ```text
-PGH-FAIL-0010 = UNIQUE_OR_MINIMAL_EMPIRICAL_SEED
+PGH-FAIL-0011 = GENERIC_EMPIRICAL_SUBSTRUCTURE_PRIVILEGE_SELECTORS
 STATUS = FAILED_PRESERVED
 ```
 
-Minimum generators can be nonunique and need not be related by grammar automorphisms. A finitary unary closure can have no inclusion-irredundant full generating seed at all. Minimum cardinality, irredundancy, or target-defined optimization therefore cannot generally select one physically privileged empirical seed.
+Smallest nontrivial, largest, automorphism-invariant, closure-fixed-point, meet/join, simplicity, and freely introduced canonical-operator routes do not supply a general nontrivial unique empirical-interface selector. Empirical-success selection remains result-directed relative to R1.
+
+An asymmetric control shows that a special grammar may nevertheless contain a unique intrinsic proper closed substructure. The result is therefore not a universal impossibility theorem.
 
 ## R1 state
 
 ```text
-R1_PURELY_FORMAL_ROUTE = FAILED_AT_CURRENT_SCOPE
+R1_FORMAL_EQUIVALENCE = INSUFFICIENT_FOR_PHYSICAL_PRIVILEGE
 R1_LAW_FREE_EMPIRICAL_CONTACT = FORMALLY_ADMISSIBLE
 R1_RESPONSE_LAW_SEPARATION = PASS
 R1_REPRESENTATION_ROBUSTNESS = PASS_CONDITIONALLY
 R1_GRAMMAR_GENERATED_INTERFACE_CLOSURE = FORMALLY_FEASIBLE
 R1_GENERATOR_EQUIVALENCE = QUALIFIED_AT_CLOSURE_SCOPE
-R1_UNIQUE_EMPIRICAL_SEED_REQUIRED = NO_AT_CLOSURE_SCOPE
-R1_SEED_MINIMALITY_SELECTION = FAILED_AS_GENERAL_PRINCIPLE
-R1_PHYSICAL_SEMANTIC_FACTORIZATION = UNESTABLISHED
-R1_EMPIRICAL_SUBSTRUCTURE_PRIVILEGE = UNESTABLISHED
-R1_PHYSICAL_COMPLETENESS = UNESTABLISHED
+R1_GENERIC_INTRINSIC_SUBSTRUCTURE_SELECTOR = NOT_FOUND
+R1_SPECIAL_GRAMMAR_INTRINSIC_UNIQUENESS = POSSIBLE
+R1_PHYSICAL_PRIVILEGE = UNESTABLISHED
 R1_SOLVED = NO
 ```
 
-`PGH-Q-0021` is resolved at closure-factorization/generator scope.
+`PGH-Q-0022` is resolved at generic intrinsic-selector scope.
 
-The immediate live burden is now:
+The immediate live question is now:
 
 ```text
-PGH-Q-0022 = OPEN
+PGH-Q-0023 = OPEN
 ```
 
-> Does any intrinsic, non-result-directed property of grammar-generated closed empirical substructures select a physically privileged empirical interface, rather than merely relocating arbitrariness from seeds to substructures?
+> Given that no tested general grammar-internal criterion supplies physical privilege, may residual strong PGH consistently treat a law-free empirical interface/substructure as irreducible semantic contact while still requiring grammar to generate substantive physical laws, or does that unresolved external privilege block or downgrade the strong claim?
 
-`PGH-Q-0016` remains the encompassing physical-irrelevance burden.
+`PGH-Q-0016` remains the encompassing R1 burden.
 
 ## R2 state
 
@@ -98,7 +90,7 @@ R2_LAW_EXHAUSTION = DEFERRED
 R2_STARTED = NO
 ```
 
-R2 remains deferred.
+R2 may not begin until the R1 boundary question is adjudicated.
 
 ## Source state
 
@@ -111,12 +103,12 @@ SOURCE_EXPANSION_JUSTIFIED = NO
 ## Accounting
 
 ```text
-OPERATION_RECORD_COUNT = 25
-RESEARCH_OBJECT_RECORD_COUNT = 33
-QUESTION_RECORD_COUNT = 22
+OPERATION_RECORD_COUNT = 27
+RESEARCH_OBJECT_RECORD_COUNT = 35
+QUESTION_RECORD_COUNT = 23
 OPEN_QUESTION_COUNT = 8
-QUALIFIED_FORMAL_DERIVATION_COUNT = 10
-FAILED_DERIVATION_COUNT = 10
+QUALIFIED_FORMAL_DERIVATION_COUNT = 11
+FAILED_DERIVATION_COUNT = 11
 PHYSICAL_LAW_DERIVED = NO
 EMPIRICAL_PREDICTION = NONE
 FCP_EFFECT = NONE
@@ -131,11 +123,11 @@ PGH-OP-0021 = UNUSED
 ## Next authorized operation
 
 ```text
-NEXT_RECOMMENDED_OPERATION = PGH0_EMPIRICAL_SUBSTRUCTURE_PRIVILEGE_GATE
+NEXT_RECOMMENDED_OPERATION = PGH0_R1_PHYSICAL_IRRELEVANCE_BOUNDARY_ADJUDICATION
 NEXT_OPERATION_AUTHORIZED = YES
 ```
 
-The gate will test intrinsic selectors on generated closed empirical substructures, including smallest nontrivial, largest reachable, automorphism-invariant, canonical/fixed-point, intersection/union, and explicit multi-solution underdetermination controls. It may not use desired record responses or empirical success as a selector.
+This is an adjudication of the residual strong hypothesis, not another search for a routine formal selector. It must decide whether irreducible law-free empirical contact is compatible with strong PGH, requires a formal downgrade/reformulation, or blocks the strong program. R2 remains forbidden until that result is frozen.
 
 ## Structured current-state capsule
 
@@ -144,21 +136,19 @@ The gate will test intrinsic selectors on generated closed empirical substructur
 {
   "capsule_schema_version": "0.1.0",
   "project": "Physical Grammar Hypothesis",
-  "current_phase": "PGH-0_EMPIRICAL_GENERATOR_INVARIANCE",
+  "current_phase": "PGH-0_R1_PHYSICAL_IRRELEVANCE_BOUNDARY",
   "canonical_hypothesis": "HYPOTHESIS.md",
   "active_candidate_grammar": "PGH-GRAM-0002",
-  "current_handoff": "handoffs/POST_PGH0_EMPIRICAL_GENERATOR_INVARIANCE_RECONCILIATION_HANDOFF_0_1_0.md",
+  "current_handoff": "handoffs/POST_PGH0_EMPIRICAL_SUBSTRUCTURE_PRIVILEGE_RECONCILIATION_HANDOFF_0_1_0.md",
   "source_bound_status": "REPRESENTATIVE_LANDSCAPE_FROZEN",
   "fcp_relationship": "INDEPENDENT_INCUBATION",
-  "next_recommended_operation": "PGH0_EMPIRICAL_SUBSTRUCTURE_PRIVILEGE_GATE",
+  "next_recommended_operation": "PGH0_R1_PHYSICAL_IRRELEVANCE_BOUNDARY_ADJUDICATION",
   "next_operation_authorized": true,
   "open_question_count": 8,
   "do_not_assume": [
-    "EQUAL_GENERATED_CLOSURE_IS_FULL_PHYSICAL_EQUIVALENCE",
-    "PHYSICAL_SEMANTICS_FACTORS_THROUGH_CLOSURE",
-    "MINIMUM_EMPIRICAL_SEED_IS_UNIQUE",
-    "IRREDUNDANT_EMPIRICAL_SEED_EXISTS",
-    "EMPIRICAL_SUBSTRUCTURE_IS_PHYSICALLY_PRIVILEGED",
+    "NO_GRAMMAR_CAN_HAVE_A_UNIQUE_INTRINSIC_EMPIRICAL_SUBSTRUCTURE",
+    "LAW_FREE_EMPIRICAL_CONTACT_IS_COMPATIBLE_WITH_STRONG_PGH",
+    "R1_FAILURE_REFUTES_STRONG_PGH",
     "R1_IS_SOLVED",
     "R2_HAS_STARTED",
     "PGH_SR_IS_NOVEL",
