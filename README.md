@@ -3,11 +3,11 @@
 <!-- PGH_DERIVED_CURRENT_STATUS_BEGIN -->
 ## Current scientific status
 
-The Atlantic HURDAT2 common target and the complete five-candidate target-specific analysis protocol are frozen prospectively. Parser/support semantics, dual calibrations, Holm familywise decisions, and exact stochastic implementation are qualified before real target access. Raw-data custody and parser/support qualification is the next authorized boundary; primary statistics remain unexecuted.
+The HURDAT2 target and five-candidate analysis protocol remain frozen and unexecuted. The first raw-custody attempt is canonically recorded as a technical failure because raw bytes entered temporary unintegrated Git construction history. No primary statistic was run. A transport-only custody repair is the next authorized operation.
 
 Current derived state: [`CURRENT_STATE.md`](CURRENT_STATE.md).
 
-Next authorized science: `PGH1_HURDAT2_RAW_DATA_CUSTODY_AND_PARSER_SUPPORT_QUALIFICATION`.
+Next authorized science: `PGH1_HURDAT2_CUSTODY_TRANSPORT_REPAIR_AND_REQUALIFICATION`.
 <!-- PGH_DERIVED_CURRENT_STATUS_END -->
 
 

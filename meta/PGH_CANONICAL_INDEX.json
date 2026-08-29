@@ -6,17 +6,17 @@
   "counts": {
     "open_question_records": 34,
     "open_questions": 8,
-    "operation_records": 86,
+    "operation_records": 88,
     "research_object_records": 127
   },
-  "current_handoff": "handoffs/POST_PGH1_HURDAT2_ANALYSIS_PREREG_NAVIGATION_RECONCILIATION_HANDOFF_0_1_0.md",
-  "current_phase": "PGH-1_HURDAT2_RAW_DATA_CUSTODY_QUALIFICATION",
+  "current_handoff": "handoffs/POST_PGH1_HURDAT2_CUSTODY_FAILURE_NAVIGATION_RECONCILIATION_HANDOFF_0_1_0.md",
+  "current_phase": "PGH-1_HURDAT2_CUSTODY_TRANSPORT_REPAIR",
   "fcp_relationship": "INDEPENDENT_NO_EFFECT",
-  "indexed_research_baseline_commit": "802d5bf7858b00d4df5a1e6b955b65d16455ae6d",
-  "indexed_research_baseline_tree": "4bc88dae17f1ba84d5ccf6743cc7971ba6b3d8f4",
-  "latest_completed_operation": "POST_PGH1_HURDAT2_ANALYSIS_PREREG_NAVIGATION_RECONCILIATION",
+  "indexed_research_baseline_commit": "cfd8d3fd549b0ce84c13d02bfb0d127ac27ba3b1",
+  "indexed_research_baseline_tree": "c6ecbffa94bda1837e599360521c93f314fd25ab",
+  "latest_completed_operation": "POST_PGH1_HURDAT2_CUSTODY_FAILURE_NAVIGATION_RECONCILIATION",
   "next_operation_authorized": true,
-  "next_recommended_operation": "PGH1_HURDAT2_RAW_DATA_CUSTODY_AND_PARSER_SUPPORT_QUALIFICATION",
+  "next_recommended_operation": "PGH1_HURDAT2_CUSTODY_TRANSPORT_REPAIR_AND_REQUALIFICATION",
   "schema_version": "0.1.0",
-  "source_bound_status": "106_DISTINCT_ACCEPTED_SOURCES_FROZEN__TGT_008_FROZEN__PGH_OBJ_0049_PRE_DATA_PROTOCOL_QUALIFIED"
+  "source_bound_status": "TGT_008_AND_PGH_OBJ_0049_FROZEN__OP0090_CUSTODY_TRANSPORT_FAILURE__PRIMARY_ANALYSIS_UNRUN"
 }
