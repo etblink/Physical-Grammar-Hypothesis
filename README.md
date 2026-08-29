@@ -3,11 +3,11 @@
 <!-- PGH_DERIVED_CURRENT_STATUS_BEGIN -->
 ## Current scientific status
 
-PGH has completed its first prospectively selected empirical confrontation. The frozen `PGH-GRAM-0008` Kp instantiation is **REFUTED_AT_KP_TARGET** under both preregistered calibrations. The formal sparse-DAG theorem remains valid; the grammar has no physical validation; R2B remains unsatisfied.
+The first frozen Kp instantiation of `PGH-GRAM-0008` is **REFUTED_AT_KP_TARGET**. A post-result scope audit found no qualifying pre-Kp physical-domain selector, so the failed target cannot be removed by retrospective scope narrowing. The formal grammar remains a formal candidate with no physical validation; R2B remains unsatisfied.
 
 Current derived state: [`CURRENT_STATE.md`](CURRENT_STATE.md).
 
-Next authorized science: `PGH1_POST_KP_PHYSICAL_SCOPE_DOMAIN_SELECTION_GATE`, which must resolve the non-result-directed domain/scope burden before any second empirical target is selected.
+Next recommended science (not authorized): `PGH1_POST_KP_CANDIDATE_DISPOSITION_AND_SUCCESSOR_ARCHITECTURE_SEQUENCING_GATE`.
 <!-- PGH_DERIVED_CURRENT_STATUS_END -->
 
 

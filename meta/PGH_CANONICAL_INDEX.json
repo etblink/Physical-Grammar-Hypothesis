@@ -5,18 +5,18 @@
   "canonical_state": "CURRENT_STATE.md",
   "counts": {
     "open_question_records": 28,
-    "open_questions": 8,
-    "operation_records": 64,
-    "research_object_records": 111
+    "open_questions": 7,
+    "operation_records": 66,
+    "research_object_records": 113
   },
-  "current_handoff": "handoffs/POST_PGH1_FIRST_EMPIRICAL_KP_NAVIGATION_RECONCILIATION_HANDOFF_0_1_0.md",
-  "current_phase": "PGH-1_POST_FIRST_EMPIRICAL_REFUTATION_SCOPE_SELECTION",
+  "current_handoff": "handoffs/POST_PGH1_POST_KP_SCOPE_GATE_NAVIGATION_RECONCILIATION_HANDOFF_0_1_0.md",
+  "current_phase": "PGH-1_POST_KP_CANDIDATE_DISPOSITION",
   "fcp_relationship": "INDEPENDENT_NO_EFFECT",
-  "indexed_research_baseline_commit": "f0bbaaaeb37bb6dddd7bd5333e6d86b31308a768",
-  "indexed_research_baseline_tree": "7106cfd3c3bc8b7c560fe7f21d0c84dad687e0e9",
-  "latest_completed_operation": "POST_PGH1_FIRST_EMPIRICAL_KP_NAVIGATION_RECONCILIATION",
-  "next_operation_authorized": true,
-  "next_recommended_operation": "PGH1_POST_KP_PHYSICAL_SCOPE_DOMAIN_SELECTION_GATE",
+  "indexed_research_baseline_commit": "82d9b7aca26daff27a0a62d78c6f214b0ff439fc",
+  "indexed_research_baseline_tree": "b66991127ccedf888d77591fe4a59fd8f52b9ab2",
+  "latest_completed_operation": "POST_PGH1_POST_KP_SCOPE_GATE_NAVIGATION_RECONCILIATION",
+  "next_operation_authorized": false,
+  "next_recommended_operation": "PGH1_POST_KP_CANDIDATE_DISPOSITION_AND_SUCCESSOR_ARCHITECTURE_SEQUENCING_GATE",
   "schema_version": "0.1.0",
   "source_bound_status": "85_DISTINCT_ACCEPTED_SOURCES_FROZEN"
 }

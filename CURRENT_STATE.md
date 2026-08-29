@@ -5,74 +5,73 @@
 ```text
 PROJECT = Physical Grammar Hypothesis
 PROJECT_CLASS = SPECULATIVE_FOUNDATIONAL_RESEARCH
-CURRENT_PHASE = PGH-1_POST_FIRST_EMPIRICAL_REFUTATION_SCOPE_SELECTION
+CURRENT_PHASE = PGH-1_POST_KP_CANDIDATE_DISPOSITION
 FCP_RELATIONSHIP = INDEPENDENT_NO_EFFECT
 FCP_EFFECT = NONE
 DISTINCT_FROZEN_ACCEPTED_SOURCES = 85
 ```
 
-## Current scientific result
-
-The first prospectively selected, preregistered empirical instantiation of `PGH-GRAM-0008` has failed.
+## First empirical confrontation
 
 ```text
 TARGET = PGH-OBJ-0037
 TARGET_DATA = GFZ definitive planetary Kp, 1932-2025
-RETAINED_TRIPLES = 91557
+TESTED_GRAMMAR = PGH-GRAM-0008
 TESTED_RESTRICTION = A_INDEPENDENT_OF_C_GIVEN_B
-P_PERM = 0.0002
-P_MARKOV = 0.0005
 VERDICT = REFUTED_AT_KP_TARGET
 FAILURE_RECORD = PGH-FAIL-0035
 ```
 
-This result does not invalidate the sparse-DAG theorem. It refutes the frozen Kp realization of the grammar-derived restriction.
+The target remains valid and the result remains failed.
 
-## Grammar / bridge status
+## Post-Kp scope adjudication
 
 ```text
-ACTIVE_FORMAL_GRAMMAR_CANDIDATE = PGH-GRAM-0008
+PGH-OP-0068 = CANONICALLY_COMPLETE
+SCOPE_SCHEMA = PGH-OBJ-0038
+SCOPE_FAILURE = PGH-FAIL-0036
+PRE_KP_PHYSICAL_SCOPE_SELECTOR = NONE_QUALIFIED
+OUTCOME = C
+```
+
+Before Kp, the project had a formal grammar, a conditional semantic bridge, and a nonleaking first-target selection protocol, but no qualified physical-domain predicate saying which real systems are governed by `PGH-GRAM-0008`.
+
+A new scope rule may be proposed later, but it must carry explicit post-Kp provenance as a new/revised candidate. It cannot make Kp retroactively out of scope.
+
+## Current grammar / hypothesis status
+
+```text
 PGH_GRAM_0008_FORMAL_STATUS = RETAINED
 PGH_GRAM_0008_PHYSICAL_VALIDATION = NONE
-SEMANTIC_BRIDGE = PGH-OBJ-0035
-SEMANTIC_BRIDGE_STATUS = CONDITIONAL_SCHEMA_RETAINED
+UNCHANGED_PGH_GRAM_0008_SECOND_TARGET_PREDICTIVE_CREDIT = BLOCKED_BY_SCOPE_UNDERDETERMINATION
 R2B = UNSATISFIED
 STRONG_PGH_CONFIRMED = NO
 EVERY_POSSIBLE_PGH_REFUTED = NO
 ```
 
-No Kp-driven graph repair, state merging, lag change, subperiod selection, or second-target substitution is licensed.
+The next question is candidate disposition, not another dataset.
 
-## Method limitation carried forward
+## Method discipline carried forward
 
-The first empirical preregistration fixed null definitions and seed derivations but not the exact PRNG/sampling implementation. Future Monte Carlo preregistrations must freeze those details prospectively. The limitation does not change the first Kp verdict because the predecessor first execution and independent successor reconstruction both returned zero exceedances under both calibrations.
+Future Monte Carlo preregistrations must freeze exact PRNG and sampling semantics in addition to seed derivation.
 
-## Open sequencing burden
-
-```text
-PGH-Q-0028 = OPEN
-```
-
-If `PGH-GRAM-0008` is not universal over eligible physical targets, PGH must supply a non-result-directed physical scope/domain rule before a second target can receive clean predictive credit.
-
-## Navigation reconciliation
+## Navigation state
 
 ```text
-LATEST_COMPLETED_OPERATION = POST_PGH1_FIRST_EMPIRICAL_KP_NAVIGATION_RECONCILIATION
-REGISTRY_ID = PGH-OP-0067
-INDEXED_SCIENTIFIC_BASELINE = f0bbaaaeb37bb6dddd7bd5333e6d86b31308a768
-UNUSED_HISTORICAL_REGISTRY_GAPS = PGH-OP-0021;PGH-OP-0037;PGH-OP-0041;PGH-OP-0044
+LATEST_COMPLETED_OPERATION = POST_PGH1_POST_KP_SCOPE_GATE_NAVIGATION_RECONCILIATION
+REGISTRY_ID = PGH-OP-0069
+INDEXED_SCIENTIFIC_BASELINE = 82d9b7aca26daff27a0a62d78c6f214b0ff439fc
 ```
 
-## Next authorized operation
+## Next recommended operation
 
 ```text
-NEXT_RECOMMENDED_OPERATION = PGH1_POST_KP_PHYSICAL_SCOPE_DOMAIN_SELECTION_GATE
-NEXT_OPERATION_AUTHORIZED = YES
-REGISTRY_ID = PGH-OP-0068
+NEXT_RECOMMENDED_OPERATION = PGH1_POST_KP_CANDIDATE_DISPOSITION_AND_SUCCESSOR_ARCHITECTURE_SEQUENCING_GATE
+NEXT_OPERATION_AUTHORIZED = NO
+REGISTRY_ID = PGH-OP-0070
 ```
 
-The gate must be preregistered before execution. It may use the canonical PGH reasoning and frozen source corpus, but it may not inspect a second target or derive a scope rule from the observed Kp dependence pattern.
+That future gate should decide whether to retire unchanged `PGH-GRAM-0008` from further physical-target testing, formulate a new explicitly scope-bearing successor architecture, or return to grammar/bridge development. It must not itself construct or empirically test the successor.
 
 ## Structured current-state capsule
 
@@ -81,22 +80,22 @@ The gate must be preregistered before execution. It may use the canonical PGH re
 {
   "capsule_schema_version": "0.1.0",
   "project": "Physical Grammar Hypothesis",
-  "current_phase": "PGH-1_POST_FIRST_EMPIRICAL_REFUTATION_SCOPE_SELECTION",
+  "current_phase": "PGH-1_POST_KP_CANDIDATE_DISPOSITION",
   "canonical_hypothesis": "HYPOTHESIS.md",
   "active_candidate_grammar": "PGH-GRAM-0008",
-  "current_handoff": "handoffs/POST_PGH1_FIRST_EMPIRICAL_KP_NAVIGATION_RECONCILIATION_HANDOFF_0_1_0.md",
+  "current_handoff": "handoffs/POST_PGH1_POST_KP_SCOPE_GATE_NAVIGATION_RECONCILIATION_HANDOFF_0_1_0.md",
   "source_bound_status": "85_DISTINCT_ACCEPTED_SOURCES_FROZEN",
   "fcp_relationship": "INDEPENDENT_NO_EFFECT",
-  "next_recommended_operation": "PGH1_POST_KP_PHYSICAL_SCOPE_DOMAIN_SELECTION_GATE",
-  "next_operation_authorized": true,
-  "open_question_count": 8,
+  "next_recommended_operation": "PGH1_POST_KP_CANDIDATE_DISPOSITION_AND_SUCCESSOR_ARCHITECTURE_SEQUENCING_GATE",
+  "next_operation_authorized": false,
+  "open_question_count": 7,
   "do_not_assume": [
-    "KP_FAILURE_REFUTES_EVERY_PGH",
-    "PGH_GRAM_0008_HAS_PHYSICAL_VALIDATION",
-    "A_SECOND_TARGET_MAY_BE_CHOSEN_BECAUSE_KP_FAILED",
-    "THE_GRAPH_MAY_BE_REPAIRED_FROM_KP",
-    "R2B_IS_SATISFIED",
-    "PGH_HAS_ANY_EFFECT_ON_FCP"
+    "A_SECOND_TARGET_IS_AUTHORIZED",
+    "A_POST_KP_SCOPE_RULE_CAN_RESCUE_THE_OLD_CANDIDATE",
+    "A_SUCCESSOR_CANDIDATE_HAS_BEEN_SELECTED",
+    "PGH_GRAM_0008_IS_PHYSICALLY_VALIDATED",
+    "STRONG_PGH_IS_CONFIRMED_OR_GLOBALLY_REFUTED",
+    "R2B_HAS_PASSED"
   ]
 }
 ```
