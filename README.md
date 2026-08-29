@@ -3,11 +3,11 @@
 <!-- PGH_DERIVED_CURRENT_STATUS_BEGIN -->
 ## Current scientific status
 
-`PGH-OBJ-0052` remains the A0-A9-admitted strong-PGH candidate package. Its first post-freeze target-discovery attempt ended at preregistered Outcome D because search-transport provenance was insufficient to freeze a target; no target values or empirical test occurred.
+`PGH-OBJ-0052` remains the A0-A9-admitted independent-source-triangle candidate package and remains empirically untested. Its repaired, exact five-lane target-discovery search completed with no E1-E12-complete target; this finite no-target result does not authorize outcome-driven search expansion.
 
 Current derived state: [`CURRENT_STATE.md`](CURRENT_STATE.md).
 
-Next authorized science: `PGH1_POST_KP_NETWORK_SOURCE_TARGET_DISCOVERY_TRANSPORT_REPAIR_AND_REEXECUTION` — transport-only repair with all scientific target-selection rules unchanged.
+Next authorized science: `PGH1_POST_NETWORK_SOURCE_NO_TARGET_DISCOVERY_RESEARCH_SEQUENCING_GATE` — a target-free decision on whether any independently motivated discovery-architecture expansion exists or whether empirical pursuit should be suspended.
 <!-- PGH_DERIVED_CURRENT_STATUS_END -->
 
 
