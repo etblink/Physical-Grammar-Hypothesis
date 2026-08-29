@@ -3,11 +3,11 @@
 <!-- PGH_DERIVED_CURRENT_STATUS_BEGIN -->
 ## Current scientific status
 
-`PGH-OBJ-0052` remains the A0-A9-admitted independent-source-triangle candidate package and remains empirically untested. Its repaired, exact five-lane target-discovery search completed with no E1-E12-complete target; this finite no-target result does not authorize outcome-driven search expansion.
+`PGH-OBJ-0052` remains an A0-A9-admitted independent-source-triangle strong-PGH candidate package, but it is empirically untested. Its repaired finite target-discovery search found no eligible target, and a separate sequencing gate found no independently earned basis for widening search. Active target discovery is therefore **suspended**, not failed and not automatically continued.
 
 Current derived state: [`CURRENT_STATE.md`](CURRENT_STATE.md).
 
-Next authorized science: `PGH1_POST_NETWORK_SOURCE_NO_TARGET_DISCOVERY_RESEARCH_SEQUENCING_GATE` — a target-free decision on whether any independently motivated discovery-architecture expansion exists or whether empirical pursuit should be suspended.
+There is no automatically authorized next scientific operation. Resumption requires a genuinely independent new interface or independently originated discovery methodology plus a new preregistered authorization boundary.
 <!-- PGH_DERIVED_CURRENT_STATUS_END -->
 
 
