@@ -1,0 +1,38 @@
+name: Post-FCP PGH navigation reconciliation helper
+
+on:
+  pull_request:
+    branches:
+      - main
+    paths:
+      - .github/workflows/post-fcp-trigger-navigation-helper.yml
+      - .github/scripts/post_fcp_trigger_navigation.py
+
+permissions:
+  contents: write
+
+jobs:
+  reconcile:
+    if: github.event.pull_request.head.repo.full_name == github.repository
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.pull_request.head.ref }}
+          fetch-depth: 0
+
+      - name: Apply bounded navigation reconciliation
+        run: python .github/scripts/post_fcp_trigger_navigation.py
+
+      - name: Commit bounded result
+        shell: bash
+        run: |
+          git config user.name "Evan Kotler"
+          git config user.email "etblink@users.noreply.github.com"
+          rm .github/workflows/post-fcp-trigger-navigation-helper.yml
+          rm .github/scripts/post_fcp_trigger_navigation.py
+          git add README.md CURRENT_STATE.md meta/PGH_CANONICAL_INDEX.json meta/PGH_OPERATION_REGISTRY.jsonl audits/POST_PGH1_POST_FCP_TRIGGER_REASSESSMENT_NAVIGATION_RECONCILIATION_0_1_0.md handoffs/POST_PGH1_POST_FCP_TRIGGER_REASSESSMENT_NAVIGATION_RECONCILIATION_HANDOFF_0_1_0.md .github/workflows/post-fcp-trigger-navigation-helper.yml .github/scripts/post_fcp_trigger_navigation.py
+          git diff --cached --check
+          test "$(git diff --cached --name-only | wc -l)" -eq 8
+          git commit -m "Reconcile navigation after post-FCP trigger reassessment"
+          git push origin HEAD:${{ github.event.pull_request.head.ref }}
