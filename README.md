@@ -3,85 +3,85 @@
 <!-- PGH_DERIVED_CURRENT_STATUS_BEGIN -->
 ## Current scientific status
 
-`PGH-OBJ-0052` remains an A0-A9-admitted independent-source-triangle strong-PGH candidate package, but it is empirically untested. Its repaired finite target-discovery search found no eligible target, and a separate sequencing gate found no independently earned basis for widening search. Active target discovery is therefore **suspended**, not failed and not automatically continued.
+`PGH-OBJ-0052` is the active frozen `(G,J,S,I)` successor package built on `PGH-GRAM-0010`. It passed PGH's A0-A9 candidate-admission gates but remains **empirically untested**. Active target discovery is **suspended** because the repaired finite discovery search found no eligible target and no independently earned basis exists for widening the search after that result.
+
+FCP has independently completed its own intake and taxonomy adjudication of the exact current object. FCP's result is **Outcome B: nonframework physical model/postulate**. Criterion G (framework distinctness) fails; no `FW-PGH` was created and no existing FCP framework host was established. This is a taxonomy result, not an empirical confirmation or refutation of PGH.
+
+A later closed-record PGH reassessment found **zero qualified resumption triggers** from the independently encountered FCP record. Target search therefore remains suspended.
 
 Current derived state: [`CURRENT_STATE.md`](CURRENT_STATE.md).
-
-There is no automatically authorized next scientific operation. Resumption requires a genuinely independent new interface or independently originated discovery methodology plus a new preregistered authorization boundary.
 <!-- PGH_DERIVED_CURRENT_STATUS_END -->
 
-
-> **Status:** Speculative foundational research — independent incubation
+> **Status:** Speculative foundational research — empirically untested current candidate; target search suspended
 >
-> **Current phase:** `PGH-1_R2_LOCAL_RULE_LANGUAGE_ORIGIN`
+> **Current phase:** `PGH-1_NETWORK_SOURCE_SUCCESSOR_EMPIRICAL_SEARCH_SUSPENDED`
 >
-> **FCP relationship:** None at present; this repository has no canonical effect on FCP.
+> **FCP relationship:** `OUTCOME_B__NONFRAMEWORK_PHYSICAL_MODEL_OR_POSTULATE`; no FCP framework ID, no established host, no empirical credit
 
-## Current target
-
-The active provisional hypothesis remains:
+## Active candidate
 
 ```text
-PGH-OBJ-0012 = ANCHORED_STRONG_PHYSICAL_GRAMMAR_HYPOTHESIS
+G = PGH-GRAM-0010
+J = PGH-OBJ-0051
+S = TRUE_FOR_ALL_I_ELIGIBLE_PHYSICAL_RECORD_INTERFACES
+I = SYMMETRIC_NATIVE_BINARY_TRIPLE_RECORD_INSTANTIATION_PROTOCOL_V0_1_0
+PACKAGE = PGH-OBJ-0052
+OBSERVABLE_CLASS = T_ind
 ```
 
-The extensional formation grammar remains only a formal comparison baseline:
+The candidate-specific physical claim is:
 
 ```text
-PGH-GRAM-0002 = FORMAL_BASELINE_R2_INSUFFICIENT
+FOR_ALL_I_ELIGIBLE_PHYSICAL_RECORD_INTERFACES:
+    p_emp(A,B,C) in T_ind
 ```
 
-PGH-1 has now qualified a compact local-to-global exclusion mechanism and then isolated the source of its selectivity:
+Its triangle independent-source mathematics and generic causal-compatibility machinery are prior art. The PGH-specific physical content is the universal physical restriction, its whole-class semantic binding, prospective interface rules, and costly failure identity.
+
+## Empirical state
 
 ```text
-PGH-OBJ-0013 = LOCAL_TO_GLOBAL_CONSTRAINT_SCHEMA
-PGH-OBJ-0014 = GENERATED_COVER_COMPATIBILITY_SCHEMA
-PGH-OBJ-0015 = LOCAL_ADMISSIBILITY_GENERATOR_FAMILY_MAP
-PGH-DER-0013 = FREE_LOCAL_ASSIGNMENT_GLUING
-PGH-DER-0014 = FINITE_LOCAL_PREDICATE_UNIVERSAL_ENCODING
-PGH-FAIL-0015 = LOCAL_ADMISSIBILITY_SUPPORT_ORIGIN
-PGH-FAIL-0016 = UNRESTRICTED_SUPPORT_DESCRIPTION_LANGUAGE
+PGH_OBJ_0052_EMPIRICAL_STATUS = UNTESTED
+ACTIVE_TARGET_SEARCH = SUSPENDED
+TARGET_SELECTED = NO
+TARGET_VALUES_ACCESSED = NO
+POSITIVE_EMPIRICAL_PGH_CREDIT = NONE
+EMPIRICAL_REFUTATION_OF_PGH_OBJ_0052 = NONE
+STRONG_PGH_CONFIRMED = NO
+R2B = UNSATISFIED
 ```
 
-## What PGH-1 has learned
+The suspension has **zero evidential sign**. It does not support PGH, refute PGH, or show that no eligible target exists anywhere.
 
-A generated cover, a law-free value domain, and ordinary overlap compatibility do not by themselves create nontrivial global obstruction: unrestricted compatible local assignments glue uniquely.
+## Why target search is not continuing
 
-Proper local admissibility supports can create obstruction, but their origin must itself be explained. Replacing an arbitrary support table by an unrestricted logical formula does not solve the problem because every finite support has an exact formula description.
+Canonical `PGH-OP-0112` found that broadening target discovery after a zero-target finite search would introduce post-result discretion unless a broader discovery architecture arose independently. The post-FCP trigger reassessment (`PGH-OP-0115`) then tested only already-encountered records and found neither permitted resumption route established.
 
-Restricted equational, typing/interface, rewrite/coherence, and symmetry-based rule families remain promising only conditionally on an independently fixed rule language.
+A future resumption requires either:
 
-## Current scientific frontier
+1. an independently encountered public interface whose already-known metadata appear to satisfy the frozen `I`; or
+2. an independently developed general target-discovery method whose purpose and provenance are broader than obtaining a PGH target.
 
-```text
-PGH-Q-0026 = OPEN
-```
+Until then, no recurring or open-ended target search is authorized.
 
-> Can the admissible local-rule language itself be fixed independently of the support patterns and physical exclusions that it will later generate?
+## Negative history remains binding
 
-The next operation is:
-
-```text
-NEXT_RECOMMENDED_OPERATION = PGH1_R2_LOCAL_RULE_LANGUAGE_ORIGIN_GATE
-NEXT_OPERATION_AUTHORIZED = YES
-```
-
-It must attack the origin of the meta-language rather than choose a convenient formalism because it reproduces a desired no-go result.
+`PGH-GRAM-0008` remains refuted at its Kp instantiation. The post-Kp successor does not inherit positive credit from Kp or HURDAT2, and the absence of a present test opportunity does not erase those negative-history controls.
 
 ## Current nonclaims
 
 ```text
 PHYSICAL_GRAMMAR_FOUND = NO
-PHYSICAL_LAW_DERIVED = NO
-R2_SATISFIED = NO
-SUCCESSOR_GRAMMAR = NONE
-SHEAF_THEORY_SELECTED_AS_FUNDAMENTAL = NO
-EQUATIONAL_LOGIC_SELECTED_AS_FUNDAMENTAL = NO
-TYPE_THEORY_SELECTED_AS_FUNDAMENTAL = NO
-EMPIRICAL_PREDICTION = NONE
+PGH_GRAM_0010_TRUE = NOT_ESTABLISHED
+PGH_IS_A_DISTINCT_FCP_FRAMEWORK = NO
+PGH_HAS_AN_ESTABLISHED_FCP_HOST = NO
+PGH_OBJ_0052_HAS_EMPIRICAL_SUPPORT = NO
+PGH_OBJ_0052_IS_EMPIRICALLY_REFUTED = NO
+R2B_SATISFIED = NO
+STRONG_PGH_CONFIRMED = NO
 ```
 
-## Authority
+## Authority and navigation
 
 ```text
 GIT = PROVENANCE_AUTHORITY
@@ -89,4 +89,4 @@ CANONICAL_MARKDOWN_ARTIFACTS = RESEARCH_AND_GOVERNANCE_AUTHORITY
 STRUCTURED_NAVIGATION_LAYER = DERIVED_NAVIGATION_ONLY
 ```
 
-Read [`CURRENT_STATE.md`](CURRENT_STATE.md) and the current handoff for the exact continuation boundary.
+Read [`CURRENT_STATE.md`](CURRENT_STATE.md) and the current handoff for the exact continuation boundary. The repository must not manufacture activity merely because the present state is a disciplined hold.
