@@ -1,0 +1,43 @@
+{
+  "protocol_schema_version": "0.1.0",
+  "status": "SYNTHETIC",
+  "candidate_package": "PGH-OBJ-0052",
+  "target_id": "SYNTHETIC_TGT_DRY_RUN",
+  "interface_schema_version": "SYNTHETIC_D1_0_1_0",
+  "raw_record_filename": "dry_run_valid.csv",
+  "trial_count": 12,
+  "sample_count_per_trial": 1,
+  "settle_interval_ms": 1000,
+  "settle_interval_basis": "SYNTHETIC_DRY_RUN_INHERITS_DEFAULT",
+  "schedule": {
+    "odd_trials": "ACTUATOR_POSITION_0",
+    "even_trials": "ACTUATOR_POSITION_1",
+    "adaptive_control": false
+  },
+  "channel_alphabet": [
+    "OPEN",
+    "CLOSED"
+  ],
+  "validity_rule_version": "0.1.0",
+  "validity_codes": [
+    "VALID",
+    "MISSING_CHANNEL_1",
+    "MISSING_CHANNEL_2",
+    "MISSING_CHANNEL_3",
+    "ACQUISITION_FAILURE",
+    "TIMING_FAILURE"
+  ],
+  "disagreement_is_invalid": false,
+  "opposite_commanded_position_is_invalid": false,
+  "missing_values_coerced_to_channel_states": false,
+  "timestamp_source": "SYNTHETIC_RESERVED_CLOCK",
+  "timestamp_format": "RFC3339_LIKE_RESERVED_DATE",
+  "capture_software_identity": "SYNTHETIC_NOT_APPLICABLE",
+  "capture_runtime_identity": "SYNTHETIC_NOT_APPLICABLE",
+  "append_only_during_capture": true,
+  "manual_row_edits_after_capture": false,
+  "hash_algorithm": "SHA-256",
+  "analysis_preregistration_commit": "SYNTHETIC_NOT_APPLICABLE",
+  "target_freeze_commit": "SYNTHETIC_NOT_APPLICABLE",
+  "physical_trials_authorized": false
+}
