@@ -1,0 +1,42 @@
+{
+  "manifest_schema_version": "0.1.0",
+  "status": "TEMPLATE_UNBOUND",
+  "candidate_package": "PGH-OBJ-0052",
+  "target_id": "UNBOUND",
+  "apparatus_name": "UNBOUND",
+  "apparatus_version": "UNBOUND",
+  "interface_class": "THREE_POLE_TWO_POSITION_MECHANICALLY_GANGED_DRY_CONTACT_INTERFACE",
+  "common_state": "ONE_MECHANICALLY_SHARED_TWO_POSITION_ACTUATOR",
+  "switch": {
+    "manufacturer": "UNBOUND",
+    "model_or_unique_description": "UNBOUND",
+    "serial_or_photo_id": "UNBOUND"
+  },
+  "acquisition_device": {
+    "manufacturer": "UNBOUND",
+    "model": "UNBOUND",
+    "serial_or_unique_id": "UNBOUND"
+  },
+  "channel_identifiers": ["UNBOUND", "UNBOUND", "UNBOUND"],
+  "channel_role_assignment_rule": "UNICODE_CODE_POINT_LEXICAL_ORDER",
+  "wiring_manifest": [
+    {"channel_identifier": "UNBOUND", "physical_contact_pole": "UNBOUND", "acquisition_input": "UNBOUND"},
+    {"channel_identifier": "UNBOUND", "physical_contact_pole": "UNBOUND", "acquisition_input": "UNBOUND"},
+    {"channel_identifier": "UNBOUND", "physical_contact_pole": "UNBOUND", "acquisition_input": "UNBOUND"}
+  ],
+  "software_derivation": {
+    "one_contact_split_to_three_fields": false,
+    "one_input_value_copied_three_times": false,
+    "derived_boolean_columns": false
+  },
+  "physical_detents": {
+    "ACTUATOR_POSITION_0_identity": "UNBOUND",
+    "ACTUATOR_POSITION_1_identity": "UNBOUND",
+    "identity_is_response_independent": "UNBOUND"
+  },
+  "custody_path": "UNBOUND",
+  "public_or_auditable_access_path": "UNBOUND",
+  "hash_algorithm": "SHA-256",
+  "photo_or_identity_record_path": "UNBOUND",
+  "bound_before_response_data": "UNBOUND"
+}
