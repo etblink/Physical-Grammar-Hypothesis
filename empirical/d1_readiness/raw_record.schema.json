@@ -1,0 +1,37 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.invalid/pgh/d1/raw_record.schema.json",
+  "title": "PGH-1 D1 Raw Record Row",
+  "type": "object",
+  "required": [
+    "TRIAL_ID",
+    "COMMANDED_POSITION",
+    "CHANNEL_1_STATE",
+    "CHANNEL_2_STATE",
+    "CHANNEL_3_STATE",
+    "VALIDITY_CODE",
+    "ACQUISITION_TIMESTAMP",
+    "INTERFACE_VERSION"
+  ],
+  "properties": {
+    "TRIAL_ID": {"type": "integer", "minimum": 1},
+    "COMMANDED_POSITION": {"enum": ["ACTUATOR_POSITION_0", "ACTUATOR_POSITION_1"]},
+    "CHANNEL_1_STATE": {"enum": ["OPEN", "CLOSED", ""]},
+    "CHANNEL_2_STATE": {"enum": ["OPEN", "CLOSED", ""]},
+    "CHANNEL_3_STATE": {"enum": ["OPEN", "CLOSED", ""]},
+    "VALIDITY_CODE": {
+      "enum": [
+        "VALID",
+        "MISSING_CHANNEL_1",
+        "MISSING_CHANNEL_2",
+        "MISSING_CHANNEL_3",
+        "ACQUISITION_FAILURE",
+        "TIMING_FAILURE"
+      ]
+    },
+    "ACQUISITION_TIMESTAMP": {"type": "string", "minLength": 1},
+    "INTERFACE_VERSION": {"type": "string", "minLength": 1}
+  },
+  "additionalProperties": false,
+  "description": "Structural row contract only. Empty channel strings represent missing readings and are validity-controlled; disagreement is never invalid by itself."
+}
