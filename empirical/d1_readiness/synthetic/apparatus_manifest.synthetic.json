@@ -1,0 +1,58 @@
+{
+  "manifest_schema_version": "0.1.0",
+  "status": "SYNTHETIC",
+  "candidate_package": "PGH-OBJ-0052",
+  "target_id": "SYNTHETIC_TGT_DRY_RUN",
+  "apparatus_name": "SYNTHETIC_APPARATUS",
+  "apparatus_version": "SYNTHETIC_0_1_0",
+  "interface_class": "THREE_POLE_TWO_POSITION_MECHANICALLY_GANGED_DRY_CONTACT_INTERFACE",
+  "common_state": "ONE_MECHANICALLY_SHARED_TWO_POSITION_ACTUATOR",
+  "switch": {
+    "manufacturer": "SYNTHETIC_VENDOR",
+    "model_or_unique_description": "SYNTHETIC_THREE_POLE_SWITCH",
+    "serial_or_photo_id": "SYNTHETIC_SWITCH_ID"
+  },
+  "acquisition_device": {
+    "manufacturer": "SYNTHETIC_VENDOR",
+    "model": "SYNTHETIC_LOGGER",
+    "serial_or_unique_id": "SYNTHETIC_LOGGER_ID"
+  },
+  "channel_identifiers": [
+    "SYNTH_CH_A1",
+    "SYNTH_CH_B2",
+    "SYNTH_CH_C3"
+  ],
+  "channel_role_assignment_rule": "UNICODE_CODE_POINT_LEXICAL_ORDER",
+  "wiring_manifest": [
+    {
+      "channel_identifier": "SYNTH_CH_A1",
+      "physical_contact_pole": "SYNTH_POLE_1",
+      "acquisition_input": "SYNTH_INPUT_1"
+    },
+    {
+      "channel_identifier": "SYNTH_CH_B2",
+      "physical_contact_pole": "SYNTH_POLE_2",
+      "acquisition_input": "SYNTH_INPUT_2"
+    },
+    {
+      "channel_identifier": "SYNTH_CH_C3",
+      "physical_contact_pole": "SYNTH_POLE_3",
+      "acquisition_input": "SYNTH_INPUT_3"
+    }
+  ],
+  "software_derivation": {
+    "one_contact_split_to_three_fields": false,
+    "one_input_value_copied_three_times": false,
+    "derived_boolean_columns": false
+  },
+  "physical_detents": {
+    "ACTUATOR_POSITION_0_identity": "SYNTH_DETENT_0",
+    "ACTUATOR_POSITION_1_identity": "SYNTH_DETENT_1",
+    "identity_is_response_independent": true
+  },
+  "custody_path": "SYNTHETIC_ONLY",
+  "public_or_auditable_access_path": "SYNTHETIC_ONLY",
+  "hash_algorithm": "SHA-256",
+  "photo_or_identity_record_path": "SYNTHETIC_ONLY",
+  "bound_before_response_data": true
+}
